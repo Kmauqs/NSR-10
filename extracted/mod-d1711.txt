@@ -1,0 +1,4335 @@
+-- PAGE 1 --
+"",..~..;...i~-'l;;o,3'l~~;;~'f""{·"'~_·
+'* 
+REPUBLICA DE COLOMBIA 
+(tJRriSIDE\'.iGU\ IJt (J.' RE~~BUCA
+,....______________ '$ 
+\. 
+~"~oo".~í,, ",,,,n,o. 
+MINISTERIO DE VIVIENDA, CIUDAD Y TERRITOR~::~~q~~0--'- ) 
+DECRET~rÚMERol
+.."'..7+,1 DEr20~
+u3 Du(G ~\U)~U 
+Por el cual se modifica parcia/mente /a Norma Sismo Resistente NSR-10 
+EL PRESIDENTE DE LA REPÚBLICA DE COLOMBIA 
+En ejercicio de las facultades constitucionales y legales, en especial las que le confiere el  
+numeral 11 del artículo 189 de la Constitución Política, la Ley 400 de 1997, y  
+CONSIDERANDO 
+Que el artículo 45 de la Ley 400 de 1997, dispone que el Gobierno nacional deberá expedir 
+los decretos reglamentarios que establezcan los requisitos de carácter técnico y científico 
+que resulten pertinentes para cumplir con el objeto de la mencionada ley. 
+Que de acuerdo con el numeral 6° del artículo 41 de la Ley 400 de 1997, la Comisión Asesora 
+Permanente para el Régimen de Construcciones Sismo Resistentes tiene la función de 
+coordinar las investigaciones sobre las causas de fallas de estructuras y emitir conceptos 
+sobre la aplicación de las normas de construcciones sismo resistentes. 
+Que el numeral 7° del artículo 41 de la Ley 400 de 1997, señala que la Comisión Asesora 
+Permanente para el Régimen de Construcciones Sismo Resistentes sirve de órgano 
+consultivo del Gobierno nacional en los aspectos técnicos que demande el desarrollo de las 
+normas sobre construcciones sismo resistentes. 
+Que con ocasión del paso del huracán IOTA sobre el Departamento Archipiélago de San 
+Andrés, Providencia y Santa Catalina, el Consejo Nacional para la Gestión del Riesgo, 
+teniendo en cuenta los términos del artículo 59 de la Ley 1523 de 2012, y de acuerdo con la 
+información suministrada por la Unidad Nacional para la Gestión del Riesgo de Desastres, 
+recomendó al Presidente de la República declarar la situación de desastre en el 
+Departamento del Archipiélago de San Andrés, Providencia y Santa Catalina y sus cayos. 
+Que el Presidente de la República haciendo uso de sus facultades constitucionales y legales, 
+declaró la existencia de una situación de desastre en el Departamento Archipiélago de San 
+Andrés, Providencia y Santa Catalina y sus cayos, a través de la expedición del Decreto 1472 
+del 18 de noviembre de 2020, por el término de doce (12) meses, que fue prorrogado por 
+doce (12) meses más mediante el Decreto 1482 del 17 de noviembre de 2021. 
+Que con el objeto de garantizar la construcción de edificaciones resistentes a vientos, 
+huracanes y sismos en el Departamento Archipiélago de San Andrés, Providencia y Santa 
+Catalina, se hace necesario efectuar una serie de ajustes en la Norma Sismo Resistente NSR 
+10. 
+Que para la propuesta de actualización de las velocidades de viento en el Departamento 
+Archipiélago de San Andrés, Providencia y Santa Catalina, la Comisión Asesora Permanente 
+para el Régimen de Construcciones Sismo Resistentes tuvo en cuenta los estudios 
+consultados por el Subcomité del Título B del Comité AIS 100, los cuales incorporan el efecto 
+del cambio climático sobre las islas y la costa caribe del país. 
+
+-- PAGE 2 --
+DECRETO No. 
+HOJA No. 2 de 3 
+Continuación Decreto "Por el cual se modifica parcialmente la Norma Sismo Resistente NSR-10" 
+Que las tablas resumen con los valores de velocidades de viento de los estudios consultados 
+por la Comisión Asesora Permanente para el Régimen de Construcciones Sismo Resistentes 
+para el archipiélago fueron las siguientes: 
+I 
+VELOCIDADES SAN ANDRES (km/h) 
+I 
+ESTUDIO 
+300 ANOS 
+700 ANOS 
+1700 ANOS 
+3000 ANOS 
+I VICKERY (2019) 
+177 
+204 
+233 
+250 
+YAMIN (2019) 
+I 
+-
+239 
+275 
+300 
+I INGENIAR (2018) 
+-
+225 
+255 
+275 
+INGENIAR (2021) 
+189 
+198 
+205 
+209 
+VELOCIDADES PROVIDENCIA/SANTA CATALINA (km/h)  
+ESTUDIO  
+1700 ANOS 
+3000 ANOS
+300 ANOS 
+700 ANOS 
+VICKERY (2019) 
+193 
+223 
+249 
+265  
+YAMIN (2019)  
+298 
+325 
+INGENIAR (2018) 
+258
+-
+446 
+INGENIAR (2021) 
+326 
+395
+-
+295/283
+273/263
+218/214 
+I 
+244/237 
+Que revisados los estudios y analizada la información por parte de la Comisión Asesora 
+Permanente para el Régimen de Construcciones Sismo Resistentes, se verificó el impacto 
+técnico que produciría el cambio de velocidades, evaluando la variación en las presiones de 
+diseño. 
+Que a su vez, el Ministerio de Vivienda, Ciudad y Territorio consideró el posible impacto 
+económico y social para la reconstrucción de las edificaciones del Departamento Archipiélago 
+de San Andrés, Providencia y Santa Catalina, por lo cual, la propuesta de nuevas velocidades 
+de viento para San Andrés es de 200 km/h y para Providencia y Santa Catalina es de 220 
+km/h. 
+Que en consideración al marco jurídico para la implementación de viviendas de interés social 
+rural que está desarrollando el Gobierno nacional para atender la política de vivienda rural, 
+que incluye los espacios territoriales de capacitación y reincorporación (ETCR), resulta de 
+vital importancia la inclusión en la Norma Sismo Resistente NSR-10 de una nueva tipología 
+de sistema constructivo en estructuras metálicas. 
+Que adicionalmente, la Comisión Asesora Permanente para el Régimen de Construcciones 
+Sismo Resistentes recomendó hacer una serie de ajustes en la Norma Sismo Resistente 
+NSR-10 para facilitar la interpretación y aplicación de la misma, por parte de los profesionales 
+que desarrollan las labores previstas en la Ley 400 de 1997. 
+Que la Comisión Asesora Permanente para el Régimen de Construcciones Sismo 
+Resistentes creada por medio de la Ley 400 de 1997, recomendó al Ministerio de Vivienda, 
+Ciudad y Territorio, según lo muestran las actas 171 del4 marzo de 2021 y CSR-2021-04 del 
+3 de agosto de 2021, efectuar la modificación parcial de la Norma Sismo Resistente NSR-1 O, 
+la cual consta en el anexo técnico del presente decreto. 
+Que en mérito de lo expuesto, 
+DECRETA: 
+ARTíCULO 1. Modificación. Modifíquese parcialmente la Norma Sismo Resistente NSR-10, 
+adoptada mediante el Decreto 926 de 19 de marzo de 2010, modificado por los Decretos 
+2525 del 13 de julio de 2010,092 del 17 de enero de 2011,340 del 13 de febrero de 2012, 
+945 del 5 de junio de 2017 y 2113 del 25 de noviembre de 2019, según documento anexo 
+que hace parte del presente decreto. 
+
+-- PAGE 3 --
+, 
+DECRETO No. 
+1?11 
+HOJA No. 3 de 3 
+Continuación Decreto "Por el cual se modifica parcialmente la Norma Sismo Resistente NSR-1O" 
+ARTíCULO 2. Vigencia y derogatorias. El presente decreto rige a partir de la fecha de su 
+publicación. 
+PUBLiaUESEYCÚMPLASE ~3 íDilC 2@2~
+Dado en Bogotá, D.C., a los 
+El Ministro de Vivienda, Ciudad y Territorio 
+-\~~}.
+JONAT~~YBAlT MAlAGON GOi'zAlEZ 
+
+-- PAGE 4 --
+REPÚBLICA DE COLOMBIA 
+MINISTERIO DE VIVIENDA CIUDAD Y TERRITORIO 
+Viceministerio de Vivienda  
+Dirección de Espacio Urbano y Territorial 
+COMISIÓN ASESORA PERMANENTE PARA EL RÉGIMEN DE 
+CONSTRUCCIONES SISMO RESISTENTES 
+(Creada por medio de la Ley 400 de 1997) 
+ 
+ANEXO TÉCNICO 
+ 
+ 
+Se modifica la información de amenaza sísmica del Apéndice A-4 correspondiente al municipio de Supia, Departamento 
+de Caldas, la cual quedará así:  
+ 
+Departamento de Caldas 
+Municipio 
+Código 
+Municipio 
+Aa 
+Av 
+Zona de 
+Amenaza 
+Sísmica 
+Ae 
+Ad 
+Supía 
+17777 
+0.25 
+0.30 
+Alta 
+0.20 
+0.10 
+ 
+Se modifica la sección A-5.2.1.1 del Apéndice A-5 en donde señala “para lo cual podrán consultar la Tabla A-5.2-1” 
+por el siguiente texto: “para lo cual deben consultar el título VI de la Ley 400 de 1997 sobre calidades y requisitos de 
+los profesionales. “ 
+ 
+Se modifica la sección A-5.2.1.2 del Apéndice A-5 en donde señala “para lo cual podrán consultar la Tabla A-5.2-1” 
+por el siguiente texto: “para lo cual deben consultar el título VI de la Ley 400 de 1997 sobre calidades y requisitos de 
+los profesionales. “ 
+ 
+Se modifica la sección A-5.2.1.3 del Apéndice A-5 en donde señala “para lo cual podrán consultar la Tabla A-5.2-1” 
+por el siguiente texto: “para lo cual deben consultar el título VI de la Ley 400 de 1997 sobre calidades y requisitos de 
+los profesionales. “ 
+ 
+Se modifica la sección A-5.2.1.4 del Apéndice A-5 en donde señala “para lo cual podrán consultar la Tabla A-5.2-1” 
+por el siguiente texto: “para lo cual deben consultar el título VI de la Ley 400 de 1997 sobre calidades y requisitos de 
+los profesionales. “ 
+ 
+Se suprime la Tabla A-5.2-1 del Apéndice A-5 del Reglamento NSR-10. 
+ 
+Se modifica la Figura B.6.4-1 Velocidad del viento básico, Zonas de amenaza eólica, la cual quedará así: 
+ 
+
+-- PAGE 5 --
+REPÚBLICA DE COLOMBIA 
+MINISTERIO DE VIVIENDA CIUDAD Y TERRITORIO 
+Viceministerio de Vivienda  
+Dirección de Espacio Urbano y Territorial 
+COMISIÓN ASESORA PERMANENTE PARA EL RÉGIMEN DE 
+CONSTRUCCIONES SISMO RESISTENTES 
+(Creada por medio de la Ley 400 de 1997) 
+ 
+ 
+
+-- PAGE 6 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+1 
+APENDICE F.4–A – Sistemas estructurales de resistencia sísmica con perfiles de lámina formada 
+en frío para edificaciones de uno o dos pisos 
+ 
+ 
+F.4-A Nomenclatura 
+ 
+Símbolo 
+ 
+Definición 
+ 
+c
+A 
+= 
+área bruta de la sección transversal del cordón, mm2 
+g
+A 
+= 
+área bruta de la cinta plana, mm2 
+n
+A 
+= 
+área neta de la cinta plana, mm2 
+a 
+= 
+espaciamiento del perno, también se usan b y c, según la sección, mm 
+a 
+= 
+relación de aspecto del panel sísmico 
+b 
+= 
+longitud del panel sísmico de corte, mm 
+b 
+= 
+espaciamiento del perno, también se usan a y c, según la sección, mm 
+C 
+= 
+fuerza del cordón de borde (tracción/compresión) (kN) 
+a
+C 
+= 
+factor de ajuste de resistencia al corte 
+B
+C , 
+B,0
+C
+= coeficientes para determinar la resistencia portante y deformación 
+DB
+C
+ 
+= 
+factor de ajuste de deformación portante 
+DS
+C
+, 
+S
+C = 
+coeficientes para determinar la resistencia al deslizamiento y deformación 
+c 
+= 
+espaciamiento del perno, también se usan a y b, según la sección, mm 
+d 
+= 
+diámetro del perno, mm 
+E 
+= 
+módulo de la elasticidad del acero, 200 000 MPa 
+mh
+E
+ 
+= 
+efecto de las fuerzas sísmicas horizontales incluyendo sobreresistencia 
+y
+F 
+= 
+esfuerzo de fluencia mínimo especificado 
+y
+F 
+= 
+esfuerzo de fluencia del revestimiento de lámina de acero 
+y
+F 
+= 
+esfuerzo de fluencia de la cinta plana 
+ya
+F 
+= 
+esfuerzo de fluencia debido al formado en frío 
+u
+F 
+= 
+resistencia mínima específica a la tracción 
+u
+F 
+= 
+resistencia a la tracción de componentes conectados 
+uf
+F 
+= 
+resistencia mínima a la tracción de materiales del entramado 
+ush
+F
+ 
+= 
+resistencia a la tracción del revestimiento de lámina de acero 
+G 
+= 
+módulo de corte del material de revestimiento, MPa 
+h 
+= 
+altura del muro de corte, m 
+h 
+= 
+altura del segmento de panel sísmico 
+h 
+= 
+altura desde la base de la columna al eje central de la viga 
+hp 
+= 
+altura de montante de panel sísmico 
+K 
+= 
+rigidez lateral elástica de la línea de pórticos 
+k 
+= 
+coeficiente de deslizamiento 
+L 
+= 
+longitud de resistencia del diafragma, m 
+i
+L
+
+ 
+ = suma de las longitudes de segmentos de panel sísmico Tipo II, m 
+Me 
+= 
+momento esperado en un grupo de pernos 
+Mno 
+= 
+resistencia nominal a flexión determinada de acuerdo con el literal F.4.1 de NSR-10 
+Mbp 
+= 
+momento requerido de una placa portante pernada 
+My 
+= 
+resistencia nominal a flexión 
+N 
+= 
+número de canales en una viga 
+N 
+= 
+número de columnas en una línea de pórticos 
+Pn 
+= 
+resistencia nominal al corte (Resistencia) de conexiones atornilladas dentro del ancho efectivo del fleje, 
+e
+W , 
+sobre el revestimiento de la lámina de acero 
+R 
+= 
+coeficiente de disipación de energía 
+BS
+R
+ 
+= 
+resistencia relativa al aplastamiento 
+
+-- PAGE 7 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+2 
+cf
+R 
+= 
+factor que considera el incremento de la resistencia debido al trabajo de formado en frío 
+n
+R 
+= 
+resistencia nominal 
+0
+R 
+= 
+menor valor de 
+t
+u
+dtR F de los componentes conectados 
+d
+R , 
+o
+R = 
+factores de modificación de la fuerza sísmica 
+re
+R 
+= 
+factor que considera la capacidad inelástica de reserva 
+t
+R 
+= 
+relación entre la resistencia a la tracción esperada y la resistencia mínima a la tracción especificada 
+y
+R 
+= 
+relación entre el esfuerzo de fluencia esperado y esfuerzo de fluencia mínimo especificado 
+e
+S 
+= 
+módulo de sección efectiva en el esfuerzo de fluencia, 
+y
+F 
+fS 
+= 
+módulo de sección completa sin reducir en el esfuerzo de fluencia, 
+y
+F 
+s 
+= 
+espaciamiento máximo de los sujetadores en los bordes del panel, sección F.4.A.5.1.4.1.4, mm 
+s 
+= 
+espaciamiento de los tornillos en los bordes del panel, sección F.4.A.5.2.3.1.1.1 
+T 
+= 
+tensión del perno con apriete ajustado 
+fT 
+= 
+mínimo espesor de diseño de los miembros de los entramados 
+n
+T 
+= 
+resistencia nominal en la fluencia del panel sísmico arriostrado con cintas 
+t 
+= 
+espesor de diseño del revestimiento de lámina de acero, sección F.4.A.5.4.3.3 
+t 
+= 
+espesor del componente conectado, sección F.4.A.5.2.3.1.1.1 
+pt 
+= 
+espesor de placa portante 
+revestimiento
+t
+ 
+espesor nominal del panel de revestimiento, mm 
+paral
+t
+ 
+= 
+espesor especificado del paral, mm 
+w
+t 
+= 
+espesor del alma de la viga 
+V 
+= 
+fuerza cortante, secciones F.4.A.5.1.4.2.2.1, F.4.A.5.1.4.2.2.2 y F.4.A.5.2.4.2.2.1 
+V 
+= 
+carga lateral total aplicada al panel sísmico, secciones F.4.A.5.1.4.1.4 y F.4.A.5.2.4.2.4 
+B
+V 
+= 
+componente en aplastamiento de la conexión del cortante de la columna que corresponde al desplazamiento, 
+ 
+B,max
+V
+ = 
+cortante de columna que produce la resistencia portante de un grupo de pernos 
+bp
+V
+ 
+= 
+resistencia al corte requerido de la placa portante pernada 
+e
+V 
+= 
+resistencia esperada de la conexión pernada 
+n
+V 
+= 
+resistencia nominal al corte 
+S
+V 
+= 
+cortante de columna correspondiente a la resistencia al deslizamiento del grupo de pernos 
+v 
+= 
+fuerza cortante por unidad de longitud, secciones F.4.A.5.1.4.2.2 y F.4.A.5.2.4.2.2.1 
+v 
+= 
+demanda de cortante, N/mm, secciones F.4.A.5.1.4.1.4 y F.4.A.5.2.4.1.4 
+n
+V 
+= 
+resistencia nominal al corte por unidad de longitud 
+W 
+= 
+longitud del panel sísmico, m 
+w 
+= 
+longitud del segmento del panel sísmico 
+e
+w 
+= 
+ancho efectivo 
+p
+w 
+= 
+longitud de montante de un panel sísmico 
+ 
+= 
+deriva de piso de diseño 
+B
+ 
+= 
+componente de la deriva de piso de diseño que causa deformación por aplastamiento en un grupo de pernos 
+B,max
+
+ = 
+componente de la deriva de piso de diseño que corresponde a la deformación del grupo de pernos para la 
+máxima resistencia al aplastamiento 
+S
+ 
+= 
+componente de la deriva de piso de diseño que corresponde a la deformación por deslizamiento de pernos 
+, 
+1
+, 
+2
+ variables usadas en el método del ancho efectivo de cinta 
+1
+, 
+2
+, 
+3
+ variables usadas en el método del ancho efectivo de cinta 
+ 
+= 
+deflexión calculada, mm 
+v
+ 
+= 
+deformación vertical del anclaje/ detalles de fijación, mm 
+ 
+= 
+variable usada en el método del ancho efectivo de cinta 
+ 
+= 
+esbeltez del elemento en compresión 
+ 
+= 
+factor de resistencia 
+
+-- PAGE 8 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+3 
+v
+ 
+= 
+factor de resistencia para corte 
+ 
+= 
+coeficiente 
+1
+, 
+2
+, 
+3
+, 
+4
+ variables para la deflexión de diseño de los paneles sísmicos 
+E
+ 
+= 
+factor de resistencia esperada  
+O
+ 
+= 
+factor de sobrerresistencia 
+ 
+ 
+F.4.A.1 — REQUISITOS GENERALES 
+ 
+F.4.A1.1 — Alcance y Aplicabilidad 
+ 
+F.4.A.1.1.1 — Alcance — Los requisitos del presente apéndice aplican para el diseño y la construcción de miembros 
+estructurales de acero formado en frío y sus conexiones en sistemas de resistencia sísmica y diafragmas en edificaciones 
+de uno o dos pisos. 
+ 
+F.4.A.1.1.2 — Aplicabilidad 
+ 
+F.4.A.1.1.2.1 — Los requisitos del presente apéndice se deben aplicar en conjunto con los requisitos dados en el Capítulo 
+F.4 de NSR-10. 
+ 
+F.4.A.1.1.2.2 — En zonas de amenaza sísmica baja y donde el coeficiente de disipación de energía, R , que se utiliza para 
+determinar las fuerzas de diseño sísmico se toma igual a 1.5, las conexiones y los miembros estructurales de acero formado 
+en frío en sistemas de resistencia lateral sólo necesitan diseñarse de acuerdo con el capítulo F.4 de NSR-10, según 
+corresponda, sin que sea necesario cumplir ningún requisito sísmico especial. 
+ 
+F.4.A.1.2 — Definiciones 
+ 
+F.4.A.1.2.1 — Términos — Cuando aparezcan los siguientes términos en el presente apéndice, tendrán el significado aquí 
+indicado. Los términos no definidos en esta sección tendrán el significado dado en el Título F de NSR-10.  
+ 
+Acero formado en frío — Véase Lámina de Acero Formado en Frío. 
+ 
+Aleta — Para una forma en C, forma de U o canal, la parte del miembro estructural o miembro no estructural que es 
+perpendicular al alma. Para un perfil tipo omega, la parte del miembro estructural o miembro no estructural que conecta las 
+almas. 
+ 
+Alma — La parte de un miembro estructural o miembro no estructural que conecta las aletas. 
+ 
+Aprobado — Aceptable para la autoridad competente para aprobar la licencia de construcción.  
+ 
+Canal — Un miembro estructural o miembro no estructural que consiste solamente en un alma y dos (2) aletas. Las medidas 
+del ancho del alma de la canal se toman al interior de las aletas.  
+ 
+Cinta — Lámina de acero plano o bobinado utilizado típicamente como arriostramiento o rigidizador que transfiere cargas 
+por tracción o cortante.  
+ 
+Cintas de arriostramiento — Cintas de acero, instaladas diagonalmente, para formar una cercha vertical que forma parte 
+del sistema de resistencia lateral. 
+ 
+Colector — También conocido como un puntal de arrastre, un miembro paralelo a la carga aplicada que sirve para transferir 
+fuerzas entre diafragmas y miembros del sistema de resistencia lateral o que distribuye fuerzas dentro del diafragma o 
+sistema de resistencia sísmica.  
+ 
+Componente — Véase Componente Estructural.  
+ 
+Componente estructural — Miembro, conector, elemento de conexión o ensamblaje.  
+ 
+Conector — Un dispositivo utilizado para transmitir fuerzas entre miembros estructurales de acero formado en frío, o entre 
+un miembro estructural de acero formado en frío y otro elemento estructural.  
+
+-- PAGE 9 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+4 
+ 
+Conector de anclaje de tracción (amarre) — Un dispositivo utilizado para resistir las fuerzas de volcamiento en un panel 
+sísmico, panel arriostrado con cintas, o fuerzas de levantamiento en un miembro estructural de acero formado en frío, y 
+para transferir dichas fuerzas a elementos de borde de muros inferiores o a la cimentación. Para los efectos del presente 
+apéndice, es un componente del sistema de resistencia sísmica.  
+ 
+Conectores o sujetadores de cuerpo — Tornillos, u otro sistema de fijación usados para conectar el interior de un panel 
+estructural a elementos de soporte como vigas, viguetas, correas, parales, etc. 
+ 
+Conectores o sujetadores de borde — Tornillos, u otro sistema de fijación usados para conectar el perímetro de un panel 
+estructural de madera o de acero, a elementos de borde en el perímetro exterior dek nuro o diafragma, o a riostras u otros 
+elementos de soporte en el borde interior del panel. 
+ 
+Conexión — Combinación de elementos estructurales y uniones que se utiliza para transmitir fuerzas entre dos o más 
+miembros.  
+ 
+Elementos de borde — Miembros o componentes a lo largo de los bordes de paneles sísmicos y del diafragma para 
+transferir o resistir fuerzas. Los elementos de borde incluyen cordones y colectores (puntales de arrastre) en diafragmas, 
+paneles sísmicos arriostrados con cintas y perímetros de paneles sísmicos, perímetros de aberturas, discontinuidades y 
+esquinas reentrantes en diafragmas. 
+ 
+Espesor del acero base — El espesor del acero excluido de todos los recubrimientos.  
+ 
+Espesor especificado — El mínimo espesor de acero base expresado en milímetros y redondeado a un número con dos 
+cifras decimales.  
+ 
+Lámina de acero formado en frío — Lámina de acero o banda de acero fabricada por (1) tiras cortadas con cizalla de 
+láminas o cortes longitudinales de bobinas o placas, o por (2) rollado en continuo de láminas de bobinas de acero formado 
+en frio o en caliente, ambas operaciones de formado llevadas a cabo a temperatura ambiente, esto es, sin ninguna adición 
+de calor tal como se requeriría para el formado en caliente.  
+ 
+Madera contrachapada o multilaminada — Véase título G, sección G.1.2.1. 
+ 
+Mecanismo de disipación de energía elegido — Porción seleccionada del sistema de resistencia sísmica diseñada y 
+detallada para disipar energía.  
+ 
+Miembro estructural — Un miembro que resiste cargas de diseño [cargas mayoradas] según lo requerido por NSR-10, 
+excepto cuando se define como un miembro no estructural.  
+ 
+Miembro no estructural — Un miembro en un sistema de entramado de acero que no es una parte del sistema de 
+resistencia de cargas gravitacionales, del sistema de resistencia lateral o de la envolvente del edificio.  
+ 
+Montante de panel sísmico — Una sección de un panel sísmico Tipo I (véase definición) adyacente a una abertura e igual 
+en altura a la abertura, el cual se diseña para resistir fuerzas laterales en el plano del panel sísmico.  
+ 
+Panel sísmico arriostrado con cintas — Muro diseñado para resistir fuerzas laterales en el plano, que está arriostrado 
+por cintas de arriostramiento y que está provisto con conectores de anclaje de tracción y anclaje en cada extremo del 
+segmento del panel sísmico.  
+ 
+Panel sísmico (Muro de corte) — Un panel con el revestimiento estructural fijado a miembros estructurales de acero 
+formado en frío y diseñado principalmente para resistir fuerzas laterales que actúan en el plano del panel.  
+ 
+Panel sísmico Tipo I — Muro-panel diseñado para resistir fuerzas laterales en su plano, que está completamente revestido 
+y que está provisto con conectores de anclaje de tracción y anclaje en cada extremo del segmento de panel sísmico, que 
+transmiten las fuerzas de levantamiento.  
+ 
+Panel sísmico Tipo II — Muro-panel diseñado para resistir fuerzas laterales en su plano, que está revestido con paneles 
+estructurales de madera o revestimiento de lámina de acero que contiene aberturas, pero que no ha sido específicamente 
+diseñado ni detallado para transferencia de fuerzas alrededor de las aberturas del panel sísmico. Los conectores de anclaje 
+de tracción y anclajes para paneles sísmicos Tipo II sólo se requieren en los extremos del panel.  
+ 
+
+-- PAGE 10 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+5 
+Panel de fibra — Un panel fibroso, homogéneo hecho de fibras lignocelulósicas (generalmente madera o guadua) y con 
+una densidad de menos de 500 kg/m3, pero más de 160 kg/m3.  
+ 
+Panel estructural de madera — Un panel fabricado a partir de revestimientos, fibras o capas de madera o una 
+combinación de láminas y fibras o capas de madera unidas con resinas sintéticas impermeables u otros sistemas de unión 
+adecuados.  
+ 
+Paral — Un miembro vertical estructural o no estructural en un sistema de panel sísmico o ensamblaje.  
+ 
+Paral cordón — Paral que soporta carga axial, localizado en los extremos de los paneles sísmicos Tipo I o de los 
+segmentos de paneles sísmicos Tipo II, o de los paneles sísmicos arriostrados con cintas.  
+ 
+Perfil en C — Una forma de acero formado en frío utilizada para miembros estructurales y miembros no estructurales que 
+consistente de un alma, dos (2) aletas y dos (2) pestañas (atiesadores de borde).  
+ 
+Perno apretado-ajustado — Tornillo o perno en una unión en la cual el apriete es alcanzado bien sea por unos pocos 
+impactos de una llave de impacto, o por el esfuerzo completo de un trabajador con una llave de tuercas ordinaria, que 
+ponga en contacto firme las piezas conectadas.  
+ 
+Pestaña — Parte de un miembro estructural o miembro no estructural que se ubica en el borde libre de la aleta como 
+elemento de rigidez.  
+ 
+Revestimiento de lámina de acero — Un panel de lámina de acero plano delgado.  
+ 
+Rigidizador — Miembro en forma de C, miembro o perfil de arriostramiento, cinta plana, o componentes de ensambles 
+conectados a miembros estructurales, cinta plana o paneles de revestimiento para transferir fuerzas de corte o estabilizar 
+miembros.  
+ 
+Rigidizador, panel — Rigidizador que transmite cortante entre los paneles de un panel sísmico o diafragma.  
+ 
+Rigidizador, paral — Rigidizador que proporciona apoyo torsional a los parales en un panel sísmico.  
+ 
+Segmento de panel sísmico Tipo II — Sección de panel sísmico (dentro de un panel sísmico Tipo II) con revestimiento 
+completo en altura (es decir, sin aberturas) y que cumple con los límites de relación de aspecto especificados. 
+ 
+Sistema de resistencia lateral — Los elementos estructurales y conexiones requeridas para resistir desplazamientos y 
+volcamiento debido a fuerzas de viento o fuerzas sísmicas, u otras fuerzas predominantemente horizontales, o su 
+combinación, impuestas a la estructura de acuerdo con los Títulos A y B de NSR-10.  
+ 
+Sistema de resistencia sísmica (SFRS) — La parte del sistema estructural que se selecciona en el diseño para 
+proporcionar disipación de energía y la resistencia requerida a las fuerzas sísmicas prescritas en NSR-10.  
+ 
+Solera de base — Elemento sobre el cual se apoyan los parales de un panel. 
+ 
+Tableros aglomerados de fibras orientadas (OSB – Oriented Strand Board) — Véase título G, sección G.1.2.1. 
+ 
+Unión — Área donde dos o más extremos, superficies o aristas son unidas. Categorizado por el tipo de sujetador o de la 
+soldadura usada y el método de transferencia de la fuerza.  
+ 
+F.4.A.1.3 — Materiales 
+ 
+F.4.A.1.3.1 — Especificaciones de materiales — Los miembros estructurales utilizados en sistemas de resistencia 
+sísmica de acero formado en frío se fabricarán a partir de acero conforme a los requisitos de una de las siguientes 
+especificaciones NTC, sujeto a las limitaciones adicionales especificadas en los literales F.4.A.5 y F.4.A.6:  
+ 
+NTC 1920, Especificación estándar para el acero estructural al carbón 
+ 
+NTC 1950, Especificación estándar para acero estructural de baja aleación - alta resistencia 
+ 
+NTC 3325, Especificación estándar para placas de acero al carbón de resistencia a la tracción baja e intermedia 
+ 
+
+-- PAGE 11 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+6 
+NTC 4526 (grado B o C), Especificación estándar para tubería estructural redonda y de otras formas de acero al carbón 
+formada en frío con y sin costura 
+ 
+NTC 4007, Especificación estándar para acero calidad estructural de alta resistencia de carbón-manganeso 
+ 
+NTC 1985 (grado 42 (290), 50 (345), o 55 (380)), Especificación para acero estructural de alta resistencia y baja aleación 
+de Columbio -Vanadio 
+ 
+NTC 2012, Especificación estándar para acero estructural de baja aleación de alta resistencia con punto de fluencia mínimo 
+de 50 ksi [345 MPa] a 4-in. [100 mm] de espesor 
+ 
+NTC 4009, Especificación estándar para el acero, la lámina y fleje, de alta resistencia, de baja aleación, laminado en 
+caliente y laminado en frío, con resistencia a la corrosión atmosférica mejorada 
+ 
+NTC 4011 (SS grados 33 (230), 37 (255), 40 (275), y 50 (340) clase 1 y clase 3; HSLAS Tipos A Y B Grados 40 (275), 50 
+(340), 55 (380) Clase 1 Y 2, 60 (410)), Especificación estándar para lámina de acero, con recubrimiento de aleación de 
+zinc (galvanizado) o con recubrimiento de aleación de zinc-hierro (galvanneal) por proceso de inmersión en caliente. 
+ 
+NTC 4015 (grados 33 (230), 37 (255), 40 (275), y 50 Clase 1 (340 Clase 1)), Especificación estándar para lámina de acero, 
+con recubrimiento de aleación 55% Aluminio-Zinc por proceso de inmersión en caliente. 
+ 
+ASTM A875/A875M Standard Specification for Steel Sheet, Zinc-5 % Aluminum Alloy-Coated by the Hot-Dip Process 
+ 
+ASTM A1003/A1003M Standard Specification for Steel Sheet, Carbon, Metallic- and Nonmetallic-Coated for Cold-Formed 
+Framing Members. 
+ 
+NTC 5091 (SS Grados 25 (170), 30 (205), 33 (230) Tipos 1 y 2 y 40 (275) Tipos 1 y 2 HSLAS Clases 1 y 2 Grados 45 (310), 
+50 (340), 55 (380), 60 (410), y 65 (450)); Grados 50 (340), 60 (410) de HSLAS-F, Especificación estándar para acero, 
+lámina, laminado en frío, al carbono, estructural, de alta resistencia y baja aleación, de alta resistencia y baja aleación con 
+formabilidad mejorada, Solución endurecida y cocción endurecedora. 
+ 
+NTC 6 (SS Grados 30 (205), 33 (230), 36 (250) Tipos 1 y 2 40 (275), 45 (310), 50 (340), Y 55 (380); HSLAS Clases 1 y 2 
+Grados 45 (310), 50 (340), 55 (380), 60 (410), y 65 (450)); HSLAS-F Grados 50 (340), Y 60 (410)), Norma NTC para acero, 
+en lámina y fleje, laminado en caliente, al carbono, estructural, de alta resistencia y baja aleación y de alta resistencia y 
+baja aleación con formabilidad mejorada. 
+ 
+ASTM A1085/A1085M Standard Specification for Cold-Formed Welded Carbon Steel Hollow Structural Sections (HSS) 
+ 
+F.4.A.1.3.2 — Propiedades esperadas de los materiales 
+ 
+F.4.A.1.3.2.1 — Esfuerzo de fluencia esperado para materiales [esfuerzo de fluencia probable] — Cuando en el 
+presente apéndice se mencione la resistencia esperada [resistencia probable] de una conexión o miembro estructural, esta 
+se determinará utilizando el esfuerzo de fluencia esperado [esfuerzo de fluencia probable], 
+y
+y
+R F , con 
+y
+R dado en la Tabla 
+F.4.A.1.3.2-1, a menos que se modifique en el literal F.4.A.5 y en el literal F.4.A.6. 
+ 
+Se permite utilizar valores de 
+y
+R diferentes de los relacionados en la Tabla F.4.A.1.3.2-1, si los valores se determinan 
+ensayando muestras representativas del espesor y origen del producto, y tales pruebas se llevan a cabo de acuerdo con 
+los requisitos para el grado de acero especificado en F.4.A.1.3.1.  
+ 
+ 
+F.4.A.1.3.2.2 — Resistencia a la tracción esperada del material (resistencia a la tracción probable) — Cuando sea 
+necesario en el presente apéndice, la resistencia esperada [resistencia probable] de una conexión o miembro estructural 
+se determinará utilizando la resistencia a tracción esperada [resistencia a tracción probable], 
+t
+u
+R F , con 
+t
+R dado en la 
+Tabla F.4.A.1.3.2-1, a menos de que se modifique de otra manera en el literal F.4.A.5 y en el literal F.4.A.6.  
+ 
+Se permite utilizar valores de 
+t
+R diferentes a los enumerados en la Tabla F.4.A.1.3.2-1, si los valores son determinados 
+ensayando muestras representativas del espesor y origen del producto, y tales pruebas se llevan a cabo de acuerdo con 
+los requisitos para el grado de acero especificado en el literal F.4.A.1.3.1  
+ 
+
+-- PAGE 12 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+7 
+Tabla F.4.A.1.3.2-1 — Valores 
+y
+R y 
+t
+R para varios Tipos de Producto 
+Acero 
+y
+R 
+t
+R 
+Placas y barras: 
+ASTM A36/A36M, ASTM A283/A283M 
+1.3 
+1.2 
+ASTM A242/A242M, ASTM A529/A529M, 
+ASTM A572/A572M, ASTM A588/A588M 
+1.1 
+1.2 
+Perfil Tubular Estructural (PTE): 
+ASTM A500 Grade B 
+1.4 
+1.3 
+ASTM A500 Grade C 
+1.3 
+1.2 
+ASTM A1085 
+1.25 
+1.15 
+Láminas y flejes (ASTM A606, ASTM 
+A653/A653M, ASTM A792/A792M, ASTM 
+A875, ASTM A1003/A1003M, 
+ 
+ 
+ 
+ 
+ 
+ 
+y
+F
+255
+
+ MPa 
+1.5 
+1.2 
+255 MPa 
+y
+F
+275
+
+
+ MPa 
+1.4 
+1.1 
+275 MPa 
+y
+F
+340
+
+
+ MPa 
+1.3 
+1.1 
+y
+F
+340
+
+ MPa 
+1.1 
+1.1 
+ 
+F.4.A.1.3.2.3 — Esfuerzo de fluencia esperado modificado del material [esfuerzo de fluencia probable modificado] 
+— Cuando sea requerido en el presente apéndice, la resistencia esperada [resistencia probable] de un miembro a flexión 
+se determinará a partir del esfuerzo de fluencia esperado modificado [esfuerzo de fluencia probable modificado], 
+re
+cf
+y
+y
+R R R F . 
+ 
+El factor a tener en cuenta en el aumento del esfuerzo de fluencia por encima del esfuerzo de fluencia nominal especificado, 
+y
+R , se determinará de acuerdo con el literal F.4.A.1.3.2.1. 
+ 
+El factor a tener en cuenta en el aumento en el esfuerzo de fluencia debido al trabajo de formado en frío, promediado sobre 
+la sección transversal, 
+cf
+R
+, se tomará como 
+ya
+y
+F
+F , donde 
+ya
+F se determinará de acuerdo con el literal F.4.1.17.2 de 
+NSR-10. 
+cf
+R
+ no se tomará menor de 1.1 
+ 
+El factor que considera la capacidad de reserva inelástica para una sección efectiva completa en pandeo, se determinará 
+de la siguiente manera: 
+ 
+Para 
+0.673
+
+, 
+re
+no
+y
+R
+M
+M
+
+ 
+(F.4.A.1.3.2.3-1) 
+Para 
+0.673
+
+, 
+re
+R
+1
+
+ 
+ 
+Donde 
+ 
+ 
+= 
+esbeltez de la aleta en compresión del miembro considerado, como se define de acuerdo con el literal F.4.2.2 
+no
+M
+ 
+= 
+resistencia nominal determinada de acuerdo con el literal F.4.1.3.3.1.1 (b), si es aplicable, o 
+y
+M 
+y
+M 
+= 
+resistencia nominal a flexión 
+ 
+= 
+f
+y
+S F 
+(F.4.A.1.3.2.3-2) 
+ 
+Donde 
+ 
+fS
+ 
+= 
+módulo de la sección sin reducir en el esfuerzo de fluencia, 
+y
+F 
+y
+F 
+= 
+mínimo esfuerzo de fluencia especificado. 
+ 
+F.4.A.1.3.3 — Insumos para soldadura — Todas las soldaduras usadas en miembros y conexiones en los sistemas de 
+resistencia sísmica se deben hacer de acuerdo con los requisitos de AWS D1.1/D1.1M, AWS D1.3/D1.3M o CSA W59, 
+según corresponda, a menos que se modifique de otra manera en el literal F.4.A.5 y literal F.4.A.6. Los electrodos deberán 
+ser aprobados para uso en resistencia de fuerzas sísmicas.  
+ 
+
+-- PAGE 13 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+8 
+F.4.A.1.4 — Especificaciones y planos de diseño estructural — Los planos y especificaciones de diseño estructural 
+deben indicar el trabajo a realizar, e incluir los elementos requeridos por F.4.1 y F.4.2 de NSR-10, cualquier otro capítulo 
+de NSR-10, y lo siguiente, según proceda: 
+ 
+1. Designación del sistema de resistencia sísmica, 
+2. Identificación de los miembros estructurales y conexiones que forman parte del sistema de resistencia sísmica, y 
+3. Detalles de conexiones entre diafragmas y los elementos del sistema de resistencia sísmica 
+ 
+F.4.A.1.5 — Documentos de referencia — Los siguientes documentos o partes de estos que son referenciados en este 
+apéndice, se considerarán parte de los requisitos del presente apéndice. Cuando los documentos entren en conflicto con 
+lo descrito en NSR-10, o en el presente apéndice, prevalecerá lo que establece NSR-10 y en segunda instancia, el presente 
+apéndice.  
+ 
+(1) NSR-10, Reglamento Colombiano de Construcción Sismoresistente. 
+ 
+(2) American Institute of Steel Construction (AISC), One East Wacker Drive, Suite 700, Chicago, IL, 60601, USA:  
+ANSI/AISC 341-10, Seismic Provisions for Structural Steel Buildings.  
+ANSI/AISC 360-10, Specification for Structural Steel Buildings.  
+ 
+(3) American Iron and Steel Institute (AISI), 25 Massachusetts Avenue NW Suite 800, Washington, DC 20001, USA:  
+AISI S100-12, North American Specification for the Design of Cold-Formed Steel Structural Members and AISI S100-
+12-C – Commentary on the Specification 
+AISI S240-15 North American Standard for Cold-Formed Steel Structural Framing, 2015 
+ 
+(4) American Society of Civil Engineering, 1801 Alexander Bell Drive, Reston, Virginia 20191-4400, USA:  
+ASCE/SEI 7-10 Minimum Design Loads for Buildings and Other Structures 
+ 
+(5) ASTM International, 100 Barr Harbor Drive, P.O. Box C700 West Conshohocken, PA 19428-2959, USA  
+ASTM A875/A875M-13, Standard Specification for Steel Sheet, Zinc-5 % Aluminum Alloy-Coated by the Hot-Dip 
+Process 
+ASTM A1003/A1003M-15, Standard Specification for Steel Sheet, Carbon, Metallic- and Nonmetallic-Coated for Cold-
+Formed Framing Members 
+ASTM A1085A1085M-13, Standard Specification for Cold-Formed Welded Carbon Steel Hollow Structural Sections 
+(HSS) 
+ASTM C208-12 Standard Specification for Cellulosic Fiber Insulating Board 
+ 
+(6) American Welding Society (AWS), 550 NW LeJeune Road, Miami Florida 33166-6672, USA:  
+AWS D 1.1/D 1.1 M-2010, Structural Welding Code -Steel 
+AWS D 1.3/D 1.3 M-2008, Structural Welding Code - Sheet Steel 
+ 
+(7) Department of Commerce Voluntary Product Standard, administered by NIST, National Institute of Standards and 
+Technology, Physical Sciences Laboratory, Gaithersburg, MD, USA 
+DOC PS 1-09, Structural Plywood 
+DOC PS 2-10, Performance Standard for Wood-Based Structural-Use Panels 
+ 
+ 
+F.4.A.2 — REQUISITOS GENERALES DE DISEÑO 
+ 
+F.4.A.2.1 — Requisitos Generales de Diseño Sísmico 
+ 
+F.4.A.2.1.1 — Generalidades — Las resistencias requeridas para el sistema de resistencia sísmica se deben determinar 
+de acuerdo con el Título A de NSR-10. Los parámetros de diseño sísmico ( R ,
+O
+), así como las limitaciones del sistema, 
+están definidos en la Tabla F.4.A.8-1. La deriva de piso de diseño, y los requisitos para las irregularidades estructurales 
+verticales y horizontales también deben determinarse de acuerdo con el Titulo A de NSR-10. 
+ 
+F.4.A.2.1.2 — Trayectoria de carga — Los efectos de fuerzas sísmicas deben ser resueltos mediante un sistema de 
+resistencia a fuerzas laterales completo, usando una trayectoria de carga continua hasta la cimentación. 
+ 
+F.4.A.2.1.3 — Compatibilidad de deformación de miembros y conexiones que no están en el sistema de resistencia 
+sísmica — Cuando la compatibilidad de deformaciones de los miembros estructurales y las conexiones que no son parte 
+del sistema de resistencia sísmica es requerida por el Título A de NSR-10, estos elementos deberán ser diseñados para 
+
+-- PAGE 14 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+9 
+resistir la combinación de los efectos de carga gravitacionales y los efectos de las deformaciones que ocurren en la deriva 
+de piso de diseño (deriva de piso de diseño sísmico) calculada de acuerdo con el Título A. 
+ 
+F.4.A.2.1.4 — Efectos de fuerzas sísmicas debidos a muros de mampostería y concreto — Se permite que los efectos 
+de fuerzas sísmicas debidos a muros de mampostería y concreto sean resistidos por el sistema de resistencia sísmica 
+definido en el presente apéndice cumpliendo con las limitaciones de los literales F.4.A.5 y F.4.A.6. 
+ 
+F.4.A.2.1.5 — Efectos de fuerzas sísmicas de otros componentes de concreto o mampostería — Se permite que los 
+miembros estructurales de acero formado en frío y las conexiones, resistan fuerzas sísmicas de otros componentes de 
+concreto o mampostería, incluyendo, pero no limitados a, chimeneas, enchapes de concreto o de mampostería, y pisos o 
+techos de concreto. 
+ 
+F.4.A.2.2 — Sistema de resistencia lateral — El sistema de resistencia lateral completo deberá incluir uno o más sistemas 
+de resistencia sísmica, diseñados de acuerdo con el literal F.4.A.5, y todos los demás componentes requeridos para 
+asegurar una trayectoria de carga continua para las fuerzas sísmicas. 
+ 
+F.4.A.2.2.1 Excepción: los componentes y conexiones sustitutos en los sistemas de resistencia sísmica permitidos deben 
+cumplir con los requisitos del literal F.4.A.8. 
+ 
+F.4.A.2.3 — Bases de diseño — La resistencia de diseño del sistema de resistencia sísmica elegido deberá ser mayor o 
+igual a la resistencia requerida [efectos de cargas mayoradas] determinada de acuerdo con las combinaciones de carga 
+aplicables. Para asegurar el desempeño del sistema de resistencia sísmica elegido, otros miembros estructurales y 
+conexiones en el sistema de resistencia lateral, que no sean parte del mecanismo de disipación de energía elegido, deben 
+diseñarse para la resistencia esperada [resistencia probable] del sistema de resistencia sísmica elegido, como se especifica 
+en el literal F.4.A.5 y el literal F.4.A.6, incluyendo el efecto de carga determinado de las combinaciones de carga aplicables. 
+ 
+F.4.A.2.3.1 — Resistencia nominal — La resistencia nominal, 
+n
+R , del sistema de resistencia sísmica se debe determinar 
+de acuerdo con requisitos del presente apéndice. La resistencia nominal de todos los demás miembros estructurales y 
+conexiones se debe determinar de acuerdo con el Capítulo F.4 de NSR-10.  
+ 
+F.4.A.2.3.2 — Resistencia de diseño — La resistencia de diseño 
+n
+R
+
+, se debe evaluar de acuerdo con las disposiciones 
+para el diseño con coeficientes de carga y resistencia [diseño para estados límite] como se designa en el literal F.4.A.5 y 
+en el literal F.4.A.6.  
+ 
+F.4.A.2.3.3 — Resistencia esperada (Resistencia probable) — Para el sistema de resistencia sísmica, la resistencia 
+esperada [resistencia probable] deberá ser determinada de conformidad con el literal F.4.A.5. 
+ 
+F.4.A.2.3.4 — Resistencia requerida [Efectos de cargas mayoradas] — Para el sistema de resistencia sísmica, la 
+resistencia requerida [efectos de las cargas mayoradas] se debe determinar de acuerdo con los Títulos A y B de NSR-10. 
+ 
+Para todos los miembros estructurales y conexiones en el sistema de resistencia lateral que no son parte del mecanismo 
+de disipación de energía elegido, la resistencia requerida se debe determinar con base en la resistencia esperada del 
+sistema de resistencia sísmica, pero no necesita exceder los efectos de las fuerzas sísmicas, incluida la sobrerresistencia, 
+como se designa en el literal F.4.A.5 y el literal F.4.A.6. 
+ 
+F.4.A.3 — ANÁLISIS 
+ 
+F.4.A.3.3.1 — Efectos de la fuerza sísmica — Se debe realizar un análisis que cumpla con los requisitos del Título A, 
+Título B y numeral F.4.1 de NSR-10 para determinar el efecto de las combinaciones de carga sísmicas sobre el sistema, 
+excepto en lo que se modifique en el presente apéndice. 
+ 
+F.4.A.4 — REQUISITOS GENERALES DE DISEÑO PARA CONEXIONES Y MIEMBROS 
+ 
+El diseño de los miembros estructurales y sus conexiones debe cumplir con los requisitos de los literales F.4.A.5 y F.4.A.6, 
+según corresponda. 
+ 
+F.4.A.5 — SISTEMAS DE RESISTENCIA SÍSMICA 
+ 
+F.4.A.5.1 — Paneles sísmicos con entramados livianos de acero formado en frio revestidos con tableros 
+estructurales de madera. 
+
+-- PAGE 15 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+10 
+ 
+F.4.A.5.1.1 — Alcance — Los paneles sísmicos con entramados livianos de acero formado en frío revestidos con tableros 
+estructurales de madera calificados para resistencia al corte deben diseñarse de acuerdo con el presente literal F.4.A.5.1. 
+ 
+F.4.A.5.1.2 — Bases de diseño — Se espera que los paneles sísmicos con entramados livianos de acero formado en frío 
+revestidos con tableros estructurales de madera resistan las demandas sísmicas principalmente a través de deformación 
+en la conexión entre el revestimiento del tablero estructural de madera y los miembros estructurales de acero formado en 
+frío.  
+ 
+F.4.A.5.1.2.1 — Mecanismo de disipación de energía elegido — La conexión del miembro estructural con el 
+revestimiento y del revestimiento conformado por tableros estructurales de madera corresponde al mecanismo de 
+disipación de energía esperado del sistema definido en el presente apéndice. 
+ 
+F.4.A.5.1.2.2 — Parámetros de diseño sísmico para el sistema de resistencia sísmica — El coeficiente de disipación 
+de energía, R , se determinará de acuerdo con el Título A de NSR-10, cumpliendo con los parámetros dados en la Tabla 
+F.4.A.8.1. 
+ 
+F.4.A.5.1.2.3 — Paneles sísmicos Tipo I o Tipo II — El diseño de los paneles sísmicos que resisten las fuerzas sísmicas 
+se debe clasificar ya sea como paneles sísmicos Tipo I o paneles sísmicos Tipo II de acuerdo con lo los siguientes 
+requisitos: 
+ 
+Los paneles sísmicos Tipo I deben revestirse en toda la altura, con conectores de anclaje de tracción y anclaje en cada 
+extremo. Se permite que estos paneles Tipo I tengan aberturas siempre que se suministren detalles para considerar la 
+transferencia de fuerza alrededor de las aberturas. En los literales F.4.A.5.1.3.1.1 y F.4.A.5.1.4.1 se especifican requisitos 
+adicionales. 
+ 
+Se permite que los paneles sísmicos Tipo II tengan aberturas sin detalles específicos para considerar la transferencia de 
+fuerza alrededor de las aberturas. Se deben utilizar conectores de anclaje de tracción y anclajes en cada extremo de los 
+paneles sísmicos Tipo II. Se deben cumplir los requisitos adicionales dados en los literales F.4.A.5.1.3.1.2 y F.4.A.5.1.4.2. 
+ 
+F.4.A.5.1.2.4 — Efectos de fuerzas sísmicas debidos a muros de mampostería y concreto — Se permite el uso de 
+paneles sísmicos con entramados livianos de acero formado en frío revestidos con tableros estructurales de madera para 
+proporcionar resistencia ante las fuerzas sísmicas en edificaciones con muros de mampostería o concreto, siempre que se 
+cumpla con los requisitos presentados en (a) hasta (f): 
+ 
+(a) La edificación tiene uno o dos pisos. 
+(b) Las alturas de los muros piso a piso no exceden 3.60 m. 
+(c) Los diafragmas son considerados flexibles y no se encuentran en voladizo más allá del panel sísmico de soporte más 
+externo. 
+(d) Las deflexiones combinadas de diafragmas y paneles sísmicos no permiten que la deriva de piso de diseño de los 
+muros de concreto o mampostería soportados exceda el 0.7% de la altura del piso al ser sometido a las fuerzas de 
+diseño. 
+(e) El revestimiento en tablero estructural de madera para ambos pisos de los paneles sísmicos tiene todos los bordes sin 
+soporte con rigidizador y, para el piso inferior, tiene un espesor mínimo de 12 mm. 
+(f) No hay irregularidades de desplazamiento horizontal fuera del plano como se especifican en el Título A de NSR-10.  
+ 
+F.4.A.5.1.3 — Resistencia al corte 
+ 
+F.4.A.5.1.3.1 — Resistencia Nominal 
+ 
+F.4.A.5.1.3.1.1 — Paneles sísmicos Tipo I — Para un panel sísmico Tipo I revestido con tableros estructurales de madera, 
+la resistencia nominal al corte, 
+n
+V , se determinará de acuerdo con lo siguiente: 
+ 
+Para h w
+2
+
+, 
+n
+n
+V
+v w
+
+ 
+(F.4.A.5.1.3.1.1-1) 
+ 
+dónde 
+ 
+h 
+= 
+altura del panel sísmico, m 
+w 
+= 
+longitud del panel sísmico, m 
+
+-- PAGE 16 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+11 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud para los paneles sísmicos con tablero estructural de madera 
+y sistema de rigidizador de panel como se prescribe en la Tabla F.4.A.5.1.3-1 en kN / m. 
+ 
+Cuando se permita en la Tabla F.4.A.5.1.3-1, la resistencia nominal al corte, 
+n
+V , para relaciones de aspecto altura-longitud 
+(h/w) mayores de 2 :1, pero no superiores a 4:1, se debe determinar así: 
+ 
+Para 2
+h w
+4
+
+
+, 
+
+
+nS
+n
+V
+v w 2w h
+
+ 
+(F.4.A.5.1.3.1.1-2) 
+ 
+La relación de aspecto altura/longitud 
+
+h w , en ningún caso podrá ser superior a 4:1. 
+ 
+La longitud de un panel sísmico Tipo I no debe ser menor que 610 mm. 
+ 
+No se permiten aumentos en las resistencias nominales dadas en la Tabla F.4.A.5.1.3-1. 
+ 
+Tabla F.4.A.5.1.3-1 — Resistencia nominal al corte 
+
+n
+v
+ por unidad de longitud para fuerzas sísmicas y otras 
+fuerzas en el plano3 para paneles sísmicos revestidos con tableros estructurales de madera en una cara del 
+panel 
+kN/m 
+Descripción del ensamblaje 
+Máx. 
+relación de 
+aspecto 
+
+
+h : w 
+Espaciamiento de los 
+sujetadores en los bordes del 
+tablero1 (mm) 
+Espesor 
+especificado4 del 
+paral y de la 
+canal (mm) 
+Tamaño mínimo 
+de los tornillos 
+del revestimiento 
+150 
+100 
+75 
+50 
+Revestimiento Estructural 1 
+de 11.90 mm (de 4 capas) 
+2:12 
+11.4 
+14.4 
+- 
+- 
+0.84 ó 1.09 
+8 
+2:1 
+13.0 
+19.4 
+25.9 
+32.0 
+1.09 ó 1.37 
+8 
+1.73 
+10 
+OSB de 11 mm 
+2:12 
+10.2 
+13.4 
+- 
+- 
+0.84 
+8 
+2:12 
+12.0 
+18.0 
+22.6 
+30.1 
+1.09 ó 1.37 
+8 
+2:1 
+13.7 
+20.6 
+25.7 
+34.3 
+1.37 
+8 
+2:1 
+18.0 
+27.0 
+33.7 
+45.0 
+1.73 
+10 
+kN/m 
+Descripción del ensamblaje 
+Max. relación 
+de aspecto 
+
+
+h : w 
+Espaciamiento de los sujetadores 
+en los bordes del tablero1 (mm) 
+Espesor 
+especificado4 del 
+paral y de la canal 
+(mm) 
+Tamaño requerido 
+de los tornillos del 
+revestimiento 
+150 
+100 
+75 
+Revestimiento CSP de 9.5 
+mm 
+2:12 
+8.5 
+11.8 
+14.2 
+1.092 (min.) 
+8 
+Revestimiento CSP de 12.5 
+mm 
+2:12 
+9.5 
+13.0 
+19.4 
+1.092 (min.) 
+8 
+Revestimiento DFP de 12.5 
+mm 
+2:12 
+11.6 
+17.2 
+22.1 
+1.092 (min.) 
+8 
+OSB 2R24/W24 de 9 mm 
+2:12 
+9.6 
+14.3 
+18.2 
+1.092 (min.) 
+8 
+OSB 1R24/2F16/W24 de 11 
+mm 
+2:12 
+9.9 
+14.6 
+18.5 
+1.092 (min.) 
+8 
+1. 
+Véase el literal F.4.A.5.1.4.1.1 para conocer los requisitos de instalación de los tornillos en el cuerpo del tablero. 
+2. 
+Véase el literal F.4.A. 5.1.3.1.1 para conocer las relaciones de aspecto altura-longitud del panel sísmico 
+
+h :w mayor que 
+2:1, pero no superior a 4:1. 
+3. 
+Véase el literal F.4.A.5.1.3.1.1.2 y el literal F.4.A.5.1.3.1.1.3 para conocer los requisitos de revestimiento aplicado a ambos 
+lados del panel sísmico. 
+4. 
+La sustitución por espesor se define como un mínimo de mayor espesor se permite solo cuando el espesor se especifica 
+como un mínimo. 
+ 
+F.4.A.5.1.3.1.1.1 — Limitaciones del montante de panel sísmico — La relación de aspecto de altura-longitud 
+
+p
+p
+h
+w
+ 
+de un montante en un panel sísmico Tipo I con aberturas se debe limitar a un máximo de 2:1. 
+ 
+La longitud de un montante 
+
+p
+w
+ no puede ser menos que 610 mm. 
+ 
+F.4.A.5.1.3.1.1.2 — Ambas caras del panel sísmico revestidas con el mismo material y el mismo espaciamiento de 
+los sujetadores — Para un panel sísmico Tipo I revestido con tableros estructurales de madera que tengan el mismo 
+material y espaciamiento de sujetadores en caras opuestas del mismo tablero, la resistencia nominal, calculada con base 
+en la Tabla F.4.A.5.1.3-1, se debe determinar sumando la resistencia de las dos caras opuestas. 
+
+-- PAGE 17 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+12 
+ 
+F.4.A.5.1.3.1.1.3 — Más de un material de revestimiento individual o diferente configuración de sujetadores — Para 
+un panel sísmico Tipo I revestido con tableros estructurales de madera que tengan diferente material de revestimiento 
+individual o distinto espaciamiento de los sujetadores, la resistencia nominal del panel completo, calculada de acuerdo con 
+la Tabla F.4.A.5.1.3-1, no se puede determinar sumando la resistencia nominal de los diferentes tableros individuales. Para 
+este caso se debe cumplir con lo siguiente: 
+ 
+Para un panel sísmico Tipo I revestido con tableros estructurales de madera que tenga más de un material de revestimiento 
+individual o diferente configuración de sujetadores a lo largo de una cara de la misma línea de un panel sísmico, la 
+resistencia nominal se debe establecer bien sea suponiendo que el material o la configuración de sujetadores más débil 
+(menor resistencia nominal) existe para toda la longitud del panel, o que el material o configuración de sujetadores más 
+fuerte (mayor resistencia nominal) existe para su propia longitud, cualquiera que sea mayor. 
+ 
+Para un panel sísmico Tipo I revestido con tableros estructurales de madera que tengan más de un material de 
+revestimiento individual o diferente configuración de sujetadores en las caras opuestas del panel sísmico, se debe calcular 
+la resistencia nominal suponiendo que el material o la configuración de sujetadores más débil existe para ambas caras del 
+panel sísmico, o que el material o la configuración de sujetadores más fuerte existe solamente para su propia cara, 
+cualquiera que sea mayor. 
+ 
+F.4.A.5.1.3.1.2 — Paneles sísmicos Tipo II — Para un panel sísmico Tipo II, la resistencia nominal al corte, 
+n
+V , se 
+determina de acuerdo con lo siguiente: 
+ 
+n
+a
+n
+i
+V
+C v
+L
+
+
+ 
+(F.4.A.5.1.3.1.2-1) 
+ 
+donde 
+ 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de la Tabla F.4.A.5.1.3.1.2-1 
+Para valores intermedios de relación de altura de abertura y porcentajes de revestimiento de altura completa, se 
+permite que los factores de ajuste de resistencia al corte sean determinados por interpolación. 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud como se especifica en la Tabla F.4.A.5.1.3-1, kN/m 
+i
+L
+
+= suma de las longitudes de segmentos de panel sísmico Tipo II, m 
+ 
+Tabla F.4.A.5.1.3.1.2-1 — Factor de ajuste de resistencia al corte-
+a
+C 
+ 
+Relación de altura de abertura máxima1 
+1/3 
+1/2 
+2/3 
+5/6 
+1 
+Porcentaje de revestimiento de 
+altura completa2 
+Factor de ajuste de resistencia al corte 
+10% 
+1.00 
+0.69 
+0.53 
+0.43 
+0.36 
+20% 
+1.00 
+0.71 
+0.56 
+0.45 
+0.38 
+30% 
+1.00 
+0.74 
+0.59 
+0.49 
+0.42 
+40% 
+1.00 
+0.77 
+0.63 
+0.53 
+0.45 
+50% 
+1.00 
+0.80 
+0.67 
+0.57 
+0.50 
+60% 
+1.00 
+0.83 
+0.71 
+0.63 
+0.56 
+70% 
+1.00 
+0.87 
+0.77 
+0.69 
+0.63 
+80% 
+1.00 
+0.91 
+0.83 
+0.77 
+0.71 
+90% 
+1.00 
+0.95 
+0.91 
+0.87 
+0.83 
+100% 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1. 
+Véase el literal F.4.A.5.1.3.1.2.2. 
+2. 
+Véase el literal F.4.A.5.1.3.1.2.1. 
+ 
+F.4.A.5.1.3.1.2.1 — Porcentaje de revestimiento de altura completa — El porcentaje del revestimiento de altura 
+completa se calcula como la suma de las longitudes 
+i
+L
+
+ de los segmentos de panel sísmico Tipo II dividida por el ancho 
+total del panel sísmico Tipo II incluyendo las aberturas, véase la figura F.4.A.5.1.3.1.2.1. 
+ 
+F.4.A.5.1.3.1.2.2 — Máxima relación de altura de una abertura — La máxima relación de altura de una abertura se 
+calcula dividiendo la máxima altura libre de la abertura por la altura del panel sísmico, h . 
+ 
+
+-- PAGE 18 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+13 
+F.4.A.5.1.3.2 — Resistencia de diseño — La resistencia de diseño 
+
+v
+n
+V
+
+ se determina a partir de la resistencia nominal 
+utilizando el siguiente factor de resistencia: 
+ 
+v
+0.60
+
+ 
+ 
+F.4.A.5.1.3.3 — Resistencia esperada — La resistencia esperada, 
+E
+n
+V
+
+, se determina a partir de la resistencia nominal 
+de acuerdo con lo siguiente: 
+ 
+El factor de resistencia esperada 
+E
+, debe ser de 1.8 para los paneles sísmicos revestidos con tableros estructurales de 
+madera. 
+ 
+F.4.A.5.1.4 — Requisitos del Sistema 
+ 
+F.4.A.5.1.4.1 — Paneles sísmicos Tipo I 
+ 
+F.4.A.5.1.4.1.1 — Limitaciones para los sistemas tabulados — El sistema de resistencia sísmica de los paneles 
+sísmicos Tipo I especificados en la Tabla F.4.A.5.1.3-1 debe cumplir con los requisitos de (a) hasta (r) siguientes: 
+ 
+(a) Los parales y canal del panel sísmico deben ser de acero ASTM A1003 estructural Grado 33 (Grado 230) Tipo H para 
+miembros con un espesor especificado de 0.84 mm y 1.09 mm, y de acero ASTM A1003 estructural Grado 50 (Grado 
+340) Tipo H para miembros con un espesor especificado igual o mayor a 1.37 mm. 
+(b) Los parales deben ser miembros con forma en C, con un ancho de aleta mínimo de 41 mm, un ancho mínimo del alma 
+de 89 mm y un atiesador de borde mínimo de 9.5 mm. 
+(c) La canal debe tener un ancho mínimo de aleta de 32 mm y un ancho mínimo del alma de 89 mm. 
+(d) Los parales cordón u otros elementos de borde verticales en los extremos de los segmentos del panel sísmico 
+arriostrado con revestimientos, deben transferir la fuerza de tracción de manera que el alma de la canal inferior no 
+resulte solicitada por fleción, como resultado de la acción de levantamiento. 
+(e) Los tornillos para miembros estructurales deben ser al menos No. 8 y cumplir con ASTM C1513. 
+(f) Los sujetadores a lo largo de los bordes en los tableros de corte se deben colocar a no menos de 9.5 mm medidos 
+desde los bordes del tablero. 
+(g) Los sujetadores en el cuerpo del tablero deben estar instalados a 300 mm entre centros a menos que se especifique 
+lo contrario. 
+(h) Los espesores del tablero deben considerarse como mínimos. 
+(i) No se permiten tableros de menos de 300 mm de ancho. 
+(j) El espaciamiento máximo entre parales debe ser 600 mm entre centros. 
+(k) Todos los bordes del revestimiento deben estar unidos a miembros estructurales o al rigidizador de tablero. (véanse 
+los requisitos en la Tabla F.4.A.5.1.3-1). 
+(l) Cuando se use como rigidizador de tablero, la cinta plana debe tener un espesor mínimo de 0.838 mm con un ancho 
+mínimo de 38.1 mm y esta instalada debajo del revestimiento. 
+(m) Cuando se use rigidizador de tablero, los tornillos se deben instalar a través del revestimiento del tablero estructural 
+de madera al rigidizador. 
+(n) El revestimiento del tablero estructural de madera se debe fabricar utilizando pegamento exterior que cumpla con DOC 
+PS 1, DOC PS 2. 
+(o) Se permite que el revestimiento del tablero estructural de madera sea instalado paralelo o perpendicular a los parales. 
+(p) El revestimiento del tablero estructural de madera debe sujetarse a los miembros estructurales de acero formado en 
+frío ya sea con tornillos autoperforantes No. 8 con un diámetro mínimo de la cabeza de 7.24 mm o con tornillos 
+autoperforantes No. 10 con un diámetro mínimo de la cabeza de 8.46 mm. 
+(q) Los tornillos utilizados para sujetar el revestimiento en tablero estructural de madera a los miembros estructurales de 
+acero formado en frío deben cumplir con ASTM C1513. 
+(r) La resistencia a la extracción de los tornillos no debe utilizarse para resistir fuerzas sísmicas. 
+ 
+F.4.A.5.1.4.1.2 — Resistencia requerida para parales cordón, anclajes y colectores — Para colectores, parales cordón, 
+otros elementos de borde verticales, conectores de anclaje de tracción y anclaje conectados a ellos, y todos los demás 
+componentes y conexiones del panel sísmico que no son parte del mecanismo de disipación de energía elegido, la 
+resistencia requerida se determinará a partir de la resistencia esperada del panel sísmico, pero no necesita exceder el 
+efecto de carga determinado a partir de las combinaciones de carga aplicables incluyendo la carga sísmica con 
+sobrerresistencia. La resistencia de diseño de los colectores, parales cordón, otros elementos de borde verticales, 
+conectores de anclaje de tracción y anclaje conectados a ellos, y todos los demás componentes y conexiones del panel 
+sísmico debe ser mayor o igual a la resistencia requerida. 
+
+-- PAGE 19 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+14 
+ 
+F.4.A.5.1.4.1.3 — Resistencia requerida para las cimentaciones — Para cimentaciones, la resistencia requerida se 
+debe determinar a partir del efecto de carga sísmica y no es necesario incluir el factor de sobrerresistencia, 
+0
+, ni tener 
+en cuenta la resistencia esperada del sistema de resistencia sísmica. 
+ 
+F.4.A.5.1.4.1.4 — Deflexión de diseño — Se permite calcular la deflexión de un panel sísmico con entramado liviano de 
+acero formado en frío rigidizado, revestido con tableros estructurales de madera de acuerdo con lo siguiente: 
+ 
+2
+3
+54
+1
+2
+1
+2
+3
+4
+v
+c
+revestimiento
+2vh
+vh
+v
+h
+3EA b
+Gt
+b
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+(F.4.A.5.1.4.1.4-1) 
+ 
+donde: 
+ 
+C
+A 
+= 
+área bruta de sección transversal del cordón, en mm2 
+b 
+= 
+longitud del panel sísmico, en mm 
+E 
+= 
+módulo de elasticidad del acero 
+ 
+= 
+200 000 MPa 
+G 
+= 
+módulo de corte del material de revestimiento, en MPa 
+h 
+= 
+altura del panel sísmico, en mm 
+s 
+= 
+espaciamiento máximo de los sujetadores en los bordes del panel, en mm 
+revestimiento
+t
+ = 
+espesor nominal del tablero de revestimiento, en mm 
+paral
+t
+ 
+= 
+espesor especificado del paral, en mm 
+v 
+= 
+demanda de cortante, en N/mm 
+ 
+= 
+V b 
+(F.4.A.5.1.4.1.4-2) 
+V 
+= 
+carga lateral total aplicada al panel sísmico, en N 
+ 
+= 
+2.35 para madera contrachapada o multilaminada que no sea CSP 
+ 
+= 
+1.91 para OSB y CSP para unidades SI (N/mm1.5) 
+ 
+= 
+deflexión calculada, en mm 
+v
+ 
+= 
+deformación vertical del anclaje/detalles de fijación, en mm 
+ 
+= 
+1.85 para madera contrachapada o multilaminada distinta de CSP, 1.05 para OSB y CSP 
+1
+ 
+= 
+s 152.4 (para s en mm) 
+(F.4.A.5.1.4.1.4-3) 
+2
+ 
+= 
+stud
+0.838 t
+ (para paral
+t
+ en mm) 
+(F.4.A.5.1.4.1.4-4) 
+3
+ 
+= 
+
+
+h b
+2
+ 
+(F.4.A.5.1.4.1.4-5) 
+4
+ 
+= 
+1 para el revestimiento en tablero estructural de madera 
+ 
+F.4.A.5.1.4.2 — Paneles sísmicos Tipo II — Los paneles sísmicos Tipo II deben cumplir con todos los requisitos para 
+paneles sísmicos Tipo I, excepto cuando sean modificados por los requisitos aplicables del literal F.4.A.5.1.2.3 y del 
+presente literal F.4.A.5.1.4.2. 
+ 
+F.4.A.5.1.4.2.1 — Limitaciones adicionales — El sistema de resistencia sísmica del panel sísmico Tipo II debe cumplir 
+con los siguientes requisitos (a) hasta (f): 
+ 
+(a) Un segmento de panel sísmico Tipo II, que cumpla con las limitaciones de la relación de aspecto 
+
+h : w del literal 
+F.4.A.5.1.3.1, que esté localizado en cada extremo de un panel sísmico Tipo II, se permiten aberturas más allá de los 
+extremos del panel sísmico Tipo II; sin embargo, la longitud de tales aberturas no está incluida en la longitud del panel 
+sísmico Tipo II. 
+(b) La resistencia nominal al corte, 
+n
+V , se debe basar en un espaciamiento de tornillos de no menos de 100 mm entre 
+centros. 
+(c) Cuando se encuentren irregularidades de desface fuera del plano horizontal, las partes del panel sísmico a cada lado 
+del desface se deben designar como paneles sísmicos Tipo II separados. 
+(d) Se deben colocar colectores para la transferencia de cortante para toda la longitud del panel sísmico Tipo II. 
+(e) El panel sísmico Tipo II debe tener elevaciones uniformes en la parte superior y en la inferior del panel sísmico. 
+(f) La altura del panel sísmico Tipo II, h , no puede exceder 6.1 m. 
+
+-- PAGE 20 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+15 
+ 
+F.4.A.5.1.4.2.2 — Resistencia requerida para parales cordón, anclaje y colectores — El diseño de los colectores que 
+conectan segmentos de panel sísmico Tipo II y el anclaje en los extremos o entre segmentos de panel sísmico Tipo II debe 
+cumplir con los requisitos del presente literal F.4.A.5.1.4.2.2. 
+ 
+F.4.A.5.1.4.2.2.1 — Colectores que conectan segmentos de panel sísmico Tipo II en el plano — La fuerza cortante 
+unitaria, v, transmitida hacia la parte superior y fuera de la base de los segmentos con revestimiento de altura completa 
+de los paneles sísmicos Tipo II, y hacia los colectores (puntales de arrastre) que conectan segmentos de panel sísmico 
+Tipo II, se debe determinar de acuerdo con lo siguiente: 
+ 
+a
+i
+v
+v
+c
+L
+
+ 
+(F.4.A.5.1.4.2.2-1) 
+ 
+donde 
+ 
+v 
+= 
+fuerza cortante por unidad de longitud (kN / m) 
+V 
+= 
+fuerza cortante en panel sísmico Tipo II (kN) 
+ 
+V se debe basar en la resistencia esperada del segmento de panel sísmico Tipo II, pero no debe exceder el efecto de 
+fuerza sísmica incluyendo sobrerresistencia. 
+ 
+Para paneles sísmicos revestidos con paneles estructurales de madera, la resistencia esperada se establece como el 
+efecto de fuerza sísmica incluyendo sobrerresistencia como se establece en el literal F.4.3.5.1.3.3. 
+ 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de la Tabla F.4.A.5.1.3.1.2-1 
+i
+L
+
+= suma de las longitudes de segmentos de panel sísmico Tipo II (m)  
+ 
+F.4.A.5.1.4.2.2.2 — Resistencia requerida de los parales cordón y sus anclajes de borde en los extremos de paneles 
+sísmicos Tipo II — Se deben colocar anclajes para las fuerzas de levantamiento debidas al volcamiento en cada extremo 
+del panel sísmico Tipo II, no solo en la cimentación, sino en todos los pisos de la edificación para garantizar la continuidad 
+en toda la altura del panel sísmico. Las fuerzas de levantamiento del anclaje y las fuerzas de los cordones de borde se 
+deben determinar de acuerdo con lo siguiente: 
+ 
+a
+i
+vh
+C
+c
+L
+
+ 
+(F.4.A.5.1.4.2.2-2) 
+ 
+donde 
+ 
+C 
+= 
+fuerza del cordón de borde (tracción/compresión), kN 
+V 
+= 
+fuerza cortante en el panel sísmico Tipo II, kN. V se debe basar en la resistencia esperada del segmento de panel 
+sísmico Tipo II, pero no necesita exceder el efecto de fuerza sísmica incluyendo sobrerresistencia. 
+h 
+= 
+altura del panel sísmico (m) 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de la Tabla F.4.A.5.1.3.1.2-1 
+i
+L
+
+= suma de las longitudes de segmentos de panel sísmico Tipo II (m) 
+ 
+F.4.A.5.1.4.2.2.3 — Levantamiento del anclaje entre extremos del panel sísmico Tipo II — Además de los requisitos 
+del literal F.4.A.5.1.4.2.2.2, las soleras de base de panel sísmico Tipo II, en lugares de revestimiento de altura completa, 
+deben anclarse para una fuerza de levantamiento uniforme igual a la fuerza cortante unitaria, v, determinada de acuerdo 
+con el literal F.4.A.5.1.4.2.2.1. 
+ 
+F.4.A.5.1.4.2.3 — Deflexión de diseño — La deflexión de un panel sísmico Tipo II se debe determinar de acuerdo con los 
+principios de mecánica estrctural teniendo en cuenta la deformación del revestimiento y su fijación, los parales cordón, el 
+conector de anclaje de tracción y el anclaje. 
+ 
+F.4.A.5.2 — Paneles sísmicos de entramado de acero formado en frío con revestimiento de lámina de acero 
+ 
+
+-- PAGE 21 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+16 
+F.4.A.5.2.1 — Alcance — Los paneles sísmicos con entramado liviano de acero formado en frío con revestimiento de 
+lámina de acero deben diseñarse de acuerdo con los requisitos del presente literal F.4.A.5.2. 
+ 
+F.4.A.5.2.2 — Bases de diseño — Se espera que los paneles sísmicos con entramado liviano de acero formado en frío 
+con revestimiento de lámina de acero resistan las demandas sísmicas principalmente a través de la deformación en la 
+conexión entre el revestimiento de lámina de acero y los miembros estructurales de acero formado en frío. 
+ 
+F.4.A.5.2.2.1 — Mecanismo de disipación de energía elegido — La conexión entre el miembro estructural y el -
+revestimiento y el revestimiento de lámina de acero por sí mismo son el mecanismo de disipación de energía elegido en el 
+sistema.cubierto por el presente apéndice. 
+ 
+F.4.A.5.2.2.2 — Parámetros de diseño sísmico para el sistema de resistencia sísmica — El coeficiente de disipación 
+de energía, R , se debe determinar de acuerdo con el Título A de NSR-10, de acuerdo con los parámetros dados en la 
+Tabla F.4.A.8.1.  
+ 
+F.4.A.5.2.2.3 — Paneles sísmicos Tipo I o Tipo II — El diseño de los paneles sísmicos que resisten las fuerzas sísmicas 
+se debe clasificar ya sea como paneles sísmicos Tipo I o paneles sísmicos Tipo II de acuerdo con el presente literal. 
+ 
+Los paneles sísmicos Tipo I deben revestirse en toda la altura, con conectores de anclaje de tracción y anclaje en cada 
+extremo. Se permite que los paneles sísmicos Tipo I tengan aberturas donde se deben utilizar detalles que tengan en 
+cuenta la transferencia de fuerzas alrededor de las aberturas. En los literales F.4.A.5.2.3.1.1 y F.4.A.5.2.4.1se incluyen 
+requisitos adicionales que deben ser cumplidos. 
+ 
+Se permite que los paneles sísmicos Tipo II tengan aberturas sin detalles específicos para considerar la transferencia de 
+fuerza alrededor de las aberturas. Se deben colocar conectores de anclaje de tracción y anclaje en cada extremo de los 
+paneles sísmicos Tipo II. Se deben cumplir los requisitos adicionales dados en el literal F.4.A.5.2.3.1.2 y en el literal 
+F.4.A.5.2.4.2. 
+ 
+F.4.A.5.2.2.4 — Efectos en las fuerzas sísmicas debidos a muros de mampostería y concreto — Se permite el uso 
+de paneles sísmicos de entramado liviano de acero formado en frío con revestimiento de lámina de acero para proveer la 
+resistencia ante fuerzas sísmicas en edificaciones con muros de mampostería o concreto, siempre y cuando se cumpla 
+con los requisitos dados en F.4.A.5.1.2.4.  
+ 
+F.4.A.5.2.3 — Resistencia al Corte  
+ 
+F.4.A.5.2.3.1 — Resistencia Nominal 
+ 
+F.4.A.5.2.3.1.1 — Paneles sísmicos Tipo I — Para un panel sísmico Tipo I con revestimiento de lámina de acero, la 
+resistencia nominal al corte, 
+n
+V , se debe determinar de acuerdo con lo siguiente: 
+ 
+Para h w
+2
+
+, 
+n
+n
+V
+v w
+
+ 
+(F.4.A.5.2.3.1.1-1) 
+ 
+dónde 
+ 
+h 
+= 
+altura del panel sísmico, m 
+w 
+= 
+longitud del panel sísmico, m 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud para los ensamblajes con revestimiento de lámina de acero y 
+rigidizador de panel calculada como se especifica en la Tabla F.4.A.5.2.3-1 en kN/m o determinada de acuerdo 
+con el literal F.4.A.5.2.3.1.1.1 
+ 
+Cuando esté permitido en la Tabla F.4.A.5.2.3-1 o en el literal F.4.A.5.2.3.1.1.1, la resistencia nominal al corte, 
+n
+V , para 
+relaciones de aspecto altura-longitud 
+
+h : w mayores a 2:1, pero no superiores a 4:1, se debe determinar de acuerdo con 
+lo siguiente: 
+ 
+Para 2
+h w
+4
+
+
+, 
+
+
+n
+n
+V
+v w 2wh
+
+ 
+(F.4.A.5.2.3.1.1-2) 
+ 
+La relación de aspecto altura/longitud 
+
+h : w en ningún caso puede ser mayor a 4:1. La longitud de un panel sísmico Tipo 
+I no puede ser menor que 610 mm. 
+
+-- PAGE 22 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+17 
+ 
+F.4.A.5.2.3.1.1.1 — Método de la franja efectiva — La Resistencia nominal al corte por unidad de longitud para un panel 
+sísmico Tipo I con revestimiento de lámina de acero, que cumple con las limitaciones dadas en el literal F.4.A.5.2.3.1.1.1.1, 
+se puede determinar de acuerdo con el método de la franja efectiva de la siguiente manera: 
+ 
+
+
+n
+n
+e
+y
+V
+mínimo 1.33P cos ,1.33w tF cos
+
+
+ 
+(F.4.A.5.2.3.1.1.1-1) 
+ 
+donde 
+ 
+n
+P 
+= 
+resistencia nominal al corte de conexiones atornilladas dentro del ancho de la franja efectiva, 
+e
+W , sobre el 
+revestimiento de lámina de acero 
+ 
+= 
+
+
+Arctan h w 
+(F.4.A.5.2.3.1.1.1-2) 
+h 
+= 
+altura del panel sísmico 
+w 
+= 
+longitud del panel sísmico 
+t 
+= 
+espesor de diseño del revestimiento de lámina de acero 
+y
+F 
+= 
+esfuerzo de fluencia del revestimiento de lámina de acero. 
+e
+w 
+= 
+max
+w
+, cuando 
+0.0819
+
+ 
+(F.4.A.5.2.3.1.1.1-3) 
+ 
+= 
+max
+w
+
+, cuando 
+0.0819
+
+ 
+(F.4.A.5.2.3.1.1.1-4) 
+ 
+donde: 
+ 
+max
+w
+w sen
+
+ 
+(F.4.A.5.2.3.1.1.1-5) 
+
+
+0.12
+0.12
+1 0.55
+0.08
+
+
+
+
+ 
+(F.4.A.5.2.3.1.1.1-6) 
+1
+2
+2
+1
+2
+3
+1.736
+a
+
+
+
+ 
+(F.4.A.5.2.3.1.1.1-7) 
+ 
+donde: 
+ 
+1
+ush
+F
+310.3
+
+ (Para 
+ush
+F
+ en MPa) 
+(F.4.A.5.2.3.1.1.1-9) 
+2
+uf
+F
+310.3
+
+ (Para 
+uf
+F en MPa) 
+(F.4.A.5.2.3.1.1.1-11) 
+1
+sh
+t
+0.457
+
+ (Para sh
+t en mm) 
+(F.4.A.5.2.3.1.1.1-13) 
+2
+ft
+0.457
+
+ (Para 
+ft en mm) 
+(F.4.A.5.2.3.1.1.1-15) 
+3
+s 152.4
+
+ (Para s en mm) 
+(F.4.A.5.2.3.1.1.1-17) 
+ush
+F
+ = 
+resistencia a la tracción del revestimiento de lámina de acero 
+uf
+F = 
+resistencia mínima a la tracción de materiales de entramados. 
+sh
+t 
+= 
+espesor de diseño del revestimiento de lámina de acero 
+ft 
+= 
+espesor mínimo de diseño de miembros de entramado. 
+s 
+= 
+espaciamiento del tornillo en los bordes del panel 
+a 
+= 
+relación de aspecto del panel sísmico 
+
+h:w 
+ 
+= 
+h w 
+(F.4.A.5.2.3.1.1.1-18) 
+ 
+F.4.A.5.2.3.1.1.1.1 — Se permite el uso del método de la franja efectiva dentro del siguiente rango de parámetros: 
+ 
+(a) Espesor especificado de paral, canal y rigidizador de paral: entre 0.83 mm y 1.37 mm. 
+(b) Espesor especificado del revestimiento de lámina de acero: entre 0.45 mm y 0.84 mm. 
+(c) Espaciamiento de los tornillos en los bordes del panel: 50 mm a 150 mm. 
+(d) Relación de aspecto altura-longitud 
+
+h:w : 1:1 a 4:1. 
+(e) Los tornillos del revestimiento deben ser mínimo No. 8. 
+(f) El esfuerzo de fluencia del revestimiento de lámina de acero no puede ser mayor que 345 MPa. 
+ 
+
+-- PAGE 23 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+18 
+Para relaciones de aspecto altura-longitud 
+
+h:w de paneles sísmicos Tipo I mayores de 2:1, pero que no excedan 4:1, 
+deben utilizarse los requisitos adicionales especificados en el literal F.4.A.5.2.3.1.1. 
+ 
+F.4.A.5.2.3.1.1.2 — Limitaciones del montante de panel sísmico — La relación de aspecto de altura- longitud 
+
+p
+p
+h
+w
+de un montante en un panel sísmico Tipo I con aberturas se debe limitar a un máximo de 2:1. 
+La longitud de un montante de un panel sísmico 
+
+p
+w
+, no puede ser menor que 610 mm 
+ 
+F.4.A.5.2.3.1.1.3 — Ambas caras del panel sísmico revestidas con el mismo material y espaciado de sujetadores 
+— Para un panel sísmico Tipo I con revestimiento de lámina de acero que tenga el mismo material y espaciamiento de 
+sujetadores en caras opuestas del mismo panel sísmico, la resistencia nominal, basada en la Tabla F.4.A.5.2.3-1, se debe 
+determinar sumando la resistencia de las dos caras opuestas juntas. 
+ 
+Tabla F.4.A.5.2.3-1 — Resistencia nominal al corte 
+
+n
+v
+ por unidad de longitud para fuerzas sísmicas y otras 
+fuerzas en el plano3 para paneles sísmicos con revestimiento de lámina de acero en una cara del panel 
+kN/m 
+Descripción del 
+Ensamblaje 
+Máx. 
+Relación 
+de aspecto 
+
+
+h:w 
+Espaciamiento de sujetadores en los 
+bordes del panel1 (mm) 
+Rigidizador 
+de paral 
+requerido 
+Espesor 
+especificado4 del 
+paral, la canal y 
+rigidizador de 
+paral (mm) 
+Tamaño mínimo 
+de los tornillos 
+del revestimiento 
+152 
+101 
+76 
+51 
+Lámina de acero de 
+0.46mm 
+2:1 
+5.69 
+- 
+- 
+- 
+No 
+0.84 (min.) 
+8 
+Lámina de acero de 
+0.68mm 
+2:12 
+- 
+15 
+16 
+17 
+No 
+1.09 (min.) 
+8 
+2:12 
+9.44 
+10 
+11 
+12 
+No 
+0.84 (min.) 
+8 
+Lámina de acero de 
+0.76mm 
+2:12 
+13.28 
+15 
+15 
+16 
+No 
+1.09 (min.) 
+8 
+2:12 
+- 
+- 
+- 
+20 
+Si 
+1.09 (min.) 
+10 
+Lámina de acero de 
+0.83mm 
+2:12 
+15.40 
+17 
+18 
+19 
+No 
+1.09 (min.) 
+8 
+2:12 
+- 
+- 
+- 
+22 
+Si 
+1.09 (min.) 
+10 
+2:12 
+- 
+- 
+- 
+27 
+No 
+1.37 (min.) 
+8 
+2:12 
+- 
+- 
+- 
+30 
+Si 
+1.37 (min.) 
+10 
+1. 
+Consultar el literal F.4.A.5.2.4.1.1 para conocer los requisitos de instalación de los tornillos en el cuerpo del panel. 
+2. 
+Consultar el literal F.4.A.5.2.3.1.1 para conocer las relaciones de aspecto altura-longitud del panel sísmico 
+
+h:w mayor que 
+2:1, pero no superior a 4:1. 
+3. 
+Consultar el literal F.4.A.5.2.3.1.1.2 y el literal F.4.A.5.2.3.1.1.3 para conocer los requisitos de revestimiento aplicado a ambos 
+lados de panel sísmico. 
+4. 
+La sustitución con un miembro de mayor espesor se permite solo cuando el espesor especificado se define como un (min). 
+ 
+F.4.A.5.2.3.1.1.4 — Más de un material de revestimiento individual o configuración de sujetadores — Para un panel 
+sísmico Tipo I con revestimiento de lámina de acero que tenga más de un material de revestimiento individual o más de un 
+espaciamiento de sujetadores, la resistencia nominal del panel sísmico completo, prescrita en la Tabla F.4.A.5.2.3-1 o en 
+el literal F.4.A.5.2.3.1.1.1, no se puede determinar sumando la resistencia de los diferentes paneles individuales. Por lo 
+contrario, se debe determinar de acuerdo con lo prescrito en el presente literal: 
+ 
+Para un panel sísmico Tipo I con revestimiento de lámina de acero que tenga más de un material de revestimiento individual 
+o más de una configuración de sujetadores a lo largo de una cara de la misma línea del panel sísmico, la resistencia 
+nominal se debe calcular suponiendo que el material o configuración de sujetadores más débil (menor resistencia nominal) 
+existe para toda la longitud del panel, o que el material o configuración de sujetadores más fuerte (mayor resistencia 
+nominal) existe para su propia longitud, cualquiera que sea mayor. 
+ 
+Para un panel sísmico Tipo I con revestimiento de lámina de acero que tenga más de un material de revestimiento individual 
+o diferente configuración de sujetadores sobre caras opuestas del panel sísmico, la resistencia nominal se debe caulcular 
+suponiendo que el material o configuración de sujetadores más débil existe para ambas caras del panel, o que el material 
+o la configuración de sujetadores más fuerte existe solamente para su propia cara, cualquiera que sea mayor 
+ 
+F.4.A.5.2.3.1.2 — Paneles sísmicos Tipo II — Para un panel sísmico tipo II, la resistencia nominal al corte, 
+n
+V se debe 
+determinar de acuerdo con lo siguiente: 
+ 
+n
+a
+n
+i
+V
+C v
+L
+
+
+ 
+(F.4.A.5.2.3.1.2-1) 
+ 
+
+-- PAGE 24 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+19 
+donde 
+ 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de la Tabla F.4.A.5.2.3.1.2-1 
+Para valores intermedios de relación de altura de abertura y porcentajes de revestimiento de altura completa, se 
+permite que los factores de ajuste de resistencia al corte sean determinados por interpolación. 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud como se especifica en la Tabla F.4.A.5.2.3-1, kN / m 
+i
+L
+
+ = 
+suma de las longitudes de los segmentos de panel sísmico Tipo II, m 
+ 
+Tabla F.4.A.5.2.3.1.2-1 — Factor de Ajuste de Resistencia al Corte - 
+a
+C 
+ 
+Relación de Altura de Abertura Máxima1 
+1/3 
+1/2 
+2/3 
+5/6 
+1 
+Porcentaje de Revestimiento de 
+Altura Completa2 
+Factor de Ajuste de Resistencia al Corte 
+10% 
+1.00 
+0.69 
+0.53 
+0.43 
+0.36 
+20% 
+1.00 
+0.71 
+0.56 
+0.45 
+0.38 
+30% 
+1.00 
+0.74 
+0.59 
+0.49 
+0.42 
+40% 
+1.00 
+0.77 
+0.63 
+0.53 
+0.45 
+50% 
+1.00 
+0.80 
+0.67 
+0.57 
+0.50 
+60% 
+1.00 
+0.83 
+0.71 
+0.63 
+0.56 
+70% 
+1.00 
+0.87 
+0.77 
+0.69 
+0.63 
+80% 
+1.00 
+0.91 
+0.83 
+0.77 
+0.71 
+90% 
+1.00 
+0.95 
+0.91 
+0.87 
+0.83 
+100% 
+1.00 
+1.00 
+1.00 
+1.00 
+1.00 
+1. 
+Véase el literal F.4.A.5.2.3.1.2.2. 
+2. 
+Véase el literal F.4.A.5.2.3.1.2.1. 
+ 
+F.4.A.5.2.3.1.2.1 — Porcentaje de revestimiento de altura completa — El porcentaje del revestimiento de altura 
+completa se debe calcular como la suma de las longitudes 
+
+i
+L
+
+ de los segmentos de panel sísmico Tipo II dividida por 
+la longitud total del panel sísmico Tipo II, incluyendo las aberturas, véase la figura F.4.A.5.1.3.1.2.1. 
+ 
+F.4.A.5.2.3.1.2.2 — Máxima relación de altura de una abertura — La máxima relación de altura de una abertura se debe 
+calcular dividiendo la altura de la abertura libre máxima por la altura del panel sísmico, h . 
+ 
+F.4.A.5.2.3.2 — Resistencia de diseño — La resistencia 
+
+v
+n
+V
+
+ se debe calcular con base en la resistencia nominal 
+utilizando el siguiente factor de resistencia: 
+ 
+v
+0.60
+
+ 
+ 
+F.4.A.5.2.3.3 — Resistencia esperada — La resistencia esperada 
+
+E
+n
+V
+
+, se debe determinar con base en la resistencia 
+nominal, de acuerdo con el presente literal. El factor de resistencia esperada, 
+E
+, debe ser 1.8 para los paneles sísmicos 
+con revestimiento de lámina de acero. 
+ 
+F.4.A.5.2.4 — Requisitos del Sistema 
+ 
+F.4.A.5.2.4.1 — Paneles sísmicos Tipo I 
+ 
+F.4.A.5.2.4.1.1 — Limitaciones para los sistemas tabulados — El sistema de resistencia sísmica de los paneles 
+sísmicos Tipo I dado en la Tabla F.4.A.5.2.3-1 debe cumplir con los requisitos (a) hasta (r) siguientes: 
+ 
+(a) Los parales y canal del panel sísmico deben ser de acero ASTM A1003 Estructural Grado 33 (Grado 230) Tipo H para 
+miembros con un espesor especificado de 0.838 mm y 1.092 mm, y acero ASTM A1003 Estructural Grado 50 (Grado 
+340) Tipo H para miembros con un espesor especificado igual o mayor a 1.372 mm. 
+(b) Los parales son miembros con forma en C con un ancho de aleta mínimo de 41.3 mm, un ancho mínimo del alma de 
+89 mm y un atiesador de borde mínimo de 9.5 mm. 
+(c) La canal debe tener un ancho mínimo de aleta de 32 mm y un ancho mínimo del alma de 89 mm. 
+(d) Los parales cordón u otros elementos de borde verticales en los extremos de los segmentos del panel sísmico 
+arriostrado con revestimientos, deben anclarse de manera tal que no se requiera que la canal inferior resista el 
+levantamiento por pandeo del alma de la canal. 
+
+-- PAGE 25 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+20 
+(e) Los tornillos para miembros estructurales deben ser mínimo No.8 y cumplir con ASTM C1513. 
+(f) Los sujetadores a lo largo de los bordes en los paneles de corte se deben instalar a no menos de 9.5 mm desde los 
+bordes del panel. 
+(g) Los sujetadores en el cuerpo del panel se deben instalar a 305 mm entre centros a menos que se especifique lo 
+contrario. 
+(h) Los espesores del panel se deben suponer como mínimos. 
+(i) No se permiten paneles de menos de 305 mm de ancho. 
+(j) El espaciamiento máximo entre parales debe ser 610 mm entre centros. 
+(k) Todos los bordes del revestimiento deben estar unidos a miembros estructurales o al rigidizador de panel. 
+(l) En lugar de rigidizador de panel, se permite superponer los ensamblajes sin rigidizador con los bordes del panel y 
+unirlos entre sí con espaciamiento de tornillos según sea necesario para los bordes del panel. Cuando se utiliza esta 
+conexión, la resistencia nominal dada en la Tabla F.4.A.5.2.3-1 debe multiplicarse por 0,70. 
+(m) Cuando se use como rigidizador de panel, la cinta plana debe tener un espesor mínimo de 0.84 mm con un ancho 
+mínimo de 38 mm y estar instalada bien sea encima o debajo del revestimiento. 
+(n) El revestimiento de lámina de acero debe tener un espesor de acero base mínimo como se especifica en la Tabla 
+F.4.A.5.2.3-1 y deben cumplir con ASTM A1003 Estructural Grado 33 (Grado 230) Tipo H. 
+(o) Cuando los paneles sísmicos requieran paneles de revestimiento vertical múltiples, se debe usar un solo paral en la 
+junta del revestimiento, a menos que la conexión entre los parales combinados se haya diseñado para la transferencia 
+de corte entre los paneles. 
+(p) Los tornillos utilizados para sujetar el revestimiento de lámina de acero deben cumplir con ASTM C1513. 
+(q) El rigidizador de paral se debe instalar cada ¼ de la altura para todas las alturas de panel sísmico y debe cumplir con 
+cualquiera de los siguientes requisitos: 
+(1) Método de cinta y rigidizador en línea: el rigidizador en línea es una sección paral o canal con el mismo ancho del 
+alma y espesor mínimo como los parales. Las cintas planas deben tener un espesor mínimo de 0.84 mm con un 
+ancho mínimo de 38 mm. El rigidizador en línea se debe instalar entre los parales en la terminación de todas las 
+cintas planas, a intervalos de 3.60 m a lo largo de la cinta plana, y en los extremos del panel sísmico. Las cintas 
+planas se deben sujetar a las aletas de cada paral con un mínimo de un tornillo No. 8 y a las aletas del rigidizador 
+en línea con un mínimo de dos tornillos No. 8. El rigidizador en línea debe estar sujeto a cada paral con mínimo un 
+tornillo No. 8. 
+(2) Método de rigidizador sólido: El rigidizador en línea corresponde a una sección de paral o canal con el mismo 
+ancho del alma y espesor mínimo como el de los parales. El rigidizador en línea se instala entre cada paral, y debe 
+estar conectado con un mínimo de un tornillo No. 8. 
+(r) La resistencia a la extracción de los pernos no debe tenerse en cuenta para resistir las fuerzas sísmicas.  
+ 
+F.4.A.5.2.4.1.2 — Resistencia requerida para parales cordón, anclajes y colectores — Para colectores, parales cordón, 
+otros elementos de borde verticales, conectores de anclaje de tracción y anclaje conectados a ellos, y todos los demás 
+componentes y conexiones del panel sísmico que no son parte del mecanismo de disipación de energía elegido, la 
+resistencia requerida se determinará a partir de la resistencia esperada del panel sísmico, pero no hay necesidad de que 
+exceda el efecto de carga determinado con base en las combinaciones de carga aplicables, incluyendo la fuerza sísmica 
+con sobrerresistencia. La resistencia de diseño de los colectores, parales cordón, otros elementos de borde verticales, 
+conectores de anclaje de tracción y anclaje conectados a ellos, y todos los demás componentes y conexiones del panel 
+sísmico debe ser mayor o igual a la resistencia requerida. 
+ 
+F.4.A.5.2.4.1.1 — Resistencia requerida para las cimentaciones — Para las cimentaciones, la resistencia requerida se 
+debe determinar con base en el efecto de carga sísmica y no se debe incluir el factor de sobrerresistencia, 
+0
+, ni la 
+resistencia esperada del sistema de resistencia sísmica. 
+ 
+F.4.A.5.2.4.1.2 — Deflexión de diseño — Se permite calcular la deflexión de un panel sísmico Tipo I con entramado 
+liviano de acero formado en frío con revestimiento de lámina de acero rigidizado de acuerdo con lo siguiente: 
+ 
+2
+3
+5
+4
+1
+2
+1
+2
+3
+4
+v
+c
+revestimiento
+2vh
+vh
+v
+h
+3EA b
+Gt
+b
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+(F.4.A.5.2.4.1.4-1) 
+ 
+Donde 
+ 
+C
+A 
+= 
+área bruta de sección transversal del cordón, en mm2 
+b 
+= 
+longitud del panel sísmico, en mm 
+E 
+= 
+módulo de elasticidad del acero 
+ 
+= 
+200 000 MPa 
+
+-- PAGE 26 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+21 
+G 
+= 
+módulo de corte del material de revestimiento, en MPa 
+h 
+= 
+altura del panel sísmico, en mm 
+s 
+= 
+espaciamiento máximo de los sujetadores en los bordes del panel, en mm 
+revestimiento
+t
+ = 
+espesor nominal del tablero de revestimiento, en mm 
+paral
+t
+ 
+= 
+espesor especificado del paral, en mm 
+v 
+= 
+demanda de cortante, en N/mm 
+ 
+= 
+V b 
+(F.4.A.5.2.4.1.4-2) 
+V 
+= 
+carga lateral total aplicada al panel sísmico, en N 
+ 
+= 
+
+
+revestimiento
+1.01 t
+0.457 para lámina de acero 
+ 
+ 
+(para revestimiento
+t
+ en mm), (N/mm1.5) 
+(F.4.A.5.2.4.1.4-3) 
+ 
+= 
+deflexión calculada, en mm 
+v
+ 
+= 
+deformación vertical del anclaje/detalles de fijación, en mm 
+ 
+= 
+
+
+revestimiento
+0.075 t
+0.457 para lámina de acero (para 
+revestimiento
+t
+ en mm)  
+(F.4.A.5.2.4.1.4-4) 
+1
+ 
+= 
+s 152 (para s en mm) 
+(F.4.A.5.2.4.1.4-5) 
+2
+ 
+= 
+paral
+0.838 t
+ (para 
+paral
+t
+ en mm) 
+(F.4.A.5.2.4.1.4-6) 
+3
+ 
+= 
+
+
+h b
+2
+ 
+(F.4.A.5.2.4.1.4-7) 
+4
+ 
+= 
+y
+227.5
+F
+ (para 
+y
+F en MPa) para lámina de acero 
+(F.4.A.5.2.4.1.4-8) 
+ 
+F.4.A.5.2.4.2 — Paneles sísmicos Tipo II — Los paneles sísmicos Tipo II deben cumplir con todos los requisitos para 
+paneles sísmicos Tipo I, excepto cuando sean modificados por los requisitos del literal F.4.A.5.2.2.3 y los del presente 
+literal F.4. A.5.2.4.2. 
+ 
+F.4.A.5.2.4.2.1 — Limitaciones adicionales — El sistema de resistencia sísmica del panel sísmico Tipo II debe cumplir 
+con los siguientes requisitos de (a) hasta (f): 
+ 
+(a) En cada extremo de un panel sísmico Tipo II debe haber un segmento de panel sísmico Tipo II, que cumpla con las 
+limitaciones de la relación de aspecto 
+
+h:w del literal F.4.A.3.5.2.3.1. Se permiten aberturas más allá de los extremos 
+del panel sísmico Tipo II; sin embargo, la longitud de tales aberturas no puede incluirse en la longitud del panel Tipo II.  
+(b) La resistencia nominal al corte, 
+n
+V , debe cumplir con un espaciamiento de tornillos de no menos de 100 mm entre 
+centros. 
+(c) Cuando se producen irregularidades de desface fuera del plano horizontal, las partes del panel sísmico a cada lado 
+del desface se deben designar como paneles sísmicos Tipo II separados. 
+(d) Se deben colocar colectores para transferencia de cortante para toda la longitud del panel sísmico Tipo II. 
+(e) Un panel sísmico Tipo II debe tener elevaciones uniformes en la parte superior y en la inferior del panel sísmico. 
+(f) La altura del panel sísmico Tipo II, h , no puede exceder 6.10 m. 
+ 
+F.4.A.5.2.4.2.2 — Resistencia requerida para parales de cordón, anclaje y colectores — El diseño de los colectores 
+que conectan segmentos de panel sísmico Tipo II y el anclaje en los extremos o entre segmentos de panel sísmico Tipo II 
+debe cumplir con los requisitos del presente literal F.4.A.5.2.4.2.2. 
+ 
+F.4.A.5.2.4.2.2.1 — Colectores que conectan segmentos de panel sísmico Tipo II en el plano — La fuerza cortante 
+unitaria, v, transmitida hacia la parte superior y fuera de la base de los segmentos con revestimiento de altura completa de 
+los paneles sísmicos Tipo II, y hacia los colectores (puntales de arrastre) que conectan segmentos de panel sísmico Tipo 
+II, se debe determinar de acuerdo con lo siguiente: 
+ 
+a
+i
+V
+v
+C
+L
+
+
+ 
+(F.4.A.5.2.4.2.2-1) 
+ 
+donde 
+ 
+v 
+= 
+fuerza cortante por unidad de longitud (kN / m) 
+
+-- PAGE 27 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+22 
+V 
+= 
+fuerza cortante en panel sísmico Tipo II (kN) 
+V se debe calcular de acuerdo con la resistencia esperada del segmento de panel sísmico, pero no debe exceder 
+el efecto de fuerza sísmica incluyendo sobrerresistencia. 
+ 
+Para paneles sísmicos con revestimiento de lámina de acero, la resistencia esperada se establece como el efecto de fuerza 
+sísmica incluyendo la sobrerresistencia como se define en el literal F.4.A.5.2.3.3. 
+ 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de la Tabla F.4.A.5.2.3.1.2-1 
+i
+L
+
+= suma de las longitudes de segmentos de panel sísmico Tipo II (m)  
+ 
+F.4.A.5.2.4.2.2.2 — Anclaje para el levantamiento y fuerzas de cordones de borde en los extremos de paneles 
+sísmicos Tipo II — Se deben colocar anclajes para las fuerzas de levantamiento debidas al volcamiento en cada extremo 
+del panel sísmico Tipo II, no solo en la cimentación, sino en todos los pisos de la edificación para garantizar la continuidad 
+en toda la altura del panel sísmico. Las fuerzas de levantamiento del anclaje y las fuerzas de los cordones de borde se 
+deben determinar de acuerdo con lo siguiente: 
+ 
+a
+i
+Vh
+C
+C
+L
+
+
+ 
+(F.4.A.5.2.4.2.2-2) 
+ 
+donde 
+ 
+C 
+= 
+fuerza en el cordón de borde (tracción/compresión) (kN) 
+V 
+= 
+fuerza cortante en el panel sísmico Tipo II (kN) 
+V se debe calcular de acuerdo con la resistencia esperada del segmento de panel sísmico, pero no es necesario 
+que exceda el efecto de fuerza sísmica, incluyendo sobrerresistencia. 
+h 
+= 
+altura del panel sísmico (m) 
+a
+C 
+= 
+factor de ajuste de resistencia al corte de acuedo con la Tabla F.4.A.5.2.3.1.2-1 
+i
+L
+
+= suma de las longitudes de segmentos de panel sísmico Tipo II (m) 
+ 
+F.4.A.5.2.4.2.2.3 — Levantamiento del anclaje entre extremos del panel sísmico Tipo II — Además de los requisitos 
+del literal F.4.A.5.2.4.2.2.2, las soleras de base del panel sísmico Tipo II, en lugares de revestimiento de altura completa, 
+deben anclarse para resistir una fuerza de levantamiento uniforme igual a la fuerza cortante unitaria, v, determinada de 
+acuerdo con el literal F.4.A.5.2.4.2.2.1. 
+ 
+F.4.A.5.2.4.2.3 — Deflexión de diseño — La deflexión de un panel sísmico de Tipo II se debe determinar de acuerdo con 
+los principios de mecánica estructural teniendo en cuenta la deformación del revestimiento y su fijación, los parales cordón, 
+el conector de anclaje de tracción y el anclaje. 
+ 
+F.4.A.5.3 — Sistemas de entramado de acero formado en frío con panel arriostrado con cintas. 
+ 
+F.4.A.5.3.1 — Alcance — Los sistemas de entramado de acero formado en frío con paneles arriostrados con cintas deben 
+diseñarse de acuerdo con los requisitos del presente literal F.4.A.5.3. 
+ 
+F.4.A.5.3.2 — Bases de diseño — Se espera que estos sistemas resistan las demandas sísmicas principalmente a través 
+de la fluencia a tracción a lo largo de la longitud de las cintas se arriostramiento. 
+ 
+F.4.A.5.3.2.1 — Mecanismo de disipación de energía esperado — El mecanismo de disipación de energía elegido debe 
+ser la fluencia de la cinta de arriostramiento. 
+ 
+F.4.A.5.3.2.2 — Parámetros de diseño sísmico para el sistema de resistencia sísmica — El coeficiente de disipación 
+de energía, R , se debe determinar de acuerdo con el Título A de NSR-10, con base en los parámetros dados en la Tabla 
+F.4.A.8.1. 
+ 
+F.4.A.5.3.2.3 — Efectos de fuerza sísmica debidos a muros de mampostería y concreto — Se permite el uso de 
+sistemas de entramado de acero formado en frío con panel arriostrado con cintas para proporcionar resistencia a las 
+fuerzas sísmicas en edificaciones con muros de mampostería o concreto, siempre que se cumplan los siguientes requisitos: 
+ 
+(a) La edificación tiene dos pisos o menos de altura. 
+
+-- PAGE 28 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+23 
+(b) Las alturas de los muros piso a piso no exceden 3.60 m. 
+(c) Los diafragmas dene ser considerados flexibles y no se encuentran en voladizo más allá del panel sísmico arriostrado 
+con cintas de soporte más externo. 
+(d) Las deflexiones combinadas de los diafragmas y paneles sísmicos no permiten que la deriva de piso de los muros de 
+concreto o mampostería soportados exceda los límites dados en la Tabla A.6.4.1 de la altura para las fuerrzas laterales 
+de diseño. 
+(e) No hay irregularidades de desplazamiento horizontal fuera del plano tal como se especifican en el Título A. 
+ 
+F.4.A.5.3.3 — Resistencia al Corte 
+ 
+F.4.A.5.3.3.1 — Resistencia Nominal — Para un panel sísmico arriostrado con cintas, la resistencia nominal al corte, Vn, 
+se debe determinar de acuerdo con lo siguiente: 
+ 
+2
+2
+n
+n
+V
+T w
+h
+w
+
+
+ 
+(F.4.A.5.3.3.1-1) 
+ 
+donde 
+ 
+h 
+= 
+altura del panel sísmico 
+w 
+= 
+longitud del panel sísmico 
+n
+T 
+= 
+resistencia nominal a fluencia del panel sísmico arriostrado con cintas 
+ 
+= 
+g
+y
+A F 
+(F.4.A.5.3.3.1-2) 
+g
+A 
+= 
+área bruta de la cinta plana 
+y
+F 
+= 
+esfuerzo de fluencia de la cinta plana 
+ 
+El mecanismo de disipación de energía elegido es la fluencia de la cinta. Otros estados límite de tracción tradicionales, 
+como la fractura neta de sección, se tratan en el literal F.4.A.5.3.4. 
+ 
+F.4.A.5.3.3.2 — Resistencia de diseño — La resistencia de diseño 
+
+v
+n
+V
+
+ se debe determinar con base en la resistencia 
+nominal utilizando el siguiente factor de resistencia: 
+ 
+v
+0.90
+
+ 
+ 
+F.4.A.5.3.3.3 — Resistencia esperada — La resistencia esperada [resistencia probable] debe ser 
+y
+g
+y
+R A F , donde 
+g
+A es 
+el área bruta de la cinta de arriostramiento. 
+ 
+F.4.A.5.3.4 — Requisitos del Sistema 
+ 
+F.4.A.5.3.4.1 — Limitaciones en el sistema — El sistema de entramado de acero formado en frío con paneles arriostrados 
+con cintas debe cumplir con los requisitos contenidos de (a) hasta (d) siguientes: 
+ 
+(a) La conexión de la cinta de arriostramiento con los miembros estructurales se debe diseñar de acuerdo con uno de los 
+tres métodos siguientes: 
+ 
+(1) Método 1 — La conexión se suelda y configura de tal manera que la fluencia de la sección transversal bruta de la 
+cinta de arriostramiento domine su resistencia. 
+ 
+(2) Método 2 — La conexión se configura de tal manera que la cinta de arriostramiento cumpla con los dos siguientes 
+criterios: 
+ 
+
+
+
+t
+u
+y
+y
+R F
+R F
+1.2
+
+ 
+(F.4.A.5.3.4.1-1) 
+y, 
+t
+n
+u
+y
+g
+y
+R A F
+R A F
+
+ 
+(F.4.A.5.3.4.1-2) 
+ 
+El cumplimiento se puede demostrar utilizando valores publicados o ensayando cupones. Sí se usan cupones de 
+ensayo para determinarlos, entonces 
+t
+R y 
+y
+R se deben tomar iguales a la unidad (1.0).  
+
+-- PAGE 29 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+24 
+ 
+(3) Método 3 — La conexión se configura de tal manera que la fluencia de la sección transversal bruta de la cinta de 
+arriostramiento bajo carga cíclica demuestra mediante ensayos que cumplan con el protocolo de carga dado en 
+ASTM E2126.  
+ 
+(b) Para paneles sísmicos arriostrados con cintas donde la relación de aspecto 
+
+h : w es superior a 1.9:1:  
+ 
+(1) Se debe llevar a cabo un análisis de pórtico lateral del panel sísmico arriostrado con cintas. El análisis de pórtico 
+debe cumplir con la suposición de uniones completamente rígidas. 
+ 
+(2) Al considerar el momento a lo largo de la longitud del paral cordón, las partes que estén rigidizadas por un conector 
+de anclaje de tracción o una fijación similar en los extremos no hay necesidad de que sean verificadas para carga 
+axial y flexión combinadas.  
+ 
+Con base en el análisis de pórtico, el paral cordón debe ser diseñado para carga axial y flexión combinadas para 
+la resistencia esperada del panel arriostrado con cintas, en combinación con todas las demás fuerzas aplicables, 
+de acuerdo con el literal F.4.A.5.3.4.2. 
+ 
+(c) Los requisitos del presente apéndice están basados en que hay pretensado u otros métodos de instalación de las 
+cintas de arriostramiento a tracción, de modo que se evite que haya cintas de arriostramiento flojas.  
+ 
+(d) Los parales cordón, u otros elementos de borde verticales en los extremos de los segmentos de panel sísmico con 
+cintas de arriostramiento, deben anclarse de manera tal que no se requiera que la canal inferior resista el levantamiento 
+por pandeo del alma de la canal. Cuando la canal no se diseña por compresión o tracción para resistir la fuerza de 
+cortante horizontal de la cinta de arriostramiento, la fuerza cortante horizontal debe ser resistida por un dispositivo 
+conectado directamente a la cinta de arriostramiento y anclado directamente a la cimentación o elemento estructural 
+de soporte.  
+ 
+F.4.A.5.3.4.3 — Resistencia requerida para el sistema de resistencia sísmica — Para colectores, conexiones de cintas 
+de arriostramiento, parales cordón, otros elementos de borde verticales, conectores de anclaje de tracción y anclaje 
+conectados a ellos, y todos los demás componentes y conexiones del panel sísmico arriostrado con cintas, la resistencia 
+requerida se debe determinar con base en la resistencia esperada del panel arriostrado con cintas, pero no hay necesidad 
+de que exceda el efecto de la carga determinado con base en las combinaciones de carga aplicables, incluyendo la fuerza 
+sísmica con sobrerresistencia. La resistencia de diseño de los colectores, conexiones de cintas de arriostramiento, parales 
+cordón, otros elementos de borde verticales, conectores de anclaje de tracción y anclaje conectados a ellos, y todos los 
+demás componentes y conexiones en el panel arriostrado con cintas debe ser mayor o igual a la resistencia requerida. 
+ 
+Se debe tener en cuenta en el diseño el efecto de la excentricidad sobre las resistencias requeridas [efecto debido a las 
+fuerzas mayoradas] para las conexiones, parales cordón, conectores de anclaje de tracción y el anclaje. 
+ 
+F.4.A.5.3.4.3 — Resistencia requerida para la cimentación — Para la cimentación, la resistencia requerida se debe 
+determinar con base en el efecto de fuerza sísmica y no es necesario incluir el factor de sobrerresistencia, 
+0
+, ni considerar 
+la resistencia esperada del sistema de resistencia sísmica, a no ser que así se exija en el Título A de NSR-10. 
+ 
+F.4.A.5.3.4.4 — Deflexión de diseño — La deflexión de un panel sísmico arriostrado con cintas se debe determinar 
+utilizando los principios de mecánica estructural teniendo en cuenta la deformación de la cinta, los parales cordón, los 
+conectores de anclaje de tracción y el anclaje. 
+ 
+F.4.A.5.4 — Pórticos resistentes a momento de acero formado en frío con empernado especial 
+ 
+F.4.A.5.4.1 — Alcance — Los sistemas de Pórtico Resistente a Momento de Acero Formado en Frío con Empernado 
+Especial (PRMEE-LFF) se deben diseñar de acuerdo con los requisitos del presente literal F.4.A.5.4. 
+ 
+F.4.A.5.4.2 — Bases de diseño — Se espera que los sistemas PRMEE-LFF resistan fricción inelástica y deformaciones 
+por aplastamiento en las conexiones pernadas de viga a columna. 
+ 
+F.4.A.5.4.2.1 — Mecanismo de disipación de energía especificado — El mecanismo de disipación de energía 
+especificado corresponde a la conexión de viga a columna. 
+ 
+
+-- PAGE 30 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+25 
+F.4.A.5.4.2.2 — Parámetros de diseño sísmico para el sistema resistencia sísmica — El coeficiente de disipación de 
+energía, R , se debe determinar de acuerdo con el Título A de NSR-10, con base en los parámetros dados en la Tabla 
+F.4.A.8-1. 
+ 
+F.4.A.5.4.2.3 — Efectos de fuerza sísmica debidos a muros de mampostería y concreto — No se permite que los 
+efectos de fuerza sísmica debidos a muros de mampostería y concreto sean resistidos por sistemas PRMEE-LFF. 
+ 
+F.4.A.5.4.3 — Resistencia — La resistencia nominal al corte se debe determinar de acuerdo con el literal F.4.1 del Título 
+F de NSR-10. 
+ 
+Cuando se requiera determinar la resistencia nominal al corte, para estados límite dentro del mismo miembro para el cual 
+se determina esa resistencia requerida, se puede utilizar el esfuerzo de fluencia esperado, 
+re
+cf
+y
+y
+R R R F , y la resistencia a 
+la tracción esperada, 
+t
+u
+R F , en lugar de 
+y
+F y 
+u
+F , respectivamente, donde 
+u
+F es la resistencia mínima a la tracción 
+especificada y 
+t
+R es la relación entre la resistencia a la tracción esperada y la resistencia mínima a la tracción especificada, 
+u
+F , de ese material. 
+ 
+F.4.A.5.4.3.1 — Resistencia requerida — La resistencia requerida al corte de la conexión se debe calcular por medio de 
+las combinaciones de carga utilizando el efecto de fuerza sísmica, incluyendo sobrerresistencia. Para determinar el efecto 
+de fuerza sísmica, incluyendo sobrerresistencia, el efecto de las fuerzas sísmicas horizontales, incluyendo 
+sobrerresistencia, 
+mh
+E
+, se debe calcular como se estipula en los literales F.4.A.5.4.3.1.1 y F.4.A.5.4.3.1.2. El efecto de la 
+fuerza sísmica horizontal, incluyendo sobrerresistencia, no hay necesidad que exceda 
+o
+h
+E
+
+. 
+ 
+F.4.A.5.4.3.1.1 — Vigas y Columnas — La resistencia requerida de vigas y columnas en los sistemas PRMEE-LFF se 
+debe determinar con base en el momento esperado desarrollado en la conexión pernada. El cortante esperado, 
+e
+V , se 
+debe determinar de acuerdo con el literal F.4.A.5.4.3.3. 
+ 
+F.4.A.5.4.3.1.2 — Placa portante pernada — Las placas portantes pernadas deben estar soldadas al alma de la viga y 
+se deben diseñadar para la siguiente resistencia a corte requerida, 
+bp
+V
+: 
+ 
+
+
+p
+e
+bp
+w
+p
+t
+V
+V
+N
+t
+t
+
+
+
+
+
+
+
+
+
+
+ 
+(F.4.A.5.4.3.1.2-1) 
+ 
+donde 
+ 
+pt 
+= 
+espesor de placa portante pernada 
+w
+t 
+= 
+espesor del alma de la viga 
+e
+V 
+= 
+resistencia esperada de la conexión pernada, según se determina en el literal F.4.A.5.4.3.3 
+N 
+= 
+1 para vigas de canal simple 
+ 
+= 
+2 para vigas de canal doble. 
+ 
+F.4.A.5.4.3.2 — Resistencia de diseño — La resistencia de diseño al corte se debe determinar con base en la resistencia 
+nominal utilizando los factores de resistencia aplicables dados en el literal F.4.1 de NSR-10. 
+ 
+F.4.A.5.4.3.3 — Resistencia esperada — La resistencia esperada al corte, 
+e
+V , se determinará así:  
+ 
+e
+S
+B
+V
+V
+V
+
+
+ 
+(F.4.A.5.4.3.3-1) 
+ 
+donde 
+ 
+S
+V 
+= 
+cortante de columna correspondiente a la resistencia al deslizamiento del grupo de pernos 
+B
+V 
+= 
+componente portante de la conexión del cortante de la columna que corresponde al desplazamiento,  
+ 
+(1) Componente de deslizamiento del cortante de la columna, 
+S
+V 
+
+-- PAGE 31 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+26 
+ 
+El valor de 
+S
+V se determinará de la siguiente manera: 
+ 
+S
+S
+V
+C kNT h
+
+ 
+(F.4.A.5.4.3.3-2) 
+ 
+donde 
+ 
+S
+C = 
+valor de la Tabla F.4.A.5.4.3.3-1 
+k 
+= 
+coeficiente de deslizamiento 
+ 
+= 
+0.33 
+N 
+= 
+1 para vigas de canal simple 
+ 
+= 
+2 para vigas de canal doble 
+T 
+= 
+44.5 kN para pernos de 25.4 mm de diámetro, a menos que el uso de un valor superior sea aprobado 
+h 
+= 
+altura desde la base de la columna al eje central de la viga, m 
+ 
+(2) Componente portante del cortante de la columna, 
+B
+V , 
+ 
+El valor de 
+B
+V se determinará de la siguiente manera: 
+ 
+B
+B
+B,max
+B,max
+V
+1
+1
+V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+(F.4.A.5.4.3.3-3) 
+ 
+donde 
+ 
+B,max
+V
+ = cortante de columna que produce la resistencia portante de un grupo de pernos 
+ 
+= 
+B
+0
+C NR
+h 
+(F.4.A.5.4.3.3-4) 
+ 
+= 
+deriva de piso de diseño 
+B
+ = 
+componente de la deriva de piso de diseño que causa deformación portante en un grupo de pernos 
+ 
+n
+e,i
+i 1
+i
+s
+M
+h
+0
+K
+
+
+
+
+
+
+
+
+
+
+ 
+(F.4.A.5.4.3.3-5) 
+ 
+B,max
+
+ = componente de la deriva de piso de diseño que corresponde a la deformación del grupo de pernos en la 
+máxima resistencia portante 
+ 
+= 
+B,0
+DB
+C
+C
+h 
+(F.4.A.5.4.3.3-6) 
+S
+ = 
+componente de la deriva de piso de diseño que corresponde a la deformación por deslizamiento de los pernos 
+ 
+= 
+DS
+OS
+C
+h
+h 
+(F.4.A.5.4.3.3-7) 
+B
+C , 
+DS
+C
+ y 
+B,0
+C
+ = valores de la tabla F.4.A.5.4.3.3-1 
+DB
+C
+ = 
+valor de la tabla F.4.A.5.4.3.3-2 
+OS
+h
+ = 
+agrandamiento del agujero, mm 
+K = 
+rigidez lateral elástica de la línea de pórticos 
+e
+M = 
+momento esperado en un grupo de pernos 
+n 
+= 
+número de columnas en una línea de pórticos 
+0
+R = 
+menor valor de 
+t
+t
+u
+d R F de los componentes conectados 
+u
+F = 
+resistencia a la tracción de componentes conectados 
+t 
+= 
+espesor del componente conectado 
+t
+R = 
+relación entre la resistencia a la tracción esperada y la resistencia mínima a la tracción especificada. 
+ 
+ 
+ 
+
+-- PAGE 32 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+27 
+Tabla F.4.A.5.4.3.3-1 — Valores de Coeficientes 
+S
+C , 
+DS
+C
+, 
+B
+C y 
+B,0
+C
+ 
+Espaciamiento de pernos, mm 
+S
+C (m) 
+DS
+C
+ (1/m) 
+B
+C (m) 
+B,0
+C
+ (mm/m) 
+a 
+b 
+C 
+63.5 
+76.2 
+107.9 
+0.72 
+17.12 
+1.28 
+73.89 
+76.2 
+152.4 
+1.01 
+11.84 
+1.79 
+52.07 
+76.2 
+254 
+1.38 
+8.36 
+2.37 
+39.57 
+63.5 
+76.2 
+158.7 
+0.86 
+15.28 
+1.55 
+65.98 
+76.2 
+152.4 
+1.12 
+11.28 
+2.00 
+48.90 
+76.2 
+254 
+1.46 
+8.46 
+2.59 
+37.90 
+ 
+ 
+ 
+Tabla F.4.A.5.4.3.3-2 — Factor de Ajuste de Deformación Portante 
+DB
+C
+ 
+Resistencia Portante 
+Relativa, 
+BS
+R
+ 
+0.0 
+0.4 
+0.5 
+0.6 
+0.7 
+0.8 
+0.9 
+1.0 
+DB
+C
+ 
+1.00 
+1.10 
+1.16 
+1.23 
+1.33 
+1.46 
+1.66 
+2.00 
+Donde: 
+Resistencia portante relativa 
+
+
+
+
+
+
+más débil
+más fuerte
+BS
+u
+u
+R
+tF
+tF
+
+, donde los componentes más débiles corresponden 
+a aquellos con un valor de 
+u
+tF más pequeño. 
+t = espesor del componente viga o columna 
+uF = resistencia a la tracción de la viga o columna 
+ 
+F.4.A.5.4.4 — Requisitos del sistema — Los sistemas PRMEE-LFF se ajustarán a los requisitos del presente literal. 
+ 
+F.4.A.5.4.4.1 — Limitaciones en el sistema — Los sistemas PRMEE-LFF deben cumplir los siguientes requisitos: 
+ 
+(a) Los sistemas PRMEE-LFF están limitados a estructuras de un piso, no mayores a 10.7 m de altura, sin empalmes en 
+columnas. 
+(b) El PRMEE-LFF conecta todas las columnas. 
+(c) Todas las columnas se diseñan y construyen como simplemente apoyadas en la base. 
+(d) Se deben usar tanto una viga de longitud y tamaño único, como una columna de longitud y tamaño único con el mismo 
+detalle de conexión pernada a momento para cada pórtico. 
+(e) El pórtico debe estar soportado a nivel de piso o de cimiento. 
+(f) Los efectos P  se deben considerar de acuerdo con los requisitos del Título A. 
+ 
+F.4.A.5.4.4.2 — Vigas — Las vigas en el sistema PRMEE-LFF debe cumplir con los siguientes requisitos de (a) hasta (e): 
+ 
+(a) Deben ser miembros de acero formado en frío galvanizados NTC 4011 Estructural Grado 55 de sección en C con 
+pestañas, diseñados de acuerdo con el literal F.4.1.3 de NSR-10. 
+(b) Deben tener un espesor de diseño mínimo de 2.67 mm. 
+
+-- PAGE 33 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+28 
+(c) El ancho de la viga no debe ser inferior a 305 mm ni superior a 510 mm. 
+(d) La relación ancho plano a espesor del alma no debe exceder de 
+y
+6.18 E F 
+(e) Cuando se usan vigas de sección en C simples, los efectos de torsión se deben tener en cuenta en el diseño. 
+ 
+F.4.A.5.4.4.3 — Columnas — Las columnas en el sistema PRMEE-LFF deben cumplir con los siguientes requisitos: 
+ 
+(a) Deben ser miembros de sección perfil tubular estructural (PTE) de acero formado en frío, pintados con una superficie 
+de acabado industrial estándar, y diseñados de acuerdo con el literal F.4.1.3 de NSR-10. Está permitido que las 
+columnas PTE sean de materiales NTC 4526 Grados B y C y ASTM A1085. 
+(b) El ancho y largo de la sección de la columna no deben ser inferiores a 203 mm ni superiores a 305 mm. 
+(c) La relación ancho plano a espesor no debe exceder 
+y
+1.40 E F 
+ 
+F.4.A.5.4.4.4 — Conexiones, uniones y sujetadores — Las conexiones, uniones y sujetadores que forman parte del 
+sistema de resistencia sísmica deben cumplir con los requisitos de F.4.1, excepto lo que se modifique en el presente literal. 
+ 
+Las conexiones para los miembros que forman parte del sistema de resistencia sísmica se deben configurar de tal manera 
+que un estado límite dúctil, en el miembro o en la unión, controle el diseño. 
+ 
+F.4.A.5.4.4.4.1 — Uniones pernadas — Los pernos deben ser pernos de alta resistencia. Las uniones pernadas no deben 
+diseñarse para compartir cargas en combinación con soldaduras. La resistencia portante de uniones pernadas se deben 
+proporcion diseñar utilizando perforaciones estándar o perforaciones de ranura corta perpendiculares a la línea de la fuerza. 
+ 
+F.4.A.5.4.4.4.1.1 — Conexiones de viga a columna — Las conexiones de viga a columna en los sistemas de pórtico 
+resistentes a momento de acero formado en frío con empernado especial (PRMEE-LFF) deben cumplir con los requisitos 
+de (a) hasta (d) siguientes: 
+ 
+(a) Las conexiones de viga a columna deben ser pernadas con pernos de alta resistencia con apriete ajustado de 1 pulgada 
+(25.4 mm) de diámetro. 
+(b) El espaciamiento entre pernos y la distancia al borde deben cumplir límites del literal F.4.1.5.3 de NSR-10. 
+(c) Se debe usar la configuración de 8 pernos de la Tabla A.4.A.5.4.3.1-1. 
+(d) Las superficies de contacto de la viga y la columna en la región de conexión pernada a momento deben estar libres de 
+lubricantes o desechos. 
+ 
+F.4.A.5.4.4.4.1.2 — Placas portantes pernadas — Las placas portantes pernadas en los sistemas PRMEE-LFF deben 
+cumplir con los requisitos de (a) hasta (c): 
+ 
+(a) Se permite el uso de placas portantes pernadas en el alma de la viga en sistemas PRMEE-LFF para aumentar la 
+resistencia portante del perno. 
+(b) Las placas portantes pernadas deben estar soldadas al alma de la viga. 
+(c) La distancia al borde de los pernos debe estar de acuerdo con los límites del literal F.4.1.5.3 de NSR-10. 
+ 
+F.4.A.5.4.4.4.2 — Uniones soldadas — Se permiten las uniones soldadas para unir miembros que forman parte del 
+sistema de resistencia sísmica, de acuerdo con F.4.1 de NSR-10. 
+ 
+F.4.A.5.4.4.4.3 — Otras uniones y conexiones — Se permiten uniones y conexiones alternativas si se demuestra un 
+desempeño equivalente al de las uniones aprobadas. 
+ 
+F.4.A.5.5 — Paneles sísmicos con entramado liviano de acero formado en frío, con placas de yeso o paneles de 
+fibra 
+ 
+F.4.A.5.5.1 — Alcance — Los paneles sísmicos con entramado liviano de acero formado en frío con placas de yeso o 
+paneles de fibra (fiberboard) deben diseñarse de acuerdo con los requisitos del presente literal. 
+ 
+F.4.A.5.5.2 — Bases de diseño — Se espera que los paneles sísmicos de este tipo resistan las demandas sísmicas 
+principalmente a través de la deformación en la conexión entre el revestimiento y los miembros estructurales de acero 
+formado en frío. 
+ 
+F.4.A.5.5.2.1 — Mecanismo de disipación de energía elegido — La conexión de los miembros estructurales al 
+revestimiento y el revestimiento en sí mismo son el mecanismo de disipación de energía elegido en este sistema. 
+
+-- PAGE 34 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+29 
+ 
+F.4.A.5.5.2.2 — Parámetros de diseño sísmico para el sistema de resistencia sísmica — El coeficiente de disipación 
+de energía, R , se debe determinar de acuerdo con el Título A de NSR-10, con base en los parámetros dados en la Tabla 
+F.4.A.8.1. 
+ 
+F.4.A.5.5.2.3 — Paneles sísmicos Tipo I — El diseño de los paneles sísmicos que resistan fuerzas sísmicas se debe 
+clasificar como paneles sísmicos Tipo I de acuerdo con los requisitos del presente literal. 
+ 
+Los paneles sísmicos Tipo I deben revestirse en toda la altura con conectores de anclaje de tracción y anclaje en cada 
+extremo. 
+ 
+F.4.A.5.5.2.4 — Efectos de fuerzas sísmicas debidos a muros de mampostería y concreto — Los paneles sísmicos 
+con entramado liviano de acero formado en frío revestidos con placas de yeso o paneles de fibra no se deben utilizar para 
+proporcionar resistencia ante las fuerzas sísmicas de los muros de mampostería o de concreto. 
+ 
+F.4.A.5.5.3 — Resistencia al Corte  
+ 
+F.4.A.5.5.3.1 — Resistencia Nominal 
+ 
+F.4.A.5.5.3.1.1 — Paneles sísmicos Tipo I — Para un panel sísmico Tipo I revestido con paneles de placa de yeso o 
+paneles de fibra, la resistencia nominal al corte, 
+n
+V , se debe determinar de acuerdo con lo siguiente: 
+ 
+Para h w
+2
+
+, 
+ 
+n
+n
+V
+v w
+
+ 
+(F.4.A.5.5.3.1.1-1) 
+ 
+donde 
+ 
+h 
+= 
+altura del panel sísmico, m 
+w 
+= 
+longitud del panel sísmico, m 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud como se especifica en la Tabla F.4.A.5.5.3-1 kN/m 
+ 
+En ningún caso la relación de aspecto altura-longitud 
+
+h : w puede superar 2:1 para un panel sísmico Tipo I revestido con 
+paneles de placa de yeso o a 1:1 para un panel sísmico Tipo I revestido con paneles de fibra. 
+ 
+La longitud de un panel sísmico de Tipo I no debe ser inferior a 610 mm. 
+ 
+F.4.A.5.5.3.1.1.1 — Ambas caras del panel sísmico revestidas con el mismo material y espaciado de sujetadores 
+— Para un panel sísmico Tipo I revestido con paneles de placa de yeso o paneles de fibra que tengan el mismo material y 
+espaciamiento de sujetadores en caras opuestas del mismo panel sísmico, la resistencia nominal, calculada con base en 
+la Tabla A.4.A.5.5.3-1, se debe determinar sumando la resistencia de las dos caras opuestas juntas. 
+ 
+F.4.A.5.5.3.1.1.2 — Más de un material de revestimiento individual o configuración de sujetadores — En un panel 
+sísmico de Tipo I revestido con paneles de placa de yeso o paneles de fibra que tenga más de un material de revestimiento 
+individual o espaciamiento de sujetadores, la resistencia nominal del panel sísmico completo, calculada con base en la 
+Tabla F.4.A.5.5.3-1, no se permite que se determine sumando la resistencia de los diferentes paneles individuales. Por el 
+contrario, se debe determinar de acuerdo con los requisitos del presente literal. 
+ 
+Para un panel sísmico Tipo I revestido con paneles de placa de yeso o paneles de fibra que tenga más de un material de 
+revestimiento individual o más de una configuración de sujetadores a lo largo de una cara de la misma línea del panel 
+sísmico, la resistencia nominal se debe determinar bien sea suponiendo que el material o configuración de sujetadores 
+más débil (menor resistencia nominal) existe en a toda la longitud del panel sísmico, o que el material o configuración de 
+sujetadores más fuerte (mayor resistencia nominal) existe para su propia longitud, la que sea mayor. 
+ 
+Para un panel sísmico Tipo I revestido con paneles de placa de yeso o paneles de fibra que tenga más de un material de 
+revestimiento individual o configuración de sujetadores en caras opuestas del panel sísmico, se debe calcular la resistencia 
+nominal suponiendo que el material o configuración de sujetadores más débil existe para ambas caras del panel sísmico, 
+o que el material o la configuración de sujetadores más fuerte existe solamente en su propia cara, cualquiera que sea 
+mayor. 
+
+-- PAGE 35 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+30 
+ 
+F.4.A.5.5.3.2 — Resistencia de diseño — La resistencia de diseño 
+
+v
+n
+V
+
+ se debe determinar con base en la resistencia 
+nominal utilizando el siguiente factor de resistencia: 
+ 
+v
+0.60
+
+ 
+ 
+Tabla F.4.A.5.5.3-1 — Resistencia nominal al corte 
+
+n
+v
+por unidad de longitud para fuerzas sísmicas en paneles 
+sísmicos revestidos con paneles de placa de yeso o paneles de fibra en un lado del panel1,2 (kN/m) 
+Descripción del Ensamblaje 
+Máxima 
+relación 
+de 
+aspecto 
+
+
+h :w 
+Espaciamiento de los sujetadores en los 
+bordes/cuerpo del panel (mm) 
+Espesor 
+especificado 
+del paral y la 
+canal (mm) 
+Tamaño 
+requerido de 
+los tornillos 
+del 
+revestimiento 
+7/7 
+4/4 
+4/12 
+8/12 
+4/6 
+3/6 
+2/6 
+Placa de yeso de 12.7 mm; 
+parales a máx. 610 mm entre 
+centros. 
+2:1 
+4.23 
+6.20 
+4.31 
+3.36 
+- 
+- 
+- 
+0.838 
+6 
+Panel de fibra de 12.7 mm; 
+parales a máx. 609 mm entre 
+centros. 
+1:1 
+- 
+- 
+- 
+- 
+6.20 
+8.98 
+9.78 
+0.838 
+8 
+(1) Debe consultarse el literal F.4.A.5.5.3.1.1.1 y el literal F.4.A.5.5.3.1.1.2 para conocer los requisitos de revestimiento aplicados a ambos 
+lados del panel sísmico. 
+(2) Para paneles sísmicos revestidos con placas de yeso o paneles de fibra, los valores tabulados son aplicables solamente para una duración 
+de la fuerza de corto plazo (fuerzas sísmicas). 
+ 
+F.4.A.5.5.3.3 — Resistencia esperada — La resistencia esperada 
+E
+n
+V
+
+, debe determinarse con base en la resistencia 
+nominal de acuerdo con el presente literal. El factor de resistencia, 
+E
+, debe ser igual a 1.5 para los paneles sísmicos con 
+revestimiento de paneles de yeso o de fibra. 
+ 
+F.4.A.5.5.4 — Requisitos del sistema 
+ 
+F.4.A.5.5.4.1 — Paneles sísmicos Tipo I 
+ 
+F.4.A.5.5.4.1.1 — Limitaciones para los sistemas tabulados — El sistema de resistencia sísmica de los paneles 
+sísmicos Tipo I definido en la Tabla F.4.A.5.5.3-1 debe cumplir con los requisitos de (a) hasta (s) siguientes: 
+ 
+(a) Los parales y las canales del panel sísmico deben ser de acero ASTM A1003 Estructural Grado 33 (Grado 230) Tipo 
+H para miembros con un espesor especificado de 0.84 mm y 1.09 mm, y acero ASTM A1003 Estructural Grado 50 
+(Grado 340) Tipo H para miembros con un espesor especificado igual o mayor a 1.37 mm. 
+(b) Los parales deben ser miembros con forma en C con un ancho de aleta mínimo de 41 mm, un ancho mínimo del alma 
+de 89 mm y un atiesador de borde mínimo de 9.5 mm. 
+(c) La canal debe tener un ancho mínimo de aleta de 32 mm y un ancho mínimo del alma de 89 mm. 
+(d) Los parales cordón u otros elementos de borde verticales en los extremos de los segmentos de panel sísmico 
+arriostrados con revestimientos, deben estar anclados de manera tal que no se requiere que la canal inferior resista el 
+levantamiento por pandeo del alma de la canal. 
+(e) Los tornillos para miembros estructurales deben ser mínimo No. 8 y cumplir con ASTM C1513. 
+(f) Los sujetadores a lo largo de los bordes de paneles se instalarán desde los bordes del panel a no menos de 9.5 mm 
+(g) Los sujetadores en el cuerpo del panel se instalarán a 300 mm entre centros a menos que se especifique algo diferente. 
+(h) Los espesores del panel se tomarán como mínimos. 
+(i) No se permiten paneles de menos de 300 mm de ancho. 
+(j) El espaciamiento máximo entre parales debe ser 610 mm entre centros. 
+(k) Todos los bordes del revestimiento deben unirse a miembros estructurales o a rigidizadores de panel. 
+(l) Cuando se use como rigidizador de panel, la cinta plana debe tener un espesor mínimo de 0.84 mm con un ancho 
+mínimo de 38 mm y estar instalada debajo del revestimiento. 
+(m) Los paneles de placa de yeso deben cumplir con ASTM C1396/C1396M. 
+(n) En los paneles de yeso que se instalan perpendiculares a los parales, se debe utilizar una cinta plana como rigidizador 
+de panel detrás de la unión horizontal con un rigidizador en línea entre los dos primeros parales de los extremos, en 
+cada extremo del panel sísmico. El rigidizador en línea debe tener una sección de paral o de canal con el mismo ancho 
+de alma y espesor mínimo de los parales. El rigidizador en línea debe sujetarse a cada paral por lo menos con un 
+tornillo No. 8. En los paneles de placa de yeso que se instalan paralelos a los parales, todos los bordes del panel se 
+
+-- PAGE 36 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+31 
+deben sujetar a los miembros estructurales. Se permiten ensamblajes sin rigidizador siempre que los valores de 
+resistencia nominal se multipliquen por 0.35. 
+(o) Los tornillos utilizados para sujetar paneles de yeso deben cumplir con ASTM C954 ó ASTM C1002, según 
+corresponda. 
+(p) Los paneles de fibra deben cumplir con ASTM C208. 
+(q) En los paneles de fibra que se instalan perpendiculares a los parales, se debe utilizar una cinta plana como rigidizador 
+del panel detrás de la unión horizontal y con rigidizador en línea entre los dos primeros parales de los extremos, en 
+cada extremo del panel sísmico. El rigidizador en línea debe ser tener una sección de paral o de canal con el mismo 
+ancho de alma y espesor mínimo de los parales. El rigidizador en línea sedebe sujetar a cada paral como mínimo con 
+un tornillo No. 8. En los paneles de fibra instalados paralelos a los parales, todos los bordes deben estar sujetados a 
+los miembros estructurales. 
+(r) Los tornillos utilizados para sujetar paneles de fibra deben cumplir con la norma ASTM C1513. El estilo de cabeza se 
+debe seleccionar para proveer una superficie de apoyo plana en contacto con el revestimiento con un diámetro de 
+cabeza no menor de10.9 mm. Los tornillos deben sujetarse de modo que su superficie de apoyo plana quede alineada 
+con la superficie del revestimiento. 
+(s) La resistencia a la extracción de los tornillos no se debe tener en cuenta para resistir las fuerzas sísmicas. 
+ 
+F.4.A.5.5.4.1.2 — Resistencia requerida para parales cordón, anclajes y colectores — En los colectores, parales 
+cordón, otros elementos de borde verticales, conectores de anclaje de tracción y anclajes conectados a ellos, y todos los 
+demás componentes y conexiones del panel sísmico que no sean parte del mecanismo de disipación de energía elegido, 
+la resistencia requerida se debe determinar con base en la resistencia esperada del panel sísmico, pero no hay necesidad 
+de exceder el efecto de carga determinado con base en las combinaciones de carga aplicables, incluyendo la fuerza sísmica 
+con sobrerresistencia. La resistencia de diseño de los colectores, parales cordón, otros elementos de borde verticales, 
+conectores de anclaje de tracción y anclaje conectados a ellos, y todos los demás componentes y conexiones en el panel 
+sísmico debe ser mayor o igual a la resistencia requerida. 
+ 
+F.4.A.5.5.4.1.3 — Resistencia requerida para cimientos — En los cimientos, la resistencia requerida se debe determinar 
+con base en el efecto de fuerza sísmica y no es necesario incluir el factor de sobrerresistencia 
+
+o
+
+ ni tener en cuenta la 
+resistencia esperada del sistema de resistencia sísmica. 
+ 
+F.4.A.5.5.4.1.4 — Deflexión de diseño — La deflexión de un panel sísmico Tipo I se debe determinar utilizando los 
+principios de mecánica estructural teniendo en cuenta la deformación del revestimiento y su fijación, los parales cordón, el 
+conector de anclaje de tracción y los anclajes. 
+ 
+F.4.A.6 — DIAFRAGMAS 
+ 
+F.4.A.6.1 — Generalidades 
+ 
+F.4.A.6.1.1 — Alcance — El diseño de diafragmas que resisten fuerzas sísmicas debe cumplir con los requisitos de este 
+literal. 
+ 
+F.4.A.6.1.2 — Bases de diseño — Los diafragmas trabajan para captar y distribuir fuerzas inerciales al sistema de 
+resistencia sísmica y no se consideran destinados a desempeñarse como un mecanismo de disipación de energía. 
+ 
+F.4.A.6.1.3 — Resistencia Requerida — Para efectos de determinar la resistencia requerida, el diafragma se debe 
+designar como rígido o flexible según lo especificado en A.3.6 de NSR-10. Cuando se requiera tener en cuenta la rigidez 
+para el análisis, esta se debe determinar utilizando las propiedades mecánicas del diafragma. 
+ 
+F.4.A.6.1.3.1 — Rigidez del Diafragma — La rigidez del diafragma se debe determinar con base en lo especificado en el 
+literal A.3.6.8 de NSR-10 o por medio de un análisis racional de ingeniería. Un enfoque conservador consiste en calcular la 
+resistencia requerida suponiendo primero un diafragma rígido y luego un diafragma flexible, tomando el escenario del peor 
+caso entre los dos. 
+ 
+F.4.A.6.1.3.2 — Efectos de carga sísmica, incluyendo sobrerresistencia — De acuerdo con el literal A.3.7.1 de NSR-
+10, se deben considerar los efectos de fuerza sísmica incluyendo el coeficiente de sobrerresistencia, cuando sea requerido. 
+ 
+F.4.A.6.1.4 — Resistencia al corte. 
+ 
+F.4.A.6.1.4.1 — Resistencia nominal — La resistencia al corte de los diafragmas se debe determinar con base en los 
+principios de mecánica estructural teniendo en cuenta la resistencia de los sujetadores y la resistencia al corte del material 
+
+-- PAGE 37 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+32 
+del diafragma. Cuando se haya determinado de acuerdo con los principios de la mecánica, la resistencia nominal debe 
+considerarse como la resistencia máxima que el diafragma sea capaz de desarrollar. 
+ 
+F.4.A.6.1.4.1.1 — Diafragmas revestidos con paneles estructurales de madera — Alternativamente para diafragmas 
+revestidos con paneles estructurales de madera, se permite determinar la resistencia nominal de acuerdo el literal F.4.A. 
+6.2. 
+ 
+F.4.A.6.1.4.2 — Resistencia de diseño — La resistencia de diseño 
+
+v
+n
+V
+
+ se debe determinar con base en la resistencia 
+nominal utilizando los factores de resistencia aplicables dados en el literal F.4.1 de NSR-10 para diafragmas revestidos 
+con paneles de acero, y en el literal F.4.A.6.2.4.2 del presente apéndice para diafragmas revestidos con paneles 
+estructurales de madera. 
+ 
+F.4.A.6.2 — Diafragmas de acero formado en frío revestidos con paneles estructurales de madera 
+ 
+F.4.A.6.2.1 — Alcance — Cuando el sistema de resistencia sísmica se diseñe y construya de acuerdo con el literal F.4.A.5 
+y el diafragma este compuesto por un entramado liviano de acero formado en frío revestido con paneles estructurales de 
+madera, el diafragma debe diseñarse de acuerdo con los requisitos del presente literal F.4.A.6.2. 
+ 
+F.4.A.6.2.2 — Requisitos de diseño adicionales 
+ 
+F.4.A.6.2.2.1 — Requisitos de detallado sísmico — Cuando el coeficiente de disipación de energía aplicable, R , dado 
+en la Tabla F.4.A.8.1, sea igual o menor de 3, el diseño debe cumplir con los siguientes requisitos, excluyendo los dados 
+en el literal F.4.A.6.2.5. 
+ 
+Cuando el coeficiente de disipación de energía aplicable, R sea mayor de 3, el diseño debe cumplir con estos requisitos, 
+incluidos los del literal F.4.A.6.2.5. 
+ 
+F.4.A.6.2.2.2 — Efectos de carga sísmica debidos a muros de mampostería y de concreto — Se permite utilizar 
+miembros de pisos y cubiertas de acero formado en frío revestidos con paneles estructurales de madera en diafragmas 
+para resistir fuerzas sísmicas horizontales debidas a muros de mampostería o de concreto en estructuras de dos pisos o 
+menos de altura, siempre que tales fuerzas no resulten en fuerzas torsionales distribuidas a través del diafragma. 
+ 
+El revestimiento de panel estructural de madera en diafragmas que soportan muros de mampostería o de concreto deben 
+tener rigidizados todos los bordes sin soporte. 
+ 
+F.4.A.6.2.3 — Resistencia requerida — La resistencia requerida de los diafragmas y los cordones del diafragma deben 
+con lo prescrito en el Título A de NSR-10. La resistencia requerida para colectores se debe determinar a partir de la 
+resistencia esperada del sistema de resistencia sísmica, pero no es necesario que exceda el efecto de fuerza sísmica, 
+incluyendo la sobrerresistencia. 
+ 
+F.4.A.6.2.3.1 — Rigidez del diafragma — La rigidez para diafragmas de acero formado en frío, revestidos con paneles 
+estructurales de madera se debe determinar con base en lo especificado en el Título A de NSR-10, o por medio de un 
+análisis racional de ingeniería. 
+ 
+F.4.A.6.2.4 — Resistencia al Corte 
+ 
+F.4.A.6.2.4.1 — Resistencia nominal — La resistencia nominal de los diafragmas revestidos con paneles estructurales 
+de madera debe calcularse con la ecuación F.4.A.6.2.4.1-1 cumpliendo con los requisitos del literal F.4.A.6.2.4.1.1. 
+ 
+n
+n
+V
+v L
+
+ 
+(F.4.A.6.2.4.1-1) 
+ 
+donde 
+ 
+L 
+= 
+longitud del diafragma que resiste, en m 
+n
+v 
+= 
+resistencia nominal al corte por unidad de longitud como se especifica en la Tabla F.4.A.6.2.4-1, kN/m 
+ 
+F.4.A.6.2.4.1.1 — Requisitos para los sistemas tabulados — Los siguientes requisitos (a) hasta (o) se deben cumplir en 
+los diafragmas revestidos con paneles estructurales de madera: 
+ 
+
+-- PAGE 38 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+33 
+(a) La relación de aspecto (longitud: ancho) del diafragma no debe superar 4:1 para diafragmas con rigidizador y 3:1 para 
+diafragmas sin rigidizador. 
+(b) Las viguetas y las canales deben ser de acero ASTM A1003 Estructural Grado 33 (Grado 230) Tipo H para miembros 
+con un espesor especificado de 0.84 mm y 1.09 mm, y de acero ASTM A1003 Estructural Grado 50 (Grado 340) Tipo 
+H para miembros con un espesor especificado igual o mayor a 1.372 mm. 
+(c) El mínimo espesor especificado de los miembros estructurales es 0.84 mm. 
+(d) Las viguetas deben ser miembros con forma en C con un ancho mínimo de aleta de 41 mm, un ancho mínimo del alma 
+de 89 mm y un atiesador de borde mínimo de 9.5 mm. 
+(e) La canal debe tener un ancho mínimo de aleta de 32 mm y un ancho mínimo del alma de 89 mm. 
+(f) Los tornillos para miembros estructurales serán mínimo No.8 y deben cumplir con ASTM C1513. 
+(g) El revestimiento en panel estructural de madera se debe fabricar utilizando pegamento exterior y debe cumplir con 
+DOC PS-1 y DOC PS-2. 
+(h) Los tornillos utilizados para sujetar paneles estructurales de madera deben ser mínimo No.8 donde los miembros 
+estructurales tienen un espesor especificado de 1.37 mm o menos y No. 10 donde los miembros estructurales tienen 
+un espesor especificado mayor a 1.37 mm y cumplen con ASTM C1513. 
+(i) Los tornillos en el cuerpo del panel deben contar con soportes intermedios y espaciados a un máximo de 300 mm a lo 
+largo del miembro estructural. 
+(j) No se permite utilizar paneles de menos de 300 mm de ancho. 
+(k) El espaciamiento máximo entre viguetas no puede exceder 610 mm entre centros. 
+(l) Cuando los diafragmas se diseñen con rigidizador, todos los bordes del panel deben estar sujetos a los miembros 
+estructurales o al rigidizador de panel. 
+(m) Cuando se usa como rigidizador, la cinta plana debe tener un espesor mínimo de 0.84 mm con un ancho mínimo de 
+38 mm y se deben instalar debajo del revestimiento. 
+(n) Cuando los diafragmas se diseñan con rigidizador, los tornillos se deben instalar a través del revestimiento hasta el 
+rigidizador. 
+(o) Los sujetadores que se instalen a lo largo de los bordes en paneles de corte se deben instalar a no menos de 9.5 mm 
+medidos desde el borde del panel. 
+ 
+F.4.A.6.2.4.2 — Resistencia de diseño — La resistencia de diseño 
+
+v
+n
+V
+
+ se debe determinar con base en la resistencia 
+nominal utilizando el siguiente factor de resistencia: 
+ 
+v
+0.60
+
+ 
+ 
+F.4.A.6.2.4.3 — Deflexión de diseño — La deflexión de un diafragma con revestimiento en panel estructural de madera, 
+que se indica en la Tabla F.4.A.6.2.4-1, se debe determinar utilizando los principios de mecánica teniendo en cuenta la 
+deformación del revestimiento y su fijación, los cordones y los colectores. 
+ 
+Tabla F.4.A.6.2.4-1 — Resistencia nominal al corte 
+
+n
+v
+ por unidad de longitud para diafragmas revestidos con 
+paneles estructurales de madera1 (kN/m) 
+Revestimiento 
+Espesor 
+(mm) 
+Con Rigidizador 
+Sin Rigidizador 
+Espaciamiento de los tornillos en los 
+bordes del contorno del diafragma y en 
+todos los bordes de paneles continuos 
+(mm) 
+Tornillos espaciados a un máximo de 
+152.4 mm en todos los bordes 
+soportados 
+150 
+100 
+65 
+50 
+Carga perpendicular 
+a bordes sin 
+rigidizador y a las 
+juntas de paneles 
+continuos 
+Todas las demás 
+configuraciones 
+Espaciamiento de los tornillos en todos 
+los otros bordes del panel (mm) 
+152 
+152 
+102 
+76 
+ 
+Estructural I 
+9.52 
+11.2 
+14.9 
+24.2 
+29.8 
+10.0 
+7.4 
+11.11 
+11.2 
+16.5 
+26.3 
+32.9 
+11.0 
+8.3 
+11.90 
+13.5 
+18.0 
+28.8 
+36.0 
+12.0 
+9.0 
+C-D, C-C y otros paneles 
+estructurales de madera 
+clasificada2 
+9.52 
+10.1 
+13.4 
+21.5 
+26.9 
+9.0 
+6.7 
+11.11 
+11.1 
+14.8 
+23.6 
+29.6 
+9.9 
+7.4 
+11.90 
+12.1 
+16.2 
+25.8 
+32.3 
+10.8 
+8.1 
+1. 
+Para diafragmas revestidos con paneles estructurales de madera, los valores Rn tabulados son aplicables para la duración de la 
+carga a corto plazo (fuerzas sísmicas). 
+2. 
+Grados definidos por The Engineered Wood Association, APA. 
+ 
+F.4.A.6.2.5 — Requisitos donde el coeficiente de disipación de energía, R , es mayor de tres — Cuando el coeficiente 
+de disipación de energía, R , utilizado para determinar las fuerzas laterales sea mayor de 3, tal como se permite en la 
+
+-- PAGE 39 --
+NSR-10 Apéndice F.4-A Sistemas estructurales de resistencia sísmica con perfiles de lámina formada en frío para 
+edificaciones de uno y dos pisos  
+ 
+34 
+Tabla F.4.A.8.1, y el diafragma este construido con entramado de acero formado en frío revestido con paneles estructurales 
+de madera, el diafragma debe cumplir con los requisitos adicionales del presente literal F.4.A.6.2.5. 
+ 
+F.4.A.6.2.5.1 — Estructuras de fachada abierta — El uso de estructuras de fachada abierta, con diafragmas rígidos 
+revestidos con paneles estructurales de madera que dan como resultado la distribución de fuerza de torsión, estará limitado 
+por lo siguiente: 
+ 
+(a) La longitud normal del diafragma, al lado abierto, no debe exceder los 7.60 m, y la relación de aspecto (largo/ancho) 
+debe ser menor a 1:1 para estructuras de un piso o 2:3 para estructuras de dos pisos, donde la dimensión de longitud 
+del diafragma es perpendicular a la abertura. 
+(b) Cuando los cálculos muestran que las deflexiones del diafragma pueden tolerarse, se permite que la longitud normal 
+a la abertura se incremente a una relación de aspecto (largo: ancho) hasta de 3:2. 
+ 
+F.4.A.6.2.5.2 — Requisitos de los miembros — El revestimiento en panel estructural de madera debe disponerse de tal 
+manera que el ancho mínimo del panel no sea menor que 610 mm. 
+ 
+F.4.A.7 — SUPERVISIÓN TÉCNICA INDEPENDIENTE 
+ 
+F.4.A.7.1 — Responsabilidades del fabricante — De acuerdo con la Resolución 017 de 2017 adoptada como parte de 
+la NSR-10 el fabricante debe declarar bajo la gravedad de juramento que siguó todos los procedimientos de control de 
+calidad que se consideren necesarios para garantizar que el trabajo se siguió de acuerdo con los requisitos del presente 
+apéndice y en cumplimiento del Reglamento NSR-10. 
+ 
+F.4.A.8 — PARAMETROS SÍSMICOS 
+ 
+Los parámetros sísmicos para los sistemas de resistencia sísmica de estructuras fabricadas con perfiles de lámina doblada 
+en frío especificados en el presente apéndice deben ser los que fija la Tabla F.4.A.4.8-1. Solo quedan cubiertas 
+edificaciones de uno o dos pisos. No se permite mayor número de pisos. 
+ 
+Tabla F.4.A.8-1 – Parámetros sísmicos 
+Sistema de muros de carga 
+Valor 
+0
+R 
+ 
+Valor 
+0
+ 
+ 
+Zonas de amenaza sísmica 
+Sistema resistencia sísmica 
+(fuerzas horizontales) 
+Sistema de 
+resistencia 
+para cargas 
+verticales 
+alta 
+intermedia 
+Baja 
+Uso 
+permit 
+Altura 
+max. 
+Uso 
+permit 
+Altura 
+max. 
+Uso 
+permit 
+Altura 
+max. 
+Paneles sísmicos con 
+entramado de perfiles doblados 
+en frío y enchapes en tableros 
+de madera (véase F.4.A.5.1) 
+El mismo 
+5.0 
+3.0 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Muros con entramado de 
+perfiles doblados en frío y 
+enchapes en láminas de acero 
+(véase F.4.A.5.2) 
+El mismo 
+5.0 
+3.0 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Sistemas de muros 
+arriostrados con cintas con 
+entramado liviano de acero 
+(véase F.4.A.5.3) 
+El mismo 
+3.0 
+2.0 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Pórticos armados con perfiles 
+de lámina doblada en frío, 
+empernados 
+(véase F.4.A.5.4)  
+El mismo 
+2.0 
+1.5 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Muros con entramado de 
+perfiles doblados en frío y 
+enchapes con tableros de yeso 
+o de fibrocemento 
+(véase F.4.A.5.5) 
+El mismo 
+2.0 
+2.0 
+Si 
+2 pisos 
+Si 
+2 pisos 
+Si 
+2 pisos 
+ 
+F.4.A.8.1 — Uso de componentes y conexiones sustitutos en los sistemas de resistencia a fuerzas laterales — La 
+sustitución de componenetes o conexiones dentro de uno de los sistemas de resistencia sísmica especificados en el 
+presente apéndice debe satisfacer las provisiones del reglamento NSR-10 y debe ser aprobada mediante una revisión 
+técnica independiente. 
+ 
+ 
+
