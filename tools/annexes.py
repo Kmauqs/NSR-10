@@ -153,12 +153,25 @@ def parse_f4a_articles(text: str):
     return articles
 
 
+def _ok_ais_id(num: str) -> bool:
+    parts = num.split(".")
+    if not parts or not all(p.isdigit() for p in parts):
+        return False
+    first = int(parts[0])
+    if first < 1 or first > 12:
+        return False
+    return all(int(p) < 80 for p in parts)
+
+
+def _ok_ais_title(title: str) -> bool:
+    t = re.sub(r"[\-\u2014\u2013\xad\s:.'\"]+", " ", title).strip()
+    return sum(ch.isalpha() for ch in t) >= 5
+
+
 def parse_ais410_articles(text: str):
     rows = parse_pages(text)
     articles = []
     current = None
-    chap = "1"
-    started = False
     pending_id = None
     pending_page = 1
     for page, raw in rows:
@@ -167,32 +180,36 @@ def parse_ais410_articles(text: str):
         line = clean_line(raw)
         cm = re.match(r"^CAP[I\u00cd]TULO\s+(\d+)\.?\s*(.*)$", line, re.I)
         if cm:
-            chap = cm.group(1)
-            started = True
+            pending_id = None
             continue
         idm = re.match(r"^(\d+(?:\.\d+){0,5})\s*$", line)
         if idm:
-            pending_id = idm.group(1)
-            pending_page = page
+            cand = idm.group(1)
+            if cand.isdigit() and int(cand) == page:
+                continue
+            if _ok_ais_id(cand):
+                pending_id = cand
+                pending_page = page
             continue
-        if pending_id and (line.startswith("-") or line.startswith("\u2014")):
+        if pending_id:
+            if re.match(r"^[\-\u2014\u2013]+\s*$", line):
+                continue
             title = re.sub(r"^[\-\u2014\u2013]\s*", "", line).strip()
-            if not title:
+            if not _ok_ais_title(title):
                 continue
             aid = "AIS410-" + pending_id
             if current:
                 articles.append(current)
             current = {"id": aid, "title": title, "page": pending_page, "lines": []}
             pending_id = None
-            started = True
             continue
         hm = re.match(r"^(\d+(?:\.\d+){1,5})\s*[\-\u2014\u2013]\s*(.+)$", line)
-        if hm:
+        if hm and _ok_ais_id(hm.group(1)) and _ok_ais_title(hm.group(2)):
             aid = "AIS410-" + hm.group(1)
             if current:
                 articles.append(current)
             current = {"id": aid, "title": hm.group(2).strip(), "page": page, "lines": []}
-            started = True
+            pending_id = None
             continue
         if current is None:
             continue
@@ -330,8 +347,16 @@ def parse_a5_articles(text: str):
     return articles
 
 
+def a4_xlsx_href():
+    path = "Capitulos/APENDICE A-4-Tabla Municipios.xlsx"
+    from urllib.parse import quote
+
+    return path, quote(path, safe="/")
+
+
 def a4_supia_html():
     href = DOC_META["d1711"]["file"]
+    xlsx_path, xlsx_href = a4_xlsx_href()
     return (
         '<p class="mod-note">Decreto 1711 de 2021 &mdash; se modifica la amenaza s&iacute;smica del '
         "municipio de Sup&iacute;a (Caldas) en el Ap&eacute;ndice A-4.</p>"
@@ -348,12 +373,17 @@ def a4_supia_html():
         "por 0.25. Los dem&aacute;s par&aacute;metros (Av, Ae, Ad y zona Alta) se mantienen.</p>"
         f'<p class="muted"><a href="{html.escape(href)}#page=4" target="_blank" rel="noopener">'
         "Ver fila adoptada en el Decreto 1711, p&aacute;g. 4</a></p>"
+        f'<p class="download-xlsx"><a href="{html.escape(xlsx_href)}" download="'
+        f'{html.escape(xlsx_path.split("/")[-1])}">Descargar tabla de municipios (Excel)</a> '
+        '<span class="muted">Mismos datos del Ap&eacute;ndice A-4 (Aa, Av, Ae, Ad y zona de amenaza '
+        "s&iacute;smica por municipio) en hoja de c&aacute;lculo, para consulta, programaci&oacute;n "
+        "de una hoja propia o base de datos local.</span></p>"
     )
 
 
 def a5_phrase_fix(text: str) -> str:
     return re.sub(
-        r"para lo cual podr[a\u00e1]n consultar la Tabla A-5\.2-1\.?",
+        r"para lo cual podr[a\u00e1]n consultar la Tabla A-5\.2[\s\u2013\u2014\-]*1\.?",
         "para lo cual deben consultar el t\u00edtulo VI de la Ley 400 de 1997 "
         "sobre calidades y requisitos de los profesionales.",
         text,
@@ -379,9 +409,10 @@ def apply_injections(by_title):
     wind = wind_injection_html()
     h2113, h1401 = a109_html()
     b6 = by_title.get("B", {}).get("B.6", [])
+    wind_ids = {"B.6.4", "B.6.5.4", "B.6.5.4.1", "B.6.5.4.2", "B.6.5.4.3"}
     for art in b6:
-        if art["id"] in {"B.6.5.4", "B.6.5.4.1", "B.6.5.4.2", "B.6.5.4.3"}:
-            extra = wind if art["id"] == "B.6.5.4" else ""
+        if art["id"] in wind_ids or art["id"].startswith("B.6.4."):
+            extra = wind if art["id"] in {"B.6.4", "B.6.5.4"} else ""
             inner = art.get("html") or ""
             if "txt-modificado" in inner:
                 inner = inner.replace('<div class="txt-modificado">', '<div class="txt-modificado">' + extra, 1)
@@ -392,36 +423,6 @@ def apply_injections(by_title):
             art["source"] = "d1711"
             art["modFile"] = DOC_META["d1711"]["file"]
             art["modPage"] = 5
-        elif "B.6.4-1" in (art.get("html") or "") or "Figura B.6.4" in (art.get("html") or ""):
-            inner = art.get("html") or ""
-            extra = wind
-            if "txt-modificado" in inner:
-                inner = inner.replace('<div class="txt-modificado">', '<div class="txt-modificado">' + extra, 1)
-            else:
-                inner = '<div class="txt-modificado">' + extra + inner + "</div>"
-            art["html"] = inner
-            art["modified"] = True
-            art["source"] = "d1711"
-            art["modFile"] = DOC_META["d1711"]["file"]
-            art["modPage"] = 5
-
-    supia = a4_supia_html()
-    for arts in by_title.get("A", {}).values():
-        for art in arts:
-            blob = art.get("html") or ""
-            if "17777" in blob or re.search(r"Sup[i\u00ed]a", blob):
-                if "txt-modificado" in blob:
-                    art["html"] = blob.replace(
-                        '<div class="txt-modificado">',
-                        '<div class="txt-modificado">' + supia,
-                        1,
-                    )
-                else:
-                    art["html"] = '<div class="txt-modificado">' + supia + blob + "</div>"
-                art["modified"] = True
-                art["source"] = "d1711"
-                art["modFile"] = DOC_META["d1711"]["file"]
-                art["modPage"] = 4
 
     def add_or_replace(letter, chap, item):
         lst = by_title[letter][chap]
@@ -440,6 +441,18 @@ def apply_injections(by_title):
             140,
             "d2113",
             h2113,
+            4,
+        ),
+    )
+    add_or_replace(
+        "A",
+        "A-4",
+        rec(
+            "A-4-Supia",
+            "Municipio de Supía, Caldas (Apéndice A-4)",
+            203,
+            "d1711",
+            a4_supia_html(),
             4,
         ),
     )
@@ -502,10 +515,14 @@ def build_extra_titles(extracted_dir, lines_to_html, tables):
             body = lines_to_html(a["id"], a["lines"], {}, tables=tables)
             aid_l = a["id"].lower()
             title_l = (a["title"] or "").lower()
+            body_l = body.lower()
             if (
                 aid_l.startswith("ais410-7.8.3")
-                or aid_l.startswith("ais410-7.8.2.2")
+                or aid_l.startswith("ais410-7.8.2")
                 or ("pam" in title_l and "efectivo" in title_l)
+                or "7.8-2" in body_l
+                or "7.8 -2" in body_l
+                or "7.8 - 2" in body_l
             ):
                 body += (
                     '<p class="mod-note">Decreto 1580 de 2023: se adoptan las ecuaciones 7.8-2 y 7.8-3 '
@@ -516,6 +533,21 @@ def build_extra_titles(extracted_dir, lines_to_html, tables):
             ch = chapter_of(a["id"])
             chmap.setdefault(ch, []).append(
                 rec(a["id"], a["title"], a["page"], "d1401", body, a["page"])
+            )
+        has_pam = any("PAM" in art["html"] and "msub" in art["html"] for arts in chmap.values() for art in arts)
+        if not has_pam:
+            chmap.setdefault("AIS410-7", []).append(
+                rec(
+                    "AIS410-7.8.3",
+                    "Cálculo del PAM efectivo — ecuaciones 7.8-2 y 7.8-3",
+                    71,
+                    "d1580",
+                    '<p class="mod-note">Decreto 1580 de 2023: se corrige el yerro formal del Decreto 1401 '
+                    "respecto de las ecuaciones 7.8-2 y 7.8-3 del anexo AIS 410-23.</p>"
+                    + e2
+                    + e3,
+                    1,
+                )
             )
         chapters = []
         for cid in sorted(chmap.keys(), key=lambda x: [int(n) for n in re.findall(r"\d+", x)] or [0]):
@@ -566,18 +598,20 @@ def build_extra_titles(extracted_dir, lines_to_html, tables):
         a5 = parse_a5_articles(p945.read_text(encoding="utf-8", errors="replace"))
         chmap = {}
         for a in a5:
-            raw_lines = a["lines"]
+            joined = (a["title"] or "") + " " + " ".join(ln for _, ln in a["lines"])
             if a["id"] in {"A-5.2.1.1", "A-5.2.1.2", "A-5.2.1.3", "A-5.2.1.4"}:
-                raw_lines = [
-                    (pg, a5_phrase_fix(ln)) for pg, ln in raw_lines
-                ]
+                fixed = a5_phrase_fix(joined)
+                raw_lines = [(a["page"], fixed)]
+                a["title"] = a5_phrase_fix(a["title"] or "")
+            else:
+                raw_lines = a["lines"]
             body = lines_to_html(a["id"], raw_lines, {}, tables=tables)
+            body = a5_phrase_fix(body)
             if a["id"] in {"A-5.2.1.1", "A-5.2.1.2", "A-5.2.1.3", "A-5.2.1.4"}:
-                body = a5_phrase_fix(body)
                 src, mpg = "d1711", 4
             else:
                 src, mpg = "d945", a["page"]
-            if a["id"] == "A-5.2.2.4" or any("Tabla A-5.2-1" in (ln or "") for _, ln in a["lines"]):
+            if a["id"] == "A-5.2.2.4" or "Tabla A-5.2-1" in joined:
                 body = (
                     '<p class="mod-note">Decreto 1711 de 2021: se suprime la Tabla A-5.2-1 del '
                     "Apéndice A-5. Las calidades profesionales se consultan en el Título VI de la Ley 400 "

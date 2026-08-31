@@ -894,11 +894,17 @@ def overlay_replacement(article, repl):
 
 def chapter_name(letter, chap_id):
 
+    if chap_id == "A-4" or str(chap_id).startswith("A-4"):
+        return "Apéndice A-4 — Valores de Aa, Av, Ae y Ad (Supía)"
+
     names = CHAPTER_NAMES.get(letter, [])
 
     # chap_id like A.1 or F.2.1
 
-    rest = chap_id.split(".", 1)[1]
+    bits = chap_id.split(".", 1)
+    if len(bits) < 2:
+        return chap_id
+    rest = bits[1]
 
     # map F.2.1 -> special index
 
