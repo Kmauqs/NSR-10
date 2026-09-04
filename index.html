@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NEXUS CREATIO — Instrumentos técnicos</title>
+  <meta name="description" content="Punto de entrada a la compilación navegable de la Ley 400 y la NSR-10, y a EVALQUAKE, la herramienta de evaluación rápida de daños en edificaciones.">
+  <link rel="icon" href="brand/nc-logotipo-r00.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #000000;
+      --paper: #ffffff;
+      --navy: #003c7d;
+      --navy-2: #243f60;
+      --caption: #1f497d;
+      --muted: #5a5a5a;
+      --gold: #b59a57;
+      --gold-deep: #a68b52;
+      --line: #000000;
+      --rule: #cfc6b0;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      color: var(--ink);
+      background: var(--paper);
+      font: 15px/1.55 "Source Code Pro", ui-monospace, monospace;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 8% 6% 12%;
+      background:
+        url("brand/nc-logotipo-r00-horiz-small.jpg") center / min(72vw, 920px) no-repeat;
+      opacity: .07;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 22px 28px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .sheet {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.88);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    header.mast {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr) minmax(200px, 26%);
+      border-bottom: 1px solid var(--line);
+    }
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid var(--line);
+      background: #000;
+      padding: 8px;
+    }
+    .brand-mark img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .mast-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 16px;
+      gap: 4px;
+    }
+    .mast-kicker {
+      font-size: 11px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .mast-title h1 {
+      margin: 0;
+      font-size: clamp(1.05rem, 2.4vw, 1.45rem);
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .mast-meta {
+      border-left: 1px solid var(--line);
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      font-size: 11px;
+      text-align: center;
+      color: var(--muted);
+      letter-spacing: .03em;
+    }
+    .mast-meta span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 8px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .mast-meta span + span { border-top: 1px solid var(--line); }
+    .intro {
+      padding: 22px 26px 8px;
+      color: var(--navy-2);
+    }
+    .intro h2 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--gold-deep);
+    }
+    .intro p {
+      margin: 0;
+      max-width: 62em;
+      color: var(--ink);
+    }
+    .frames {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      padding: 18px 26px 28px;
+      align-items: stretch;
+    }
+    article.frame {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.92);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+    }
+    article.frame::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 4px;
+      background: var(--gold);
+    }
+    .frame-head {
+      border-bottom: 1px solid var(--line);
+    }
+    .frame-label {
+      padding: 10px 14px 10px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3px;
+    }
+    .frame-label small {
+      color: var(--muted);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.35;
+    }
+    .frame-label h3 {
+      margin: 0;
+      font-size: clamp(1rem, 1.8vw, 1.2rem);
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      color: var(--navy);
+    }
+    .frame-body {
+      padding: 16px 16px 18px 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .frame-body p {
+      margin: 0 0 1.1em;
+      color: var(--ink);
+    }
+    .frame-body p.caption {
+      color: var(--caption);
+      font-style: italic;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    .cta {
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid var(--line);
+      color: var(--paper);
+      background: var(--navy);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .cta:hover, .cta:focus-visible {
+      background: var(--gold-deep);
+      border-color: var(--gold-deep);
+      color: #000;
+    }
+    .cta span { font-weight: 700; }
+    footer.colophon {
+      margin-top: auto;
+      border-top: 1px solid var(--line);
+      padding: 12px 16px 14px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    footer.colophon strong { color: var(--navy-2); font-weight: 700; }
+    @media (max-width: 860px) {
+      .page { padding: 12px; }
+      header.mast, .frames {
+        grid-template-columns: 1fr;
+      }
+      .brand-mark {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        max-width: 160px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .mast-meta { border-left: 0; border-top: 1px solid var(--line); }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="sheet">
+      <header class="mast">
+        <div class="brand-mark">
+          <img src="brand/nc-logotipo-r00.png" alt="NEXUS CREATIO — espiral áurea">
+        </div>
+        <div class="mast-title">
+          <div class="mast-kicker">NEXUS CREATIO</div>
+          <h1>Instrumentos técnicos</h1>
+        </div>
+        <div class="mast-meta" aria-label="Identificación del documento">
+          <span>NSR-10 · EVALQUAKE</span>
+          <span>2026/09/04</span>
+          <span>PORTADA</span>
+        </div>
+      </header>
+
+      <section class="intro">
+        <h2>Alcance</h2>
+        <p>Dos herramientas de consulta y campo para el reglamento sismo resistente y la inspección de edificaciones. Cada marco resume el instrumento y abre su sitio.</p>
+      </section>
+
+      <section class="frames" aria-label="Instrumentos">
+        <article class="frame">
+          <div class="frame-head">
+            <div class="frame-label">
+              <small>Marco 01 · Compilación normativa</small>
+              <h3>Ley 400 y NSR-10</h3>
+            </div>
+          </div>
+          <div class="frame-body">
+            <p class="caption">Compilación navegable — texto consolidado, anexos y fuentes oficiales.</p>
+            <p>Lector del Reglamento Colombiano de Construcción Sismo Resistente NSR-10 y de la Ley 400 de 1997, con las modificaciones posteriores incorporadas al texto vigente. Recorre títulos y artículos, distingue en rojo las unidades modificadas y abre el decreto o anexo en la página exacta de cada cambio.</p>
+            <p>Incluye el Título B (vientos), los apéndices A-4, A-5 y F.4-A, el anexo AIS 410-23 y las referencias institucionales. Es una herramienta de consulta y trazabilidad: no sustituye la publicación oficial.</p>
+            <a class="cta" href="consolidado-ley-400-nsr10.html">Abrir la compilación <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="frame">
+          <div class="frame-head">
+            <div class="frame-label">
+              <small>Marco 02 · Inspección de campo</small>
+              <h3>EVALQUAKE</h3>
+            </div>
+          </div>
+          <div class="frame-body">
+            <p class="caption">Evaluación rápida de daños en edificaciones — guía de inspección.</p>
+            <p>Aplicación para registrar inspecciones visuales posteriores a un sismo, orientar la guía de campo y clasificar el estado de ocupación de las edificaciones. Requiere cuenta de usuario.</p>
+            <p>Úsela cuando deba documentar daños, restricciones de uso o seguimiento de inmuebles en la fase de respuesta.</p>
+            <a class="cta" href="https://evalquake.web.app/" target="_blank" rel="noopener noreferrer">Abrir EVALQUAKE <span>↗</span></a>
+          </div>
+        </article>
+      </section>
+
+      <footer class="colophon">
+        <strong>NEXUS CREATIO</strong><br>
+        Armenia · Quindío · Colombia
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
