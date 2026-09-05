@@ -8,6 +8,7 @@
     :root{--ink:#14283b;--navy:#063c5b;--blue:#0a6e99;--sky:#e9f4f8;--gold:#d9a441;--line:#cbd9e0;--paper:#fff;--muted:#5a6d7c}
     *{box-sizing:border-box} body{margin:0;color:var(--ink);background:#edf3f5;font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
     header{padding:18px 30px 16px;color:white;background:linear-gradient(115deg,#063c5b,#0b698f)} h1{margin:0;font-size:clamp(1.35rem,2.8vw,2.1rem);letter-spacing:-.03em} header p{max-width:1100px;margin:6px 0 0;color:#e4f3f9}
+    .home-link{display:inline-block;margin:0 0 8px;color:#d5ecf4;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.04em}.home-link:hover{color:#fff;text-decoration:underline}
     .tabbar{background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 1px 0 #fff8} .tabbar .tabs{max-width:1680px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:wrap;gap:4px 2px;border-bottom:0}
     .tabs button{border:0;background:none;padding:12px 12px 10px;border-bottom:3px solid transparent;cursor:pointer;color:var(--muted);white-space:nowrap}.tabs button.active{border-color:var(--blue);color:var(--navy);font-weight:700}
     main{max-width:1680px;margin:0 auto;padding:14px 20px 30px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 2px 10px #1232;padding:16px}
@@ -32,7 +33,7 @@
   </style>
 </head>
 <body>
-<header><h1>Compilación navegable: Ley 400 de 1997 y NSR-10</h1><p>Versión de consulta elaborada con los anexos suministrados y verificación pública al 31 de agosto de 2026. Seleccione una disposición o artículo para abrir su fuente oficial exacta, incluidas fórmulas, tablas y figuras.</p></header>
+<header><a class="home-link" href="index.html">NEXUS CREATIO — Inicio</a><h1>Compilación navegable: Ley 400 de 1997 y NSR-10</h1><p>Versión de consulta elaborada con los anexos suministrados y verificación pública al 31 de agosto de 2026. Seleccione una disposición o artículo para abrir su fuente oficial exacta, incluidas fórmulas, tablas y figuras.</p></header>
 <nav class="tabbar" aria-label="Secciones de la compilación"><div class="tabs"><button class="active" data-tab="lectorNsr">Lector NSR-10</button><button data-tab="resumen">Mapa de vigencia</button><button data-tab="indice">Índice de disposiciones</button><button data-tab="consolidado">Consolidado vigente</button><button data-tab="ley">Ley 400: artículos afectados</button><button data-tab="nsr">NSR-10: modificaciones</button><button data-tab="referencias">Referencias</button></div></nav>
 <main>
   <div class="panel notice"><strong>Alcance de esta compilación.</strong> Es una herramienta de consulta y trazabilidad, no sustituye la publicación oficial ni un concepto jurídico. El contenido visual se abre desde los PDFs adjuntos sin transcripción ni alteración: por ello conserva exactamente textos, ecuaciones, tablas y figuras. La etiqueta <em>vigente / modificación</em> identifica disposiciones incorporadas; <em>referencia</em> identifica antecedentes, guías o consultas que no reemplazan el texto normativo.</div>
