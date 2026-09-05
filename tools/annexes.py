@@ -373,7 +373,7 @@ def a4_supia_html():
         "por 0.25. Los dem&aacute;s par&aacute;metros (Av, Ae, Ad y zona Alta) se mantienen.</p>"
         f'<p class="muted"><a href="{html.escape(href)}#page=4" target="_blank" rel="noopener">'
         "Ver fila adoptada en el Decreto 1711, p&aacute;g. 4</a></p>"
-        f'<p class="download-xlsx"><a href="{html.escape(xlsx_href)}" download="'
+        f'<p class="download-xlsx"><a href="{html.escape(xlsx_href)}" target="_blank" rel="noopener" download="'
         f'{html.escape(xlsx_path.split("/")[-1])}">Descargar tabla de municipios (Excel)</a> '
         '<span class="muted">Mismos datos del Ap&eacute;ndice A-4 (Aa, Av, Ae, Ad y zona de amenaza '
         "s&iacute;smica por municipio) en hoja de c&aacute;lculo, para consulta, programaci&oacute;n "
