@@ -14,6 +14,8 @@ import re
 
 import sys
 
+import unicodedata
+
 from collections import defaultdict
 
 from pathlib import Path
@@ -946,6 +948,38 @@ def dump_js(obj, path: Path):
 
     path.write_text(f"window.NSR_TITLES=window.NSR_TITLES||{{}};\nwindow.NSR_TITLES[{json.dumps(letter)}]={payload};\n", encoding="utf-8")
 
+
+def fold_search(s: str) -> str:
+    s = unicodedata.normalize("NFD", (s or "").casefold())
+    return "".join(c for c in s if unicodedata.category(c) != "Mn")
+
+
+def html_to_search_text(raw: str) -> str:
+    t = re.sub(r"<[^>]+>", " ", raw or "")
+    t = html.unescape(t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def search_record(art: dict, letter: str, chap: str) -> dict:
+    blob = " ".join(
+        [
+            art.get("id") or "",
+            art.get("title") or "",
+            html_to_search_text(art.get("html") or ""),
+        ]
+    )
+    folded = fold_search(blob)
+    if len(folded) > 2800:
+        folded = folded[:2800]
+    return {
+        "id": art["id"],
+        "title": art.get("title") or "",
+        "letter": letter,
+        "chap": chap,
+        "page": art.get("page") or 1,
+        "t": folded,
+    }
+
 def main():
 
     raw = extract_all()
@@ -1048,6 +1082,7 @@ def main():
     OUT_DIR.mkdir(exist_ok=True)
 
     titles_meta = []
+    search_recs = []
 
     for letter in "ABCDEFGHIJK":
 
@@ -1139,6 +1174,9 @@ def main():
                 "chapters": [{"id": c["id"], "name": c["name"], "page": c["page"], "n": len(c["articles"])} for c in chapters],
             }
         )
+        for c in chapters:
+            for art in c["articles"]:
+                search_recs.append(search_record(art, letter, c["id"]))
         print("Wrote", letter, "chapters", len(chapters), "articles", sum(len(c["articles"]) for c in chapters))
 
     for extra in extras:
@@ -1153,6 +1191,9 @@ def main():
                 ],
             }
         )
+        for c in extra["chapters"]:
+            for art in c["articles"]:
+                search_recs.append(search_record(art, extra["letter"], c["id"]))
         print(
             "Wrote",
             extra["letter"],
@@ -1169,6 +1210,11 @@ def main():
         encoding="utf-8",
 
     )
+    (OUT_DIR / "busqueda.js").write_text(
+        "window.NSR_SEARCH=" + json.dumps(search_recs, ensure_ascii=False, separators=(",", ":")) + ";\n",
+        encoding="utf-8",
+    )
+    print("  search index", len(search_recs))
 
     print("Done. replacements applied", len(replacements))
 
