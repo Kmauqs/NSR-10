@@ -26,6 +26,7 @@ from eq_mathml import fallback_eq, mathml_for  # noqa: E402
 import nsr_render  # noqa: E402
 import annexes  # noqa: E402
 import nomenclature  # noqa: E402
+import definitions  # noqa: E402
 
 OUT_DIR = ROOT / "lector"
 
@@ -986,6 +987,17 @@ def main():
         EXTRACTED / "nomenclature.json",
     )
     print("  notation articles", sum(1 for v in NOM.values() if v.get("entries")), "entries", sum(len(v.get("entries") or []) for v in NOM.values()))
+    print("Extracting definition glossaries\u2026")
+    DEFS = definitions.load_or_extract(
+        ROOT / "NSR10-Completa.pdf",
+        EXTRACTED / "definitions.json",
+    )
+    print(
+        "  glossary articles",
+        sum(1 for v in DEFS.values() if v.get("entries")),
+        "entries",
+        sum(len(v.get("entries") or []) for v in DEFS.values()),
+    )
     TOUCHED = nsr_render.collect_touched_ids(EXTRACTED)
     print("  touched", len(TOUCHED))
     by_title = defaultdict(lambda: defaultdict(list))
@@ -1005,6 +1017,10 @@ def main():
         nom_html = nomenclature.html_for(art["id"], NOM)
         if nom_html and nomenclature.is_notation_title(art.get("title") or ""):
             body = nom_html
+        def_html = definitions.html_for(art["id"], DEFS)
+        if def_html and definitions.is_definitions_title(art.get("title") or ""):
+            body = def_html
+            art["title"] = definitions.short_title(art.get("title") or "")
         mod_src = nsr_render.article_is_modified(art["id"], replacements, TOUCHED)
         if mod_src:
             if src == "nsrbase":
