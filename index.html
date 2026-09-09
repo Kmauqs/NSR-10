@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>NEXUS CREATIO — Instrumentos técnicos</title>
-  <meta name="description" content="Punto de entrada a un índice navegable de la Ley 400 y la NSR-10, y a EVALQUAKE - herramienta de evaluación rápida de daños en edificaciones.">
+  <meta name="description" content="Punto de entrada a la compilación de la Ley 400 y la NSR-10, a EVALQUAKE y al informe técnico del terremoto del 10 de agosto de 2026.">
   <link rel="icon" href="brand/nc-logotipo-r00.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,6 +132,13 @@
       padding: 18px 26px 28px;
       align-items: stretch;
     }
+    .frames .frame:nth-child(3) {
+      grid-column: 1 / -1;
+    }
+    .frames .frame:nth-child(3) .cta {
+      width: auto;
+      max-width: 28rem;
+    }
     article.frame {
       border: 1px solid var(--line);
       background: rgba(255,255,255,.92);
@@ -248,15 +255,15 @@
           <h1>Instrumentos técnicos</h1>
         </div>
         <div class="mast-meta" aria-label="Identificación del documento">
-          <span>NSR-10 · EVALQUAKE</span>
-          <span>2026/09/04</span>
+          <span>NSR-10 · T-2026</span>
+          <span>2026/09/08</span>
           <span>PORTADA</span>
         </div>
       </header>
 
       <section class="intro">
         <h2>Alcance</h2>
-        <p>Herramientas de consulta para el reglamento sismo resistente y la inspección de edificaciones.</p>
+        <p>Herramientas de consulta para el reglamento sismo resistente, la inspección de edificaciones y el informe técnico del sismo del 10 de agosto de 2026.</p>
       </section>
 
       <section class="frames" aria-label="Instrumentos">
@@ -287,6 +294,21 @@
             <p>Aplicación para registrar inspecciones visuales posteriores a un sismo, orientar al evaluador con la guía de campo y clasificar el estado de ocupación de las edificaciones. Requiere cuenta de usuario.</p>
             <p>Úsela cuando deba documentar daños, restricciones de uso o seguimiento de inmuebles en la fase de respuesta.</p>
             <a class="cta" href="https://evalquake.web.app/" target="_blank" rel="noopener noreferrer">Abrir EVALQUAKE <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="frame">
+          <div class="frame-head">
+            <div class="frame-label">
+              <small>Marco 03 · Informe de evento</small>
+              <h3>Terremoto 10 ago 2026</h3>
+            </div>
+          </div>
+          <div class="frame-body">
+            <p class="caption">Informe técnico — sismo M 7.4 en el Eje Cafetero, productos SGC y espectros de respuesta.</p>
+            <p>Recopilación y procesamiento de datos del Servicio Geológico Colombiano para el evento SGC2026pqqmro (10 de agosto de 2026, magnitud 7.4, epicentro en San José del Palmar, Chocó). Reúne acelerogramas, tabla de PGA, ShakeMap, espectros de respuesta y factores de amplificación por efectos de sitio en el Eje Cafetero y municipios aledaños.</p>
+            <p>Úselo para consultar la demanda sísmica registrada y los productos derivados. No sustituye los boletines ni las publicaciones oficiales del SGC.</p>
+            <a class="cta" href="https://kmauqs.github.io/TERREMOTO-2026/" target="_blank" rel="noopener noreferrer">Abrir el informe <span>↗</span></a>
           </div>
         </article>
       </section>
