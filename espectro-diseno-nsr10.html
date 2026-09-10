@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Espectro elástico de diseño — NSR-10 A.2.6 · NEXUS CREATIO</title>
+  <meta name="description" content="Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según NSR-10 A.2.6. Reutiliza la herramienta del informe Terremoto 2026.">
+  <link rel="icon" href="brand/nc-logotipo-r00.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #000000;
+      --paper: #ffffff;
+      --navy: #003c7d;
+      --navy-2: #243f60;
+      --caption: #1f497d;
+      --muted: #5a5a5a;
+      --gold: #b59a57;
+      --gold-deep: #a68b52;
+      --line: #000000;
+      --rule: #cfc6b0;
+      --sky: #f4f7fb;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--paper); }
+    body {
+      color: var(--ink);
+      font: 15px/1.55 "Source Code Pro", ui-monospace, monospace;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: url("brand/NC-LOGOTIPO-opac-R00.png") center / contain no-repeat;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.35;
+    }
+    .page {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 20px 36px;
+    }
+    .sheet {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.92);
+    }
+    header.mast {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr) minmax(200px, 26%);
+      border-bottom: 1px solid var(--line);
+    }
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid var(--line);
+      background: #000;
+      padding: 8px;
+    }
+    .brand-mark img { display: block; width: 100%; height: auto; }
+    .mast-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 16px;
+      gap: 4px;
+    }
+    .mast-kicker {
+      font-size: 11px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .mast-title h1 {
+      margin: 0;
+      font-size: clamp(1rem, 2.2vw, 1.35rem);
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .mast-meta {
+      border-left: 1px solid var(--line);
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      font-size: 11px;
+      text-align: center;
+      color: var(--muted);
+      letter-spacing: .03em;
+    }
+    .mast-meta span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 8px;
+    }
+    .mast-meta span + span { border-top: 1px solid var(--line); }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--rule);
+      background: var(--sky);
+    }
+    .toolbar a {
+      color: var(--navy);
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .toolbar a:hover,
+    .toolbar a:focus-visible {
+      color: var(--gold-deep);
+      text-decoration: underline;
+    }
+    .toolbar .source {
+      font-size: 11px;
+      color: var(--muted);
+      max-width: 42em;
+      line-height: 1.45;
+    }
+    .toolbar .source a { text-transform: none; letter-spacing: 0; font-weight: 600; }
+    .intro { padding: 18px 22px 6px; color: var(--navy-2); }
+    .intro h2 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold-deep);
+    }
+    .intro p {
+      margin: 0 0 0.75em;
+      max-width: 68em;
+      color: var(--ink);
+    }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    .note { color: var(--caption); font-style: italic; font-size: 12px; }
+    .alert { color: #9b0d18; }
+    ul.compact { margin: 0.4rem 0; padding-left: 1.2rem; }
+    ul.compact li { margin: 0.15rem 0; }
+    .tool { padding: 8px 22px 28px; }
+    .ch7-grid {
+      display: grid;
+      grid-template-columns: minmax(260px, 340px) 1fr;
+      gap: 1.1rem;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .ch7-grid { grid-template-columns: 1fr; }
+      header.mast { grid-template-columns: 1fr; }
+      .brand-mark {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        max-width: 140px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .mast-meta { border-left: 0; border-top: 1px solid var(--line); }
+    }
+    .ch7-panel {
+      background: var(--sky);
+      border: 1px solid var(--line);
+      padding: 0.9rem 1rem;
+    }
+    .ch7-panel label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin: 0.55rem 0 0.2rem;
+    }
+    .ch7-panel select,
+    .ch7-panel input[type="number"] {
+      width: 100%;
+      padding: 0.35rem 0.45rem;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 0.9rem;
+    }
+    .ch7-check {
+      display: flex;
+      gap: 0.45rem;
+      align-items: flex-start;
+      font-size: 0.86rem;
+      margin: 0.45rem 0;
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .ch7-check input { margin-top: 0.2rem; }
+    .ch7-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.85rem;
+    }
+    .ch7-actions button {
+      background: var(--navy);
+      color: #fff;
+      border: 1px solid var(--navy);
+      padding: 0.45rem 0.8rem;
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .ch7-actions button.secondary {
+      background: #fff;
+      color: var(--navy);
+    }
+    .ch7-actions button:hover,
+    .ch7-actions button:focus-visible {
+      background: var(--gold-deep);
+      border-color: var(--gold-deep);
+      color: #000;
+    }
+    .ch7-charts {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.9rem;
+    }
+    .ch7-chart-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 0.5rem;
+      height: 340px;
+    }
+    .ch7-legend-colors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.1rem;
+      font-size: 0.82rem;
+      margin: 0.6rem 0 1rem;
+    }
+    .ch7-legend-colors span::before {
+      content: "";
+      display: inline-block;
+      width: 14px;
+      height: 3px;
+      margin-right: 0.35rem;
+      vertical-align: middle;
+      background: currentColor;
+    }
+    .c-nsr { color: #c62828; }
+    .c-nsrr { color: #111; }
+    .c-micror { color: #111; border-bottom: 2px dashed #111; padding-bottom: 1px; }
+    .c-micro { color: #ef6c00; }
+    .c-ew { color: #e000a8; }
+    .c-ns { color: #1a5cff; }
+    .c-v { color: #00a86b; }
+    footer.colophon {
+      border-top: 1px solid var(--line);
+      padding: 12px 16px 14px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    footer.colophon strong { color: var(--navy-2); }
+    footer.colophon a { color: var(--navy); text-decoration: none; }
+    footer.colophon a:hover { color: var(--gold-deep); text-decoration: underline; }
+    body.embed { background: #fff; }
+    body.embed::before { display: none; }
+    body.embed .page { max-width: none; padding: 0; }
+    body.embed .sheet { border: 0; background: #fff; }
+    body.embed header.mast,
+    body.embed .toolbar,
+    body.embed footer.colophon { display: none; }
+    body.embed .intro { padding: 12px 14px 4px; }
+    body.embed .tool { padding: 4px 14px 18px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="sheet">
+      <header class="mast">
+        <div class="brand-mark">
+          <img src="brand/nc-logotipo-r00.png" alt="NEXUS CREATIO — espiral áurea">
+        </div>
+        <div class="mast-title">
+          <div class="mast-kicker">NEXUS CREATIO</div>
+          <h1>Espectro elástico de diseño</h1>
+        </div>
+        <div class="mast-meta" aria-label="Identificación del documento">
+          <span>NSR-10 · A.2.6</span>
+          <span>Herramienta</span>
+          <span>Cálculo</span>
+        </div>
+      </header>
+
+      <div class="toolbar">
+        <a href="index.html">← Instrumentos técnicos</a>
+        <p class="source" id="reuse-note">
+          Lógica y datos reutilizados desde
+          <a href="https://kmauqs.github.io/TERREMOTO-2026/#herramienta-espectros" target="_blank" rel="noopener noreferrer">Terremoto 2026 · §7</a>
+          (sin duplicar las fórmulas NSR-10).
+        </p>
+      </div>
+
+      <section class="intro">
+        <h2>NSR-10 A.2.6</h2>
+        <p>
+          Genera el <strong>espectro elástico de aceleraciones de diseño</strong> y el
+          <strong>espectro elástico de desplazamientos (m) de diseño</strong> según el
+          numeral <strong>A.2.6</strong>, a partir de <em>Aa</em>, <em>Av</em>
+          (Apéndice A-4), <em>Fa</em>/<em>Fv</em> (tablas A.2.4-3 y A.2.4-4),
+          coeficiente de importancia <em>I</em> (A.2.5) y, cuando aplique, microzonificación.
+          Opcionalmente reduce por <em>R</em> y superpone espectros del evento SGC2026pqqmro.
+        </p>
+      </section>
+
+      <section class="tool" id="herramienta-espectros" aria-label="Calculadora de espectro de diseño">
+        <div class="ch7-legend-colors">
+          <span class="c-nsr">NSR-10 sin reducir</span>
+          <span class="c-nsrr">NSR-10 / R</span>
+          <span class="c-micro">Microzonificación</span>
+          <span class="c-micror">Microzonificación / R (punteada)</span>
+          <span class="c-ew">Sa EW (2026)</span>
+          <span class="c-ns">Sa NS (2026)</span>
+          <span class="c-v">Sa V (2026)</span>
+        </div>
+        <div class="ch7-grid">
+          <div class="ch7-panel">
+            <label for="ch7-dept">Departamento</label>
+            <select id="ch7-dept"></select>
+            <label for="ch7-mun">Municipio</label>
+            <select id="ch7-mun"></select>
+            <label for="ch7-uso">Grupo de uso (A.2.5) — coeficiente I</label>
+            <select id="ch7-uso"></select>
+            <label for="ch7-perfil">Tipo de perfil de suelo (tabla A.2.4-1)</label>
+            <select id="ch7-perfil"></select>
+            <div id="ch7-micro-wrap" hidden>
+              <p class="muted" id="ch7-micro-fuente" style="margin:0.6rem 0 0.2rem"></p>
+              <label class="ch7-check"><input type="checkbox" id="ch7-use-micro" /> Usar espectro de microzonificación (naranja)</label>
+              <label for="ch7-micro-zona">Zona / tipo de suelo (microzonificación)</label>
+              <select id="ch7-micro-zona"></select>
+            </div>
+            <label class="ch7-check"><input type="checkbox" id="ch7-apply-R" checked /> Aplicar coeficiente de disipación R (A.3 / uso en fuerzas de diseño)</label>
+            <label for="ch7-R">Coeficiente R</label>
+            <input type="number" id="ch7-R" min="1" max="8" step="0.5" value="3.5" />
+            <label class="ch7-check"><input type="checkbox" id="ch7-show-proc" /> Mostrar espectros de respuesta procesados (10-ago-2026)</label>
+            <label for="ch7-proc-station">Estación (procesados)</label>
+            <select id="ch7-proc-station"></select>
+            <label class="ch7-check"><input type="checkbox" id="ch7-show-sgc" /> Mostrar espectros automáticos SGC (Excel PSA)</label>
+            <label for="ch7-sgc-station">Estación (SGC)</label>
+            <select id="ch7-sgc-station"></select>
+            <div class="ch7-actions">
+              <button type="button" id="ch7-update">Actualizar gráficos</button>
+              <button type="button" id="ch7-download" class="secondary">Descargar CSV</button>
+            </div>
+            <div id="ch7-params" style="margin-top:0.75rem"></div>
+            <p class="muted" id="ch7-status">Cargando datos…</p>
+          </div>
+          <div class="ch7-charts">
+            <div class="ch7-chart-box"><canvas id="ch7-chart-sa" aria-label="Espectro de aceleraciones"></canvas></div>
+            <div class="ch7-chart-box"><canvas id="ch7-chart-sd" aria-label="Espectro de desplazamientos"></canvas></div>
+          </div>
+        </div>
+        <p class="note" style="margin-top:0.8rem">
+          El CSV exportado tiene en la primera columna el periodo <code>T_s</code> y en las
+          columnas siguientes las ordenadas elásticas mostradas (Sa en g, Sd en m).
+          Requiere red para cargar el script y los JSON desde TERREMOTO-2026 (o use
+          <code>?base=../TERREMOTO-2026/</code> si ambos repos están como hermanos y un servidor local los sirve).
+        </p>
+      </section>
+
+      <footer class="colophon">
+        <strong>NEXUS CREATIO</strong><br>
+        Armenia · Quindío · Colombia<br>
+        <a href="index.html">Volver a instrumentos técnicos</a>
+        ·
+        <a href="https://kmauqs.github.io/TERREMOTO-2026/#herramienta-espectros" target="_blank" rel="noopener noreferrer">Abrir en Terremoto 2026 ↗</a>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script>
+    (function () {
+      "use strict";
+      var PUBLISHED = "https://kmauqs.github.io/TERREMOTO-2026/";
+      var SIBLING = "../TERREMOTO-2026/";
+      var params = new URLSearchParams(window.location.search);
+      if (params.get("embed") === "1" || params.get("embed") === "true") {
+        document.body.classList.add("embed");
+      }
+      var baseParam = params.get("base");
+      var candidates = baseParam ? [baseParam] : [PUBLISHED, SIBLING];
+      var statusEl = document.getElementById("ch7-status");
+      var noteEl = document.getElementById("reuse-note");
+      var origFetch = window.fetch.bind(window);
+
+      function normalizeBase(b) {
+        try {
+          var u = new URL(b, window.location.href);
+          var href = u.href;
+          if (href.slice(-1) !== "/") href += "/";
+          return href;
+        } catch (e) {
+          return null;
+        }
+      }
+
+      function patchFetch(baseAbs) {
+        window.fetch = function (input, init) {
+          var url = typeof input === "string" ? input : (input && input.url);
+          if (typeof url === "string") {
+            var rel = url.replace(/^\.\//, "");
+            if (rel.indexOf("output/") === 0) {
+              return origFetch(baseAbs + rel, init);
+            }
+          }
+          return origFetch(input, init);
+        };
+      }
+
+      function loadScript(src) {
+        return new Promise(function (resolve, reject) {
+          var s = document.createElement("script");
+          s.src = src;
+          s.async = false;
+          s.onload = function () { resolve(src); };
+          s.onerror = function () { reject(new Error("No se pudo cargar " + src)); };
+          document.body.appendChild(s);
+        });
+      }
+
+      function probeJson(baseAbs) {
+        return origFetch(baseAbs + "output/data/municipios_nsr10.json", { method: "GET", cache: "no-cache" })
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return baseAbs;
+          });
+      }
+
+      function tryBases(list, i) {
+        if (i >= list.length) {
+          statusEl.textContent =
+            "No se pudo cargar TERREMOTO-2026. Compruebe la red o abra con ?base=../TERREMOTO-2026/ desde un servidor local que sirva ambos repos.";
+          return;
+        }
+        var baseAbs = normalizeBase(list[i]);
+        if (!baseAbs) {
+          tryBases(list, i + 1);
+          return;
+        }
+        statusEl.textContent = "Resolviendo datos en " + baseAbs + "…";
+        probeJson(baseAbs)
+          .then(function () {
+            patchFetch(baseAbs);
+            noteEl && (noteEl.innerHTML =
+              "Lógica y datos cargados desde <a href=\"" +
+              baseAbs +
+              "#herramienta-espectros\" target=\"_blank\" rel=\"noopener noreferrer\">" +
+              baseAbs.replace(/\/$/, "") +
+              "</a> (sin duplicar las fórmulas NSR-10).");
+            return loadScript(baseAbs + "js/espectro-diseno-nsr10.js");
+          })
+          .catch(function () {
+            tryBases(list, i + 1);
+          });
+      }
+
+      if (!window.Chart) {
+        statusEl.textContent = "Error: Chart.js no cargó desde el CDN.";
+        return;
+      }
+      tryBases(candidates, 0);
+    })();
+  </script>
+</body>
+</html>

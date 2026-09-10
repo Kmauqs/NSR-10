@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
@@ -131,13 +131,6 @@
       gap: 18px;
       padding: 18px 26px 28px;
       align-items: stretch;
-    }
-    .frames .frame:nth-child(3) {
-      grid-column: 1 / -1;
-    }
-    .frames .frame:nth-child(3) .cta {
-      width: auto;
-      max-width: 28rem;
     }
     article.frame {
       border: 1px solid var(--line);
@@ -274,7 +267,7 @@
           <h1>Instrumentos técnicos</h1>
         </div>
         <div class="mast-meta" aria-label="Identificación del documento">
-          <span>NSR-10 · T-2026</span>
+          <span>NSR-10 · A.2.6 · T-2026</span>
           <span>2026/09/08</span>
           <span>PORTADA</span>
         </div>
@@ -282,7 +275,7 @@
 
       <section class="intro">
         <h2>Alcance</h2>
-        <p>Herramientas de consulta para el reglamento sismo resistente, la inspección de edificaciones y el informe técnico del sismo del 10 de agosto de 2026.</p>
+        <p>Herramientas de consulta para el reglamento sismo resistente, la inspección de edificaciones, el cálculo del espectro elástico de diseño (NSR-10 A.2.6) y el informe técnico del sismo del 10 de agosto de 2026.</p>
       </section>
 
       <section class="frames" aria-label="Instrumentos">
@@ -330,6 +323,21 @@
             <a class="cta" href="https://kmauqs.github.io/TERREMOTO-2026/" target="_blank" rel="noopener noreferrer">Abrir el informe <span>↗</span></a>
           </div>
         </article>
+        <article class="frame">
+          <div class="frame-head">
+            <div class="frame-label">
+              <small>Marco 04 · Amenaza y diseño</small>
+              <h3>Espectro elástico A.2.6</h3>
+            </div>
+          </div>
+          <div class="frame-body">
+            <p class="caption">Calculadora — espectro elástico de aceleraciones y desplazamientos de diseño.</p>
+            <p>Genera el espectro elástico de diseño según el numeral A.2.6 de la NSR-10 a partir de Aa, Av (Apéndice A-4), Fa/Fv, coeficiente de importancia I y, cuando exista, microzonificación. Permite aplicar el coeficiente de disipación R y comparar con espectros del evento del 10 de agosto de 2026.</p>
+            <p>Reutiliza la herramienta del informe Terremoto 2026 (§7): la lógica de cálculo y los datos se cargan por referencia, sin duplicar las fórmulas en este repositorio.</p>
+            <a class="cta" href="espectro-diseno-nsr10.html">Abrir la calculadora <span>→</span></a>
+          </div>
+        </article>
+
       </section>
 
       <footer class="colophon">
