@@ -305,7 +305,6 @@
         <p class="source" id="reuse-note">
           Lógica y datos reutilizados desde
           <a href="https://kmauqs.github.io/TERREMOTO-2026/#herramienta-espectros" target="_blank" rel="noopener noreferrer">Terremoto 2026 · §7</a>
-          (sin duplicar las fórmulas NSR-10).
         </p>
       </div>
 
@@ -316,8 +315,8 @@
           <strong>espectro elástico de desplazamientos (m) de diseño</strong> según el
           numeral <strong>A.2.6</strong>, a partir de <em>Aa</em>, <em>Av</em>
           (Apéndice A-4), <em>Fa</em>/<em>Fv</em> (tablas A.2.4-3 y A.2.4-4),
-          coeficiente de importancia <em>I</em> (A.2.5) y, cuando aplique, microzonificación.
-          Opcionalmente reduce por <em>R</em> y superpone espectros del evento SGC2026pqqmro.
+          coeficiente de importancia <em>I</em> (A.2.5) y, cuando aplique, Espectro de Microzonificación Sísmica local.
+          Opcionalmente reduce por <em>R</em> y superpone espectros del evento SGC2026pqqmro (terremoto de 10 de agosto de 2026).
         </p>
       </section>
 
@@ -353,7 +352,7 @@
             <label class="ch7-check"><input type="checkbox" id="ch7-show-proc" /> Mostrar espectros de respuesta procesados (10-ago-2026)</label>
             <label for="ch7-proc-station">Estación (procesados)</label>
             <select id="ch7-proc-station"></select>
-            <label class="ch7-check"><input type="checkbox" id="ch7-show-sgc" /> Mostrar espectros automáticos SGC (Excel PSA)</label>
+            <label class="ch7-check"><input type="checkbox" id="ch7-show-sgc" /> Mostrar espectros automáticos SGC <a href="https://sgc.gov.co/detallesismo/SGC2026pqqmro/sm" target="_blank" rel="noopener noreferrer"> (Sismo SGC2026pqqmro) ↗</a></label>
             <label for="ch7-sgc-station">Estación (SGC)</label>
             <select id="ch7-sgc-station"></select>
             <div class="ch7-actions">
@@ -371,8 +370,6 @@
         <p class="note" style="margin-top:0.8rem">
           El CSV exportado tiene en la primera columna el periodo <code>T_s</code> y en las
           columnas siguientes las ordenadas elásticas mostradas (Sa en g, Sd en m).
-          Requiere red para cargar el script y los JSON desde TERREMOTO-2026 (o use
-          <code>?base=../TERREMOTO-2026/</code> si ambos repos están como hermanos y un servidor local los sirve).
         </p>
       </section>
 
