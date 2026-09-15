@@ -258,6 +258,10 @@ for i, expr in enumerate(
 ):
     EQ[f"B.2.4-{i}"] = _n(f"B.2.4-{i}", f"<mtext>{expr}</mtext>")
 
+from eq_f4a_mathml import EQ_F4A
+
+EQ.update(EQ_F4A)
+
 
 def mathml_for(eq_id):
     return EQ.get(eq_id)

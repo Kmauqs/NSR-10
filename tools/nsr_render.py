@@ -10,16 +10,22 @@ from pathlib import Path
 from eq_mathml import fallback_eq, mathml_for
 
 PDF_BASE = "NSR10-Completa.pdf"
+# Table / equation ids may include appendix letters (F.4.A.1.3.2-1), deep dots (F.2.5.4-11),
+# and AIS-style numeric ids (1.2-1, 6.8-4).
+NSR_ID = r"[A-K](?:\.[A-Za-z0-9]+)+"
+TAB_ID = rf"(?:{NSR_ID}|\d+(?:\.\d+)*)\s*-\s*\d+[a-z]?"
 HEADING_RE = re.compile(
     r"^([A-K])\.(\d+(?:\.\d+){0,8})\s*(?:[\u2014\u2013\-\u2212]+\s*|\s{2,})(.*)$"
 )
-EQ_LABEL_RE = re.compile(r"\(([A-K]\.\d+(?:\.\d+)?-\d+)\)")
+EQ_LABEL_RE = re.compile(rf"\(({NSR_ID}-\d+)\)")
 FIG_RE = re.compile(
-    r"^(?:Figura|FIGURA)\s+([A-K]\.[\d.\-]+)\s*[\u2014\u2013\-\u2212]*\s*(.*)$",
+    r"^(?:Figura|FIGURA)\s+([A-K]\.[\dA-Za-z.\-]+)\s*[\u2014\u2013\-\u2212]*\s*(.*)$",
     re.I,
 )
 TAB_RE = re.compile(
-    r"^(?:Tabla|TABLA)\s+([A-K]\.[\d.\-]+\s*-?\s*\d+)\s*(?:\((?:continuaci[\u00f3o]n)\))?\s*[\u2014\u2013\-\u2212]*\s*(.*)$",
+    rf"^(?:Tabla|TABLA)\s+({TAB_ID})\s*"
+    rf"(?:\((?:continuaci[\u00f3o]n)\))?\s*"
+    rf"[\u2014\u2013\-\u2212.]*\s*(.*)$",
     re.I,
 )
 CHAP_RE = re.compile(r"^CAP[I\u00cd]TULO\s+([A-K])\.(\d+(?:\.\d+)?)\b", re.I)
@@ -28,7 +34,7 @@ SPANISH = re.compile(
     r"del|que|una|unos|como|este|esta|estos|estas|calculado|obtiene|define)\b",
     re.I,
 )
-ART_ID_RE = re.compile(r"\b([A-K]\.\d+(?:\.\d+){1,6})\b")
+ART_ID_RE = re.compile(r"\b([A-K]\.(?:\d+\.)*(?:[A-Z]\.)?\d+(?:\.\d+){0,6})\b")
 STOP_WORDS = {
     "tabla",
     "figura",
@@ -596,7 +602,7 @@ def pdf_table_to_html(tid, caption, page, tb, page_num, words=None):
     )
 
 
-def cells_to_html(tid, caption, matrix, page=None):
+def cells_to_html(tid, caption, matrix, page=None, pdf_href=None):
     rows = []
     for row in matrix:
         cleaned = [("" if c is None else re.sub(r"\s+", " ", str(c)).strip()) for c in row]
@@ -618,8 +624,9 @@ def cells_to_html(tid, caption, matrix, page=None):
         "<tr>" + "".join(f"<td>{_h(c)}</td>" for c in r) + "</tr>" for r in rows[1:]
     )
     cap = html.escape(caption or "")
+    href = pdf_href or PDF_BASE
     pdf = (
-        f' <a href="{PDF_BASE}#page={page}" target="_blank" rel="noopener">PDF p\u00e1g. {page}</a>'
+        f' <a href="{html.escape(href)}#page={page}" target="_blank" rel="noopener">PDF p\u00e1g. {page}</a>'
         if page
         else ""
     )
@@ -631,27 +638,64 @@ def cells_to_html(tid, caption, matrix, page=None):
     )
 
 
-def extract_pdf_tables(pdf_path: Path, cache_path: Path | None = None) -> dict:
-    if cache_path and cache_path.exists() and cache_path.stat().st_size > 100:
+def _caption_table_id(words, wi: int) -> str | None:
+    """Join tokens after 'Tabla' into an NSR table id (supports F.4.A.1.3.2-1)."""
+    parts = []
+    for j in range(wi + 1, min(wi + 8, len(words))):
+        tok = (words[j][4] or "").strip().rstrip(",;.")
+        if not tok:
+            continue
+        if tok in ("\u2014", "\u2013", "-") or tok.startswith("\u2014") or tok.startswith("\u2013"):
+            break
+        if re.match(r"^(Valores|Resistencia|Factor|Par[aá]metros|Espesor)", tok, re.I):
+            break
+        if parts and not re.match(r"^[\dA-Za-z.\-]+$", tok):
+            break
+        if not parts and not re.match(r"^[A-K](\.|$)", tok):
+            # AIS-style numeric tables in annexes: "Tabla 6.8-1"
+            if not re.match(r"^\d", tok):
+                break
+        parts.append(tok)
+        joined = norm_table_id("".join(parts))
+        if re.match(rf"^{NSR_ID}(?:-\d+[a-z]?)?$", joined) and "-" in joined:
+            return joined
+        if re.match(r"^\d+(?:\.\d+)*(?:-\d+)$", joined):
+            return joined
+    if not parts:
+        return None
+    tid = norm_table_id("".join(parts))
+    if re.match(rf"^{NSR_ID}", tid) or re.match(r"^\d+\.", tid):
+        return tid
+    return None
+
+
+def extract_pdf_tables(
+    pdf_path: Path,
+    cache_path: Path | None = None,
+    *,
+    force: bool = False,
+    pdf_href: str | None = None,
+) -> dict:
+    if (
+        not force
+        and cache_path
+        and cache_path.exists()
+        and cache_path.stat().st_size > 100
+    ):
         return json.loads(cache_path.read_text(encoding="utf-8"))
     import pymupdf
 
     doc = pymupdf.open(pdf_path)
     catalog = {}
-    id_re = re.compile(r"^[A-K]\.[\d.\-]+\d$|^[A-K]\.\d")
+    href = pdf_href or PDF_BASE
     for i, page in enumerate(doc, 1):
         words = page.get_text("words") or []
         captions = []
         for wi, w in enumerate(words):
             if w[4].lower() not in ("tabla", "table"):
                 continue
-            nxt = words[wi + 1][4] if wi + 1 < len(words) else ""
-            nxt2 = words[wi + 2][4] if wi + 2 < len(words) else ""
-            cand = nxt
-            if nxt2.startswith("-") or re.match(r"^\d+$", nxt2):
-                cand = nxt + nxt2
-            tid = norm_table_id(cand)
-            if not re.match(r"^[A-K]\.", tid):
+            tid = _caption_table_id(words, wi)
+            if not tid:
                 continue
             captions.append((tid, w[1], w[3]))
         try:
@@ -659,9 +703,7 @@ def extract_pdf_tables(pdf_path: Path, cache_path: Path | None = None) -> dict:
             tables = list(found.tables) if found and found.tables else []
         except Exception:
             tables = []
-        assigned = set()
         for tid, y0, y1 in captions:
-            clip_top = y0 - 2
             clip_bot = y0 + 420
             later = [c[1] for c in captions if c[1] > y0 + 8 and c[0] != tid]
             if later:
@@ -684,6 +726,8 @@ def extract_pdf_tables(pdf_path: Path, cache_path: Path | None = None) -> dict:
             if tid in catalog:
                 continue
             html_tbl = pdf_table_to_html(tid, "", page, chosen_tb, i, words)
+            if html_tbl and href != PDF_BASE:
+                html_tbl = html_tbl.replace(f'href="{PDF_BASE}#page=', f'href="{href}#page=')
             nscore = chosen_tb.row_count
             if not html_tbl:
                 matrix = None
@@ -693,17 +737,134 @@ def extract_pdf_tables(pdf_path: Path, cache_path: Path | None = None) -> dict:
                     matrix = None
                 if not matrix:
                     continue
-                html_tbl = cells_to_html(tid, "", matrix, i)
+                html_tbl = cells_to_html(tid, "", matrix, i, pdf_href=href)
                 nscore = len(matrix)
             if not html_tbl:
                 continue
             score = html_tbl.count("<td") + html_tbl.count("<th")
-            catalog[tid] = {"html": html_tbl, "page": i, "rows": nscore, "score": score}
-            assigned.add(tid)
+            catalog[tid] = {
+                "html": html_tbl,
+                "page": i,
+                "rows": nscore,
+                "score": score,
+                "pdf": href,
+            }
     if cache_path:
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         cache_path.write_text(json.dumps(catalog, ensure_ascii=False), encoding="utf-8")
     return catalog
+
+
+def merge_table_catalogs(*catalogs: dict) -> dict:
+    """Later catalogs override earlier ones when score is equal or better."""
+    out: dict = {}
+    for cat in catalogs:
+        for tid, rec in (cat or {}).items():
+            prev = out.get(tid)
+            if not prev or (rec.get("score") or 0) >= (prev.get("score") or 0):
+                out[tid] = rec
+    return out
+
+
+def curated_mod_tables() -> dict:
+    """Hand-tuned HTML for tables that PDF find_tables flattens incorrectly."""
+    from ais410_tables import curated_ais410_tables
+
+    ry = "<msub><mi>R</mi><mi>y</mi></msub>"
+    rt = "<msub><mi>R</mi><mi>t</mi></msub>"
+    fy = "<msub><mi>F</mi><mi>y</mi></msub>"
+    href = (
+        "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+    )
+    rows = [
+        (
+            "Placas y barras: ASTM A36/A36M, ASTM A283/A283M",
+            "1.3",
+            "1.2",
+        ),
+        (
+            "ASTM A242/A242M, ASTM A529/A529M, ASTM A572/A572M, ASTM A588/A588M",
+            "1.1",
+            "1.2",
+        ),
+        (
+            "Perfil Tubular Estructural (PTE): ASTM A500 Grade B",
+            "1.4",
+            "1.3",
+        ),
+        ("ASTM A500 Grade C", "1.3", "1.2"),
+        ("ASTM A1085", "1.25", "1.15"),
+        (
+            "Láminas y flejes (ASTM A606, ASTM A653/A653M, ASTM A792/A792M, "
+            "ASTM A875, ASTM A1003/A1003M)",
+            None,
+            None,
+        ),
+        (
+            f'<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>{fy}<mo>&lt;</mo>'
+            f"<mn>255</mn><mtext>&#xA0;MPa</mtext></mrow></math>",
+            "1.5",
+            "1.2",
+        ),
+        (
+            f'<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>255</mn>'
+            f"<mtext>&#xA0;MPa&#xA0;</mtext><mo>&#x2264;</mo>{fy}<mo>&lt;</mo>"
+            f"<mn>275</mn><mtext>&#xA0;MPa</mtext></mrow></math>",
+            "1.4",
+            "1.1",
+        ),
+        (
+            f'<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>275</mn>'
+            f"<mtext>&#xA0;MPa&#xA0;</mtext><mo>&#x2264;</mo>{fy}<mo>&lt;</mo>"
+            f"<mn>340</mn><mtext>&#xA0;MPa</mtext></mrow></math>",
+            "1.3",
+            "1.1",
+        ),
+        (
+            f'<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>{fy}'
+            f"<mo>&#x2265;</mo><mn>340</mn><mtext>&#xA0;MPa</mtext></mrow></math>",
+            "1.1",
+            "1.1",
+        ),
+    ]
+    body = []
+    for acero, a, b in rows:
+        if a is None:
+            body.append(
+                f'<tr><td colspan="3">{html.escape(acero)}</td></tr>'
+            )
+        elif acero.startswith("<math"):
+            body.append(
+                f"<tr><td class='num'>{acero}</td>"
+                f"<td class='num'>{html.escape(a)}</td>"
+                f"<td class='num'>{html.escape(b)}</td></tr>"
+            )
+        else:
+            body.append(
+                f"<tr><td>{html.escape(acero)}</td>"
+                f"<td class='num'>{html.escape(a)}</td>"
+                f"<td class='num'>{html.escape(b)}</td></tr>"
+            )
+    html_tbl = (
+        f'<div class="nsr-table-wrap"><p class="table-cap">Tabla F.4.A.1.3.2-1 '
+        f"\u2014 Valores <math xmlns=\"http://www.w3.org/1998/Math/MathML\">{ry}</math> y "
+        f"<math xmlns=\"http://www.w3.org/1998/Math/MathML\">{rt}</math> para varios Tipos de Producto"
+        f' <a href="{html.escape(href)}#page=12" target="_blank" rel="noopener">PDF p\u00e1g. 12</a></p>'
+        f'<table class="nsr-table"><thead><tr><th>Acero</th>'
+        f'<th><math xmlns="http://www.w3.org/1998/Math/MathML">{ry}</math></th>'
+        f'<th><math xmlns="http://www.w3.org/1998/Math/MathML">{rt}</math></th>'
+        f"</tr></thead><tbody>{''.join(body)}</tbody></table></div>"
+    )
+    return {
+        "F.4.A.1.3.2-1": {
+            "html": html_tbl,
+            "page": 12,
+            "rows": len(rows),
+            "score": 999,
+            "pdf": href,
+        },
+        **curated_ais410_tables(),
+    }
 
 
 def cluster_words_table(page, y_tol=5.0, clip=None):
@@ -790,9 +951,151 @@ def article_is_modified(art_id: str, replacements: dict, touched: dict) -> str |
     return None
 
 
+def _symbol_mathml_from_tokens(tokens: list[str]) -> str:
+    """Best-effort MathML for stacked OCR tokens (e.g. re,no,y / R,M,M)."""
+    toks = [t for t in tokens if t and t not in ("=",)]
+    if not toks:
+        return ""
+    greek = {
+        "λ": "&#x3BB;",
+        "": "&#x3BB;",
+        "α": "&#x3B1;",
+        "β": "&#x3B2;",
+        "γ": "&#x3B3;",
+        "δ": "&#x3B4;",
+        "φ": "&#x3C6;",
+        "ϕ": "&#x3C6;",
+        "ρ": "&#x3C1;",
+        "ω": "&#x3C9;",
+    }
+    if len(toks) == 1 and toks[0] in greek:
+        return f"<mi>{greek[toks[0]]}</mi>"
+    if len(toks) == 1 and toks[0] in ("lambda", "Lambda"):
+        return "<mi>&#x3BB;</mi>"
+    letters = [t for t in toks if re.fullmatch(r"[A-Za-z]{1,3}", t)]
+    if not letters:
+        if len(toks) == 1 and toks[0] in greek:
+            return f"<mi>{greek[toks[0]]}</mi>"
+        joined = "".join(html.escape(t) for t in toks)
+        return f"<mi>{joined}</mi>"
+    # Collapse duplicated index/base pairs: y M y M → M_y
+    if len(letters) >= 4 and len(letters) % 2 == 0:
+        pairs = [(letters[i], letters[i + 1]) for i in range(0, len(letters), 2)]
+        if all(p == pairs[0] for p in pairs):
+            a, b = pairs[0]
+            if len(a) <= 2 and len(b) == 1 and b.isupper():
+                return f"<msub><mi>{html.escape(b)}</mi><mi>{html.escape(a)}</mi></msub>"
+            if len(b) <= 2 and len(a) == 1 and a.isupper():
+                return f"<msub><mi>{html.escape(a)}</mi><mi>{html.escape(b)}</mi></msub>"
+    # index(es) then base: no M → M_no ; f S → S_f ; fS glued already handled
+    if len(letters) >= 2 and all(len(x) <= 2 for x in letters[:-1]) and len(letters[-1]) == 1:
+        base = letters[-1]
+        idx = "".join(letters[:-1])
+        return f"<msub><mi>{html.escape(base)}</mi><mi>{html.escape(idx)}</mi></msub>"
+    if len(letters) >= 2 and len(letters[0]) == 1:
+        base = letters[0]
+        idx = "".join(letters[1:])
+        return f"<msub><mi>{html.escape(base)}</mi><mi>{html.escape(idx)}</mi></msub>"
+    # glued forms like fS
+    if len(letters) == 1 and len(letters[0]) == 2 and letters[0][1].isupper():
+        return (
+            f"<msub><mi>{html.escape(letters[0][1])}</mi>"
+            f"<mi>{html.escape(letters[0][0])}</mi></msub>"
+        )
+    return f"<mi>{html.escape(''.join(letters))}</mi>"
+
+
+def _flush_donde_def(parts: list[str], sym_toks: list[str], def_toks: list[str]):
+    if not def_toks and not sym_toks:
+        return
+    # Drop empty defs that are only OCR residue of the following equation.
+    definition = re.sub(r"\s+", " ", " ".join(def_toks)).strip()
+    if not definition and sym_toks and all(is_eq_junk(t) or len(t) <= 3 for t in sym_toks):
+        sym_toks.clear()
+        def_toks.clear()
+        return
+    if not definition:
+        sym_toks.clear()
+        def_toks.clear()
+        return
+    sym = _symbol_mathml_from_tokens(sym_toks)
+    definition_html = html.escape(definition)
+    if sym:
+        parts.append(
+            f'<p class="eq-def"><math xmlns="http://www.w3.org/1998/Math/MathML">'
+            f"<mrow>{sym}</mrow></math> = {definition_html}</p>"
+        )
+    else:
+        parts.append(f"<p>{definition_html}</p>")
+    sym_toks.clear()
+    def_toks.clear()
+
+
+def consume_donde_block(lines, start: int) -> tuple[str, int]:
+    """Parse a Donde … definitions block; returns (html, next_index)."""
+    n = len(lines)
+    i = start + 1
+    out = ['<p><strong>Donde</strong></p>']
+    sym: list[str] = []
+    defs: list[str] = []
+    mode = "sym"
+
+    def is_stop(pl: str) -> bool:
+        if not pl:
+            return False
+        if HEADING_RE.match(pl) or FIG_RE.match(pl) or TAB_RE.match(pl) or CHAP_RE.match(pl):
+            return True
+        if pl.lower() == "donde" or pl.lower().startswith("donde "):
+            return True
+        if EQ_LABEL_RE.fullmatch(pl) or (
+            EQ_LABEL_RE.search(pl) and not SPANISH.search(pl)
+        ):
+            return True
+        return False
+
+    while i < n:
+        pl = (lines[i][1] or "").strip()
+        if is_stop(pl):
+            break
+        if not pl:
+            i += 1
+            continue
+        if pl == "=":
+            mode = "def"
+            i += 1
+            continue
+        if mode == "sym":
+            if SPANISH.search(pl) and len(pl) > 18:
+                # definition without explicit symbol line
+                defs.append(pl)
+                mode = "def"
+            elif is_eq_junk(pl) or len(pl) <= 6 or re.fullmatch(r"[A-Za-zΑ-Ωα-ωλ]+", pl):
+                # new symbol after a completed def
+                if defs:
+                    _flush_donde_def(out, sym, defs)
+                    mode = "sym"
+                sym.append(pl)
+            else:
+                if defs:
+                    _flush_donde_def(out, sym, defs)
+                defs.append(pl)
+                mode = "def"
+        else:
+            if (is_eq_junk(pl) or re.fullmatch(r"[A-Za-zΑ-Ωα-ωλ]{1,3}", pl)) and len(pl) <= 4:
+                _flush_donde_def(out, sym, defs)
+                sym.append(pl)
+                mode = "sym"
+            else:
+                defs.append(pl)
+        i += 1
+    _flush_donde_def(out, sym, defs)
+    return "\n".join(out), i
+
+
 def lines_to_html(art_id, lines, replacements, tables=None):
     tables = tables or {}
     used_eq = set()
+    seen_tables = set()
     html_parts = []
     i = 0
     n = len(lines)
@@ -822,30 +1125,120 @@ def lines_to_html(art_id, lines, replacements, tables=None):
             html_parts.append(figure_html(fm.group(1), cap, page))
             i += 1
             continue
+        if s.lower() == "donde" or re.fullmatch(r"donde\s*:?", s, re.I):
+            flush_para(paras)
+            block, i = consume_donde_block(lines, i)
+            html_parts.append(block)
+            continue
         if tm:
             flush_para(paras)
             cap_id = norm_table_id(tm.group(1))
             caption = (tm.group(2) or "").strip()
+            # In-text references: "Tabla X, a menos que..." — not captions.
+            if caption.startswith(",") or re.match(
+                r"^(a\s+menos|si\b|cuando\b|debe\b|en\b|de\b|del\b|con\b|por\b)",
+                caption,
+                re.I,
+            ):
+                paras.append(s)
+                i += 1
+                continue
+            # OCR often splits "Valores R_y y R_t ..." onto following lines.
             j = i + 1
+            while j < n and j - i <= 6:
+                pl = (lines[j][1] or "").strip()
+                if not pl:
+                    j += 1
+                    continue
+                if HEADING_RE.match(pl) or FIG_RE.match(pl) or TAB_RE.match(pl) or CHAP_RE.match(pl):
+                    break
+                if EQ_LABEL_RE.search(pl):
+                    break
+                if re.match(r"^(Acero|Placas|ASTM|Perfil|L[aá]minas)\b", pl, re.I):
+                    break
+                if len(pl) < 40 and not re.search(r"\d\.\d", pl):
+                    if caption:
+                        caption = (caption + " " + pl).strip()
+                    else:
+                        caption = pl
+                    j += 1
+                    continue
+                break
             while j < n:
                 pl = (lines[j][1] or "").strip()
                 if HEADING_RE.match(pl) or FIG_RE.match(pl) or TAB_RE.match(pl) or CHAP_RE.match(pl):
                     break
-                if j - i > 250:
+                # AIS 410 section heads: "4.2.1.2  — Title" / "6.1 - CONSIDERACIONES"
+                if re.match(r"^\d+(?:\.\d+){1,5}\s*(?:[\u2014\u2013\-]|$)", pl):
+                    break
+                if re.match(r"^Notas?\s*:", pl, re.I):
+                    break
+                # Prose after a compact numeric table
+                if (
+                    j > i + 2
+                    and SPANISH.search(pl)
+                    and len(pl) > 90
+                    and not re.search(r"\b\d+[.,]\d+\b", pl)
+                    and pl.count(" ") > 12
+                ):
+                    break
+                if j - i > 120:
                     break
                 j += 1
+            if cap_id in seen_tables:
+                i = j
+                continue
+            seen_tables.add(cap_id)
             rec = tables.get(cap_id)
             if rec:
                 html_parts.append(rec["html"])
             else:
+                pdf_href = PDF_BASE
                 html_parts.append(
                     f'<div class="nsr-table-wrap"><p class="table-cap">Tabla {html.escape(cap_id)}'
                     f"{(' \u2014 ' + html.escape(caption)) if caption else ''}"
-                    f' \u2014 <a href="{PDF_BASE}#page={page}" target="_blank" rel="noopener">'
+                    f' \u2014 <a href="{html.escape(pdf_href)}#page={page}" target="_blank" rel="noopener">'
                     f"ver tabla en PDF p\u00e1g. {page}</a></p></div>"
                 )
             i = j
             continue
+        # "Para" followed by OCR formula junk then (eq-id) → emit MathML once.
+        if s.lower() == "para":
+            k = i + 1
+            eid = None
+            while k < n and k - i <= 20:
+                peek = (lines[k][1] or "").strip()
+                if not peek:
+                    k += 1
+                    continue
+                eqm = EQ_LABEL_RE.search(peek)
+                if eqm:
+                    eid = eqm.group(1)
+                    break
+                if HEADING_RE.match(peek) or TAB_RE.match(peek) or FIG_RE.match(peek):
+                    break
+                if peek.lower() in ("donde", "cuando") or (
+                    SPANISH.search(peek) and not is_eq_junk(peek) and len(peek) > 20
+                ):
+                    break
+                k += 1
+            if eid:
+                flush_para(paras)
+                if eid not in used_eq:
+                    used_eq.add(eid)
+                    html_parts.append(mathml_for(eid) or fallback_eq(eid))
+                i = k + 1
+                continue
+            # Second "Para" branch of a piecewise eq already emitted: skip OCR tail.
+            nxt = ""
+            for t in range(i + 1, min(n, i + 8)):
+                cand = (lines[t][1] or "").strip()
+                if cand:
+                    nxt = cand
+                    break
+            if nxt and (is_eq_junk(nxt) or re.match(r"^[\d.,\u03bb\u03BB]+$", nxt)):
+                i += 1
+                continue
         if is_eq_junk(s):
             eqm = EQ_LABEL_RE.search(s)
             if eqm:
@@ -857,9 +1250,18 @@ def lines_to_html(art_id, lines, replacements, tables=None):
             i += 1
             continue
         eqm = EQ_LABEL_RE.search(s)
-        if eqm and not SPANISH.search(s):
+        if eqm and (not SPANISH.search(s) or re.fullmatch(rf"\({NSR_ID}-\d+\)", s)):
             flush_para(paras)
             eid = eqm.group(1)
+            if eid not in used_eq:
+                used_eq.add(eid)
+                html_parts.append(mathml_for(eid) or fallback_eq(eid))
+            i += 1
+            continue
+        # Standalone "M_y = S_f F_y" style label after Donde definitions.
+        if re.fullmatch(rf"\({NSR_ID}-\d+\)", s):
+            flush_para(paras)
+            eid = s.strip("()")
             if eid not in used_eq:
                 used_eq.add(eid)
                 html_parts.append(mathml_for(eid) or fallback_eq(eid))

@@ -1,0 +1,1977 @@
+{
+  "A.1.3-1": {
+    "page": 46,
+    "score": 6,
+    "pdf": null
+  },
+  "A.2.2-1": {
+    "page": 58,
+    "score": 23,
+    "pdf": null
+  },
+  "A.2.3-1": {
+    "page": 58,
+    "score": 34,
+    "pdf": null
+  },
+  "A.2.3-2": {
+    "page": 59,
+    "score": 133,
+    "pdf": null
+  },
+  "A.2.4-1": {
+    "page": 65,
+    "score": 27,
+    "pdf": null
+  },
+  "A.2.4-2": {
+    "page": 66,
+    "score": 17,
+    "pdf": null
+  },
+  "A.2.4-3": {
+    "page": 66,
+    "score": 44,
+    "pdf": null
+  },
+  "A.2.4-4": {
+    "page": 67,
+    "score": 44,
+    "pdf": null
+  },
+  "A.2.5-1": {
+    "page": 69,
+    "score": 11,
+    "pdf": null
+  },
+  "A.2.10-1": {
+    "page": 79,
+    "score": 13,
+    "pdf": null
+  },
+  "A.3-1": {
+    "page": 95,
+    "score": 142,
+    "pdf": null
+  },
+  "A.3-2": {
+    "page": 96,
+    "score": 175,
+    "pdf": null
+  },
+  "A.3-3": {
+    "page": 98,
+    "score": 187,
+    "pdf": null
+  },
+  "A.3-4": {
+    "page": 99,
+    "score": 180,
+    "pdf": null
+  },
+  "A.3-5": {
+    "page": 101,
+    "score": 9,
+    "pdf": null
+  },
+  "A.3-6": {
+    "page": 102,
+    "score": 29,
+    "pdf": null
+  },
+  "A.3-7": {
+    "page": 103,
+    "score": 33,
+    "pdf": null
+  },
+  "A.4.2-1": {
+    "page": 107,
+    "score": 19,
+    "pdf": null
+  },
+  "A.6.4-1": {
+    "page": 119,
+    "score": 7,
+    "pdf": null
+  },
+  "A.6.5-1": {
+    "page": 122,
+    "score": 19,
+    "pdf": null
+  },
+  "A.9.2-1": {
+    "page": 131,
+    "score": 11,
+    "pdf": null
+  },
+  "A.9.5-1": {
+    "page": 136,
+    "score": 103,
+    "pdf": null
+  },
+  "A.9.6-1": {
+    "page": 138,
+    "score": 64,
+    "pdf": null
+  },
+  "A.10.3-1": {
+    "page": 144,
+    "score": 17,
+    "pdf": null
+  },
+  "A.10.3-2": {
+    "page": 144,
+    "score": 69,
+    "pdf": null
+  },
+  "A.10.4-1": {
+    "page": 148,
+    "score": 10,
+    "pdf": null
+  },
+  "A.12.2-1": {
+    "page": 161,
+    "score": 17,
+    "pdf": null
+  },
+  "A.12.2-2": {
+    "page": 163,
+    "score": 69,
+    "pdf": null
+  },
+  "A.12.5-1": {
+    "page": 166,
+    "score": 7,
+    "pdf": null
+  },
+  "A.-2.1-1.": {
+    "page": 187,
+    "score": 17,
+    "pdf": null
+  },
+  "B.3.2-1": {
+    "page": 228,
+    "score": 133,
+    "pdf": null
+  },
+  "B.3.4.1-1": {
+    "page": 229,
+    "score": 32,
+    "pdf": null
+  },
+  "B.3.4.1-2": {
+    "page": 229,
+    "score": 17,
+    "pdf": null
+  },
+  "B.3.4.1-3": {
+    "page": 230,
+    "score": 53,
+    "pdf": null
+  },
+  "B.3.4.1-4": {
+    "page": 230,
+    "score": 79,
+    "pdf": null
+  },
+  "B.3.4.2-1": {
+    "page": 231,
+    "score": 36,
+    "pdf": null
+  },
+  "B.3.4.2-2": {
+    "page": 231,
+    "score": 23,
+    "pdf": null
+  },
+  "B.3.4.2-3": {
+    "page": 231,
+    "score": 17,
+    "pdf": null
+  },
+  "B.3.4.2-4": {
+    "page": 232,
+    "score": 193,
+    "pdf": null
+  },
+  "B.3.4.2-5": {
+    "page": 232,
+    "score": 11,
+    "pdf": null
+  },
+  "B.3.4.3-1": {
+    "page": 233,
+    "score": 80,
+    "pdf": null
+  },
+  "B.4.2.1-1": {
+    "page": 234,
+    "score": 113,
+    "pdf": null
+  },
+  "B.4.2.1-2": {
+    "page": 10,
+    "score": 23,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "B.6.5-1": {
+    "page": 298,
+    "score": 7,
+    "pdf": null
+  },
+  "B.6.5-2": {
+    "page": 299,
+    "score": 7,
+    "pdf": null
+  },
+  "B.6.5-3": {
+    "page": 300,
+    "score": 134,
+    "pdf": null
+  },
+  "B.6.5-4": {
+    "page": 301,
+    "score": 7,
+    "pdf": null
+  },
+  "C.3.5.3-1": {
+    "page": 329,
+    "score": 77,
+    "pdf": null
+  },
+  "C.3.5.3-2": {
+    "page": 329,
+    "score": 80,
+    "pdf": null
+  },
+  "C.4.2.1": {
+    "page": 337,
+    "score": 55,
+    "pdf": null
+  },
+  "C.4.3.1": {
+    "page": 338,
+    "score": 94,
+    "pdf": null
+  },
+  "C.4.4.1": {
+    "page": 338,
+    "score": 94,
+    "pdf": null
+  },
+  "C.4.4.2": {
+    "page": 338,
+    "score": 94,
+    "pdf": null
+  },
+  "C.4.5.1": {
+    "page": 340,
+    "score": 18,
+    "pdf": null
+  },
+  "C.5.3.1.2": {
+    "page": 342,
+    "score": 13,
+    "pdf": null
+  },
+  "C.5.3.2.215": {
+    "page": 342,
+    "score": 13,
+    "pdf": null
+  },
+  "C.5.3.2.1": {
+    "page": 342,
+    "score": 7,
+    "pdf": null
+  },
+  "C.5.3.2.2": {
+    "page": 343,
+    "score": 9,
+    "pdf": null
+  },
+  "C.7.2": {
+    "page": 353,
+    "score": 9,
+    "pdf": null
+  },
+  "C.9.5(a)": {
+    "page": 372,
+    "score": 19,
+    "pdf": null
+  },
+  "C.9.5(b)": {
+    "page": 373,
+    "score": 15,
+    "pdf": null
+  },
+  "C.9.5(c)": {
+    "page": 374,
+    "score": 35,
+    "pdf": null
+  },
+  "C.13.9-1": {
+    "page": 435,
+    "score": 121,
+    "pdf": null
+  },
+  "C.13.9-2": {
+    "page": 436,
+    "score": 121,
+    "pdf": null
+  },
+  "C.13.9-3": {
+    "page": 437,
+    "score": 121,
+    "pdf": null
+  },
+  "C.13.9-4": {
+    "page": 438,
+    "score": 121,
+    "pdf": null
+  },
+  "C.15.11-1": {
+    "page": 447,
+    "score": 22,
+    "pdf": null
+  },
+  "C.23-C.4.1.1": {
+    "page": 511,
+    "score": 19,
+    "pdf": null
+  },
+  "C.23-C.4.2.1": {
+    "page": 512,
+    "score": 62,
+    "pdf": null
+  },
+  "C.23-C.4.3.1": {
+    "page": 513,
+    "score": 58,
+    "pdf": null
+  },
+  "C.23-C.7.7.1": {
+    "page": 517,
+    "score": 77,
+    "pdf": null
+  },
+  "C.23-C.7.12.2.1": {
+    "page": 518,
+    "score": 18,
+    "pdf": null
+  },
+  "D.3.4-1": {
+    "page": 579,
+    "score": 64,
+    "pdf": null
+  },
+  "D.3.5-1": {
+    "page": 580,
+    "score": 23,
+    "pdf": null
+  },
+  "D.3.6-1": {
+    "page": 582,
+    "score": 36,
+    "pdf": null
+  },
+  "D.3.7-1": {
+    "page": 583,
+    "score": 15,
+    "pdf": null
+  },
+  "D.4.2-1": {
+    "page": 588,
+    "score": 10,
+    "pdf": null
+  },
+  "D.4.2-2": {
+    "page": 591,
+    "score": 21,
+    "pdf": null
+  },
+  "D.4.6-1": {
+    "page": 593,
+    "score": 28,
+    "pdf": null
+  },
+  "D.5.4-1": {
+    "page": 601,
+    "score": 26,
+    "pdf": null
+  },
+  "D.5.8-1": {
+    "page": 605,
+    "score": 30,
+    "pdf": null
+  },
+  "D.5.8-2": {
+    "page": 606,
+    "score": 9,
+    "pdf": null
+  },
+  "D.5.8-3": {
+    "page": 607,
+    "score": 9,
+    "pdf": null
+  },
+  "D.10.3-1": {
+    "page": 619,
+    "score": 9,
+    "pdf": null
+  },
+  "D.11.1-1": {
+    "page": 629,
+    "score": 9,
+    "pdf": null
+  },
+  "E.1.3-1": {
+    "page": 34,
+    "score": 11,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "E.2.2-1": {
+    "page": 648,
+    "score": 36,
+    "pdf": null
+  },
+  "E.3.5-1": {
+    "page": 652,
+    "score": 17,
+    "pdf": null
+  },
+  "E.3.6-1": {
+    "page": 653,
+    "score": 23,
+    "pdf": null
+  },
+  "E.5.1-1": {
+    "page": 657,
+    "score": 14,
+    "pdf": null
+  },
+  "E.5.1-2": {
+    "page": 658,
+    "score": 26,
+    "pdf": null
+  },
+  "E.5.1-3": {
+    "page": 658,
+    "score": 36,
+    "pdf": null
+  },
+  "E.7.8-1": {
+    "page": 666,
+    "score": 23,
+    "pdf": null
+  },
+  "E.8.2-1": {
+    "page": 669,
+    "score": 38,
+    "pdf": null
+  },
+  "E.8.2-2a": {
+    "page": 670,
+    "score": 42,
+    "pdf": null
+  },
+  "E.8.2-2b": {
+    "page": 670,
+    "score": 43,
+    "pdf": null
+  },
+  "E.8.2-2c": {
+    "page": 670,
+    "score": 42,
+    "pdf": null
+  },
+  "E.8.2-2d": {
+    "page": 671,
+    "score": 42,
+    "pdf": null
+  },
+  "E.8.2-2e": {
+    "page": 671,
+    "score": 42,
+    "pdf": null
+  },
+  "E.9.2-1": {
+    "page": 675,
+    "score": 51,
+    "pdf": null
+  },
+  "E.9.2-2a": {
+    "page": 675,
+    "score": 42,
+    "pdf": null
+  },
+  "E.9.2-2b": {
+    "page": 676,
+    "score": 42,
+    "pdf": null
+  },
+  "E.9.2-2c": {
+    "page": 676,
+    "score": 42,
+    "pdf": null
+  },
+  "E.9.2-2d": {
+    "page": 676,
+    "score": 42,
+    "pdf": null
+  },
+  "E.9.2-2e": {
+    "page": 676,
+    "score": 42,
+    "pdf": null
+  },
+  "E.A-1": {
+    "page": 680,
+    "score": 39,
+    "pdf": null
+  },
+  "F.2.2.4-1a": {
+    "page": 715,
+    "score": 43,
+    "pdf": null
+  },
+  "F.2.2.4-1b": {
+    "page": 716,
+    "score": 55,
+    "pdf": null
+  },
+  "F.2.4.3-1": {
+    "page": 724,
+    "score": 41,
+    "pdf": null
+  },
+  "F.2.4.3-1(continuación)": {
+    "page": 725,
+    "score": 14,
+    "pdf": null
+  },
+  "F.2.5.1-1": {
+    "page": 727,
+    "score": 43,
+    "pdf": null
+  },
+  "F.2.5.4-1": {
+    "page": 731,
+    "score": 16,
+    "pdf": null
+  },
+  "F.2.6-1": {
+    "page": 739,
+    "score": 21,
+    "pdf": null
+  },
+  "F.2.9.1-1a": {
+    "page": 770,
+    "score": 17,
+    "pdf": null
+  },
+  "F.2.9.1-1b": {
+    "page": 771,
+    "score": 22,
+    "pdf": null
+  },
+  "F.2.10.2-1": {
+    "page": 792,
+    "score": 22,
+    "pdf": null
+  },
+  "F.2.10.2-2": {
+    "page": 792,
+    "score": 13,
+    "pdf": null
+  },
+  "F.2.10.2-3": {
+    "page": 792,
+    "score": 17,
+    "pdf": null
+  },
+  "F.2.10.2-4": {
+    "page": 793,
+    "score": 11,
+    "pdf": null
+  },
+  "F.2.10.2-5": {
+    "page": 795,
+    "score": 20,
+    "pdf": null
+  },
+  "F.2.10.2-6": {
+    "page": 798,
+    "score": 23,
+    "pdf": null
+  },
+  "F.2.10.3-1": {
+    "page": 799,
+    "score": 31,
+    "pdf": null
+  },
+  "F.2.10.3-1M": {
+    "page": 800,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.10.3-2": {
+    "page": 800,
+    "score": 25,
+    "pdf": null
+  },
+  "F.2.10.3-3": {
+    "page": 801,
+    "score": 12,
+    "pdf": null
+  },
+  "F.2.10.3-3M": {
+    "page": 802,
+    "score": 12,
+    "pdf": null
+  },
+  "F.2.10.3-4": {
+    "page": 802,
+    "score": 5,
+    "pdf": null
+  },
+  "F.2.10.3-4M": {
+    "page": 803,
+    "score": 5,
+    "pdf": null
+  },
+  "F.2.10.3-5": {
+    "page": 803,
+    "score": 19,
+    "pdf": null
+  },
+  "F.2.10.3-5M": {
+    "page": 803,
+    "score": 19,
+    "pdf": null
+  },
+  "F.2.11.1-1": {
+    "page": 816,
+    "score": 20,
+    "pdf": null
+  },
+  "F.2.11.1-2": {
+    "page": 817,
+    "score": 13,
+    "pdf": null
+  },
+  "F.2.11.2-1": {
+    "page": 822,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.11.2-2": {
+    "page": 824,
+    "score": 11,
+    "pdf": null
+  },
+  "F.2.11.3-1": {
+    "page": 828,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.11.3-2": {
+    "page": 830,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.11.4-1": {
+    "page": 832,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.14.5-1": {
+    "page": 842,
+    "score": 28,
+    "pdf": null
+  },
+  "F.2.14.5-2": {
+    "page": 843,
+    "score": 22,
+    "pdf": null
+  },
+  "F.2.14.5-3": {
+    "page": 843,
+    "score": 28,
+    "pdf": null
+  },
+  "F.2.14.5-4": {
+    "page": 845,
+    "score": 25,
+    "pdf": null
+  },
+  "F.2.14.5-5": {
+    "page": 845,
+    "score": 16,
+    "pdf": null
+  },
+  "F.2.14.5-6": {
+    "page": 846,
+    "score": 7,
+    "pdf": null
+  },
+  "F.2.14.6-1": {
+    "page": 846,
+    "score": 13,
+    "pdf": null
+  },
+  "F.2.17-1": {
+    "page": 856,
+    "score": 12,
+    "pdf": null
+  },
+  "F.2.18.2-1": {
+    "page": 873,
+    "score": 71,
+    "pdf": null
+  },
+  "F.2.18.2-2": {
+    "page": 874,
+    "score": 73,
+    "pdf": null
+  },
+  "F.3.1.4-1": {
+    "page": 900,
+    "score": 13,
+    "pdf": null
+  },
+  "F.3.1.4-2": {
+    "page": 901,
+    "score": 16,
+    "pdf": null
+  },
+  "F.3.1.4-3": {
+    "page": 902,
+    "score": 16,
+    "pdf": null
+  },
+  "F.3.4-1": {
+    "page": 905,
+    "score": 23,
+    "pdf": null
+  },
+  "F.3": {
+    "page": 906,
+    "score": 44,
+    "pdf": null
+  },
+  "F.4.2.1-1": {
+    "page": 996,
+    "score": 25,
+    "pdf": null
+  },
+  "F.4.2.4-1": {
+    "page": 1005,
+    "score": 6,
+    "pdf": null
+  },
+  "F.4.3.3-1": {
+    "page": 1024,
+    "score": 73,
+    "pdf": null
+  },
+  "F.4.3.3-2": {
+    "page": 1025,
+    "score": 101,
+    "pdf": null
+  },
+  "F.4.3.3-3": {
+    "page": 1025,
+    "score": 101,
+    "pdf": null
+  },
+  "F.4.3.3-4": {
+    "page": 1026,
+    "score": 55,
+    "pdf": null
+  },
+  "F.4.3.3-5": {
+    "page": 1026,
+    "score": 68,
+    "pdf": null
+  },
+  "F.4.4.5-1": {
+    "page": 1044,
+    "score": 22,
+    "pdf": null
+  },
+  "F.4.4.6-1": {
+    "page": 1046,
+    "score": 16,
+    "pdf": null
+  },
+  "F.4.4.6-2": {
+    "page": 1051,
+    "score": 68,
+    "pdf": null
+  },
+  "F.4.4.6-3": {
+    "page": 1052,
+    "score": 68,
+    "pdf": null
+  },
+  "F.4.4.6-4": {
+    "page": 1052,
+    "score": 68,
+    "pdf": null
+  },
+  "F.4.5.2-1": {
+    "page": 1053,
+    "score": 23,
+    "pdf": null
+  },
+  "F.4.5.3-1a": {
+    "page": 1067,
+    "score": 11,
+    "pdf": null
+  },
+  "F.4.5.3-2": {
+    "page": 1071,
+    "score": 11,
+    "pdf": null
+  },
+  "F.4.5.3-3": {
+    "page": 1071,
+    "score": 9,
+    "pdf": null
+  },
+  "F.4.5.3-4": {
+    "page": 1072,
+    "score": 40,
+    "pdf": null
+  },
+  "F.4.6.1-1": {
+    "page": 1079,
+    "score": 67,
+    "pdf": null
+  },
+  "F.4.7.2-1": {
+    "page": 1082,
+    "score": 11,
+    "pdf": null
+  },
+  "F.4.7.2-2": {
+    "page": 1083,
+    "score": 43,
+    "pdf": null
+  },
+  "F.4.8.2-1": {
+    "page": 1093,
+    "score": 43,
+    "pdf": null
+  },
+  "F.4.8.2-2": {
+    "page": 1093,
+    "score": 7,
+    "pdf": null
+  },
+  "F.4.8.3-1": {
+    "page": 1094,
+    "score": 26,
+    "pdf": null
+  },
+  "F.4.8.3-2": {
+    "page": 1095,
+    "score": 26,
+    "pdf": null
+  },
+  "F.4.8.3-3": {
+    "page": 1095,
+    "score": 12,
+    "pdf": null
+  },
+  "F.4.8.3-4": {
+    "page": 1095,
+    "score": 8,
+    "pdf": null
+  },
+  "F.4.8.3-5": {
+    "page": 1095,
+    "score": 16,
+    "pdf": null
+  },
+  "F.4.8.3-6": {
+    "page": 1096,
+    "score": 33,
+    "pdf": null
+  },
+  "F.4.8.3-7": {
+    "page": 1096,
+    "score": 43,
+    "pdf": null
+  },
+  "F.4.8.3-8": {
+    "page": 1097,
+    "score": 21,
+    "pdf": null
+  },
+  "F.4.8.3-9": {
+    "page": 1097,
+    "score": 60,
+    "pdf": null
+  },
+  "F.4.8.3-10": {
+    "page": 1098,
+    "score": 60,
+    "pdf": null
+  },
+  "F.4.8.4-1": {
+    "page": 1100,
+    "score": 16,
+    "pdf": null
+  },
+  "F.5.2.2-1": {
+    "page": 1129,
+    "score": 289,
+    "pdf": null
+  },
+  "F.5.2.2-2": {
+    "page": 1130,
+    "score": 357,
+    "pdf": null
+  },
+  "F.5.2.2-3": {
+    "page": 1131,
+    "score": 94,
+    "pdf": null
+  },
+  "F.5.2.2-4": {
+    "page": 1132,
+    "score": 34,
+    "pdf": null
+  },
+  "F.5.2.3-1": {
+    "page": 1133,
+    "score": 13,
+    "pdf": null
+  },
+  "F.5.2.4-1": {
+    "page": 1134,
+    "score": 57,
+    "pdf": null
+  },
+  "F.5.2.4-2": {
+    "page": 1135,
+    "score": 103,
+    "pdf": null
+  },
+  "F.5.2.7-1": {
+    "page": 1138,
+    "score": 63,
+    "pdf": null
+  },
+  "F.5.2.7-2": {
+    "page": 1138,
+    "score": 169,
+    "pdf": null
+  },
+  "F.5.2.7-3": {
+    "page": 1139,
+    "score": 21,
+    "pdf": null
+  },
+  "F.5.3.3-1": {
+    "page": 1140,
+    "score": 14,
+    "pdf": null
+  },
+  "F.5.3.4-1": {
+    "page": 1141,
+    "score": 19,
+    "pdf": null
+  },
+  "F.5.4.2-1": {
+    "page": 1144,
+    "score": 199,
+    "pdf": null
+  },
+  "F.5.4.2-2": {
+    "page": 1145,
+    "score": 198,
+    "pdf": null
+  },
+  "F.5.4.3-1": {
+    "page": 1151,
+    "score": 20,
+    "pdf": null
+  },
+  "F.5.4.3-2": {
+    "page": 1151,
+    "score": 13,
+    "pdf": null
+  },
+  "F.5.4.4-1": {
+    "page": 1154,
+    "score": 108,
+    "pdf": null
+  },
+  "F.5.4.4-1b": {
+    "page": 1155,
+    "score": 32,
+    "pdf": null
+  },
+  "F.5.4.5-1": {
+    "page": 1169,
+    "score": 10,
+    "pdf": null
+  },
+  "F.5.4.7-1": {
+    "page": 1172,
+    "score": 15,
+    "pdf": null
+  },
+  "F.5.4.7-2": {
+    "page": 1174,
+    "score": 37,
+    "pdf": null
+  },
+  "F.5.4.7-3": {
+    "page": 1178,
+    "score": 10,
+    "pdf": null
+  },
+  "F.5.6.4-1": {
+    "page": 1204,
+    "score": 61,
+    "pdf": null
+  },
+  "F.5.6.8-1": {
+    "page": 1211,
+    "score": 31,
+    "pdf": null
+  },
+  "F.5.6.8-2": {
+    "page": 1212,
+    "score": 75,
+    "pdf": null
+  },
+  "F.5.7.2-1": {
+    "page": 1220,
+    "score": 79,
+    "pdf": null
+  },
+  "F.5.7.3-1": {
+    "page": 1223,
+    "score": 28,
+    "pdf": null
+  },
+  "F.5.7.3-2": {
+    "page": 1224,
+    "score": 95,
+    "pdf": null
+  },
+  "F.5.7.8-1": {
+    "page": 1231,
+    "score": 21,
+    "pdf": null
+  },
+  "F.5.8.4-1": {
+    "page": 1239,
+    "score": 30,
+    "pdf": null
+  },
+  "F.5.A-1": {
+    "page": 1244,
+    "score": 172,
+    "pdf": null
+  },
+  "F.5.B-1": {
+    "page": 1245,
+    "score": 29,
+    "pdf": null
+  },
+  "F.5.C-1": {
+    "page": 1247,
+    "score": 146,
+    "pdf": null
+  },
+  "F.5.E-1": {
+    "page": 1255,
+    "score": 108,
+    "pdf": null
+  },
+  "F.5.E-2": {
+    "page": 1256,
+    "score": 43,
+    "pdf": null
+  },
+  "F.5.F-1": {
+    "page": 1262,
+    "score": 11,
+    "pdf": null
+  },
+  "F.5.F-2": {
+    "page": 1263,
+    "score": 11,
+    "pdf": null
+  },
+  "F.5.F-3": {
+    "page": 1264,
+    "score": 30,
+    "pdf": null
+  },
+  "F.5.G-1": {
+    "page": 1270,
+    "score": 25,
+    "pdf": null
+  },
+  "F.5.G-2": {
+    "page": 1271,
+    "score": 46,
+    "pdf": null
+  },
+  "F.5.I-1": {
+    "page": 1278,
+    "score": 55,
+    "pdf": null
+  },
+  "G.1.3-1": {
+    "page": 1295,
+    "score": 77,
+    "pdf": null
+  },
+  "G.2.2-1": {
+    "page": 1300,
+    "score": 43,
+    "pdf": null
+  },
+  "G.2.2-2": {
+    "page": 1300,
+    "score": 29,
+    "pdf": null
+  },
+  "G.2.2-3:": {
+    "page": 1301,
+    "score": 50,
+    "pdf": null
+  },
+  "G.2.2-4.": {
+    "page": 1301,
+    "score": 9,
+    "pdf": null
+  },
+  "G.2.2-5": {
+    "page": 1301,
+    "score": 9,
+    "pdf": null
+  },
+  "G.2.2-6": {
+    "page": 1302,
+    "score": 21,
+    "pdf": null
+  },
+  "G.2.2-7": {
+    "page": 1302,
+    "score": 9,
+    "pdf": null
+  },
+  "G.2.2-8": {
+    "page": 1303,
+    "score": 16,
+    "pdf": null
+  },
+  "G.2.2-9": {
+    "page": 1304,
+    "score": 7,
+    "pdf": null
+  },
+  "G.2.2-10": {
+    "page": 1305,
+    "score": 203,
+    "pdf": null
+  },
+  "G.3.3-3": {
+    "page": 1305,
+    "score": 203,
+    "pdf": null
+  },
+  "G.3.5.1-": {
+    "page": 1305,
+    "score": 203,
+    "pdf": null
+  },
+  "G.3.2-1": {
+    "page": 1308,
+    "score": 21,
+    "pdf": null
+  },
+  "G.3.2-2": {
+    "page": 8,
+    "score": 163,
+    "pdf": "Modificaciones/2012-02-13-Decreto-340 02 13-2012_Anexo tecnico.pdf"
+  },
+  "G.3.2-3": {
+    "page": 1309,
+    "score": 13,
+    "pdf": null
+  },
+  "G.3.2-4": {
+    "page": 1309,
+    "score": 13,
+    "pdf": null
+  },
+  "G.3.2-5": {
+    "page": 1309,
+    "score": 13,
+    "pdf": null
+  },
+  "G.3.3-4": {
+    "page": 1313,
+    "score": 55,
+    "pdf": null
+  },
+  "G.3.5-1": {
+    "page": 1320,
+    "score": 17,
+    "pdf": null
+  },
+  "G.4.3-1.": {
+    "page": 1324,
+    "score": 7,
+    "pdf": null
+  },
+  "G.4.3-1": {
+    "page": 1325,
+    "score": 33,
+    "pdf": null
+  },
+  "G.4.3-2": {
+    "page": 1326,
+    "score": 9,
+    "pdf": null
+  },
+  "G.4.3-3": {
+    "page": 1327,
+    "score": 23,
+    "pdf": null
+  },
+  "G.4.3.5": {
+    "page": 1330,
+    "score": 16,
+    "pdf": null
+  },
+  "G.4.6-1": {
+    "page": 1335,
+    "score": 31,
+    "pdf": null
+  },
+  "G.4.6.2-1": {
+    "page": 1335,
+    "score": 5,
+    "pdf": null
+  },
+  "G.4.6.2-2": {
+    "page": 1335,
+    "score": 5,
+    "pdf": null
+  },
+  "G.4.6.2-3": {
+    "page": 1336,
+    "score": 5,
+    "pdf": null
+  },
+  "G.4.6.2-4": {
+    "page": 1337,
+    "score": 7,
+    "pdf": null
+  },
+  "G.3.5.1": {
+    "page": 1338,
+    "score": 154,
+    "pdf": null
+  },
+  "G.6.4-1": {
+    "page": 1344,
+    "score": 25,
+    "pdf": null
+  },
+  "G.6.4-2": {
+    "page": 1345,
+    "score": 13,
+    "pdf": null
+  },
+  "G.6.6-1": {
+    "page": 1346,
+    "score": 29,
+    "pdf": null
+  },
+  "G.6.6-2": {
+    "page": 1346,
+    "score": 14,
+    "pdf": null
+  },
+  "G.6.7-1": {
+    "page": 1348,
+    "score": 43,
+    "pdf": null
+  },
+  "G.6.9-1": {
+    "page": 1350,
+    "score": 181,
+    "pdf": null
+  },
+  "G.6.13-1": {
+    "page": 1352,
+    "score": 12,
+    "pdf": null
+  },
+  "G.6.13-2": {
+    "page": 1352,
+    "score": 7,
+    "pdf": null
+  },
+  "G.6.13-3": {
+    "page": 1354,
+    "score": 104,
+    "pdf": null
+  },
+  "G.6.13-4": {
+    "page": 1355,
+    "score": 20,
+    "pdf": null
+  },
+  "G.6.13-5": {
+    "page": 1356,
+    "score": 29,
+    "pdf": null
+  },
+  "G.6.13-6": {
+    "page": 1356,
+    "score": 5,
+    "pdf": null
+  },
+  "G.6.14-1": {
+    "page": 1357,
+    "score": 9,
+    "pdf": null
+  },
+  "G.6.14-2": {
+    "page": 1357,
+    "score": 9,
+    "pdf": null
+  },
+  "G.6.15-1": {
+    "page": 1357,
+    "score": 9,
+    "pdf": null
+  },
+  "G.7.3-1": {
+    "page": 1362,
+    "score": 81,
+    "pdf": null
+  },
+  "G.11.4-1": {
+    "page": 1380,
+    "score": 23,
+    "pdf": null
+  },
+  "G.11.4-2": {
+    "page": 1380,
+    "score": 10,
+    "pdf": null
+  },
+  "G.12.7-1": {
+    "page": 1391,
+    "score": 11,
+    "pdf": null
+  },
+  "G.12.7-2": {
+    "page": 1391,
+    "score": 7,
+    "pdf": null
+  },
+  "G.12.7-3": {
+    "page": 1392,
+    "score": 25,
+    "pdf": null
+  },
+  "G.12.7-4": {
+    "page": 1393,
+    "score": 49,
+    "pdf": null
+  },
+  "G.12.7-5": {
+    "page": 1394,
+    "score": 70,
+    "pdf": null
+  },
+  "G.12.7-6.": {
+    "page": 1394,
+    "score": 54,
+    "pdf": null
+  },
+  "G.12.8-1": {
+    "page": 35,
+    "score": 7,
+    "pdf": "Modificaciones/2017-06-05-Decreto-945-del-05-de-junio-de-2017.pdf"
+  },
+  "G.12.8-2": {
+    "page": 1396,
+    "score": 44,
+    "pdf": null
+  },
+  "G.12.8-3": {
+    "page": 1397,
+    "score": 15,
+    "pdf": null
+  },
+  "G.12.8-4": {
+    "page": 1397,
+    "score": 13,
+    "pdf": null
+  },
+  "G.12.8-5": {
+    "page": 1398,
+    "score": 13,
+    "pdf": null
+  },
+  "G.12.8-6": {
+    "page": 1399,
+    "score": 7,
+    "pdf": null
+  },
+  "G.": {
+    "page": 1402,
+    "score": 7,
+    "pdf": null
+  },
+  "G.12.9-2": {
+    "page": 1403,
+    "score": 9,
+    "pdf": null
+  },
+  "G.12.11-1": {
+    "page": 1408,
+    "score": 13,
+    "pdf": null
+  },
+  "G.12.11-2": {
+    "page": 1410,
+    "score": 145,
+    "pdf": null
+  },
+  "G.12.11-3": {
+    "page": 1411,
+    "score": 20,
+    "pdf": null
+  },
+  "H.2.4-1": {
+    "page": 1446,
+    "score": 33,
+    "pdf": null
+  },
+  "H.3.1-1": {
+    "page": 9,
+    "score": 16,
+    "pdf": "Modificaciones/2012-02-13-Decreto-340 02 13-2012_Anexo tecnico.pdf"
+  },
+  "H.3.2-1": {
+    "page": 1450,
+    "score": 9,
+    "pdf": null
+  },
+  "H.4.7-1": {
+    "page": 1456,
+    "score": 9,
+    "pdf": null
+  },
+  "H.4.7-2": {
+    "page": 1457,
+    "score": 11,
+    "pdf": null
+  },
+  "H.4.9-1": {
+    "page": 1459,
+    "score": 11,
+    "pdf": null
+  },
+  "H.5.2-1": {
+    "page": 1464,
+    "score": 16,
+    "pdf": null
+  },
+  "H.6.4-1.-0.005": {
+    "page": 1468,
+    "score": 83,
+    "pdf": null
+  },
+  "H.6.4-1": {
+    "page": 1469,
+    "score": 16,
+    "pdf": null
+  },
+  "H.6.9-1": {
+    "page": 1471,
+    "score": 32,
+    "pdf": null
+  },
+  "H.4.1": {
+    "page": 1471,
+    "score": 32,
+    "pdf": null
+  },
+  "H.2.1": {
+    "page": 1471,
+    "score": 32,
+    "pdf": null
+  },
+  "H.9.1-1": {
+    "page": 1488,
+    "score": 36,
+    "pdf": null
+  },
+  "H.9.3-1": {
+    "page": 1491,
+    "score": 13,
+    "pdf": null
+  },
+  "H.9.4-1": {
+    "page": 1493,
+    "score": 39,
+    "pdf": null
+  },
+  "H.9.4-2": {
+    "page": 1494,
+    "score": 9,
+    "pdf": null
+  },
+  "I.2.4-1": {
+    "page": 1513,
+    "score": 96,
+    "pdf": null
+  },
+  "G.6.4.2": {
+    "page": 1513,
+    "score": 96,
+    "pdf": null
+  },
+  "I.2.4-2": {
+    "page": 1514,
+    "score": 90,
+    "pdf": null
+  },
+  "I.2.4-3": {
+    "page": 1515,
+    "score": 64,
+    "pdf": null
+  },
+  "I.4.3-1": {
+    "page": 42,
+    "score": 55,
+    "pdf": "Modificaciones/2017-06-05-Decreto-945-del-05-de-junio-de-2017.pdf"
+  },
+  "I.4.3-2": {
+    "page": 1523,
+    "score": 45,
+    "pdf": null
+  },
+  "J.1.1-1": {
+    "page": 1530,
+    "score": 52,
+    "pdf": null
+  },
+  "J.2.4-1": {
+    "page": 1533,
+    "score": 34,
+    "pdf": null
+  },
+  "J.2.5-2": {
+    "page": 1535,
+    "score": 11,
+    "pdf": null
+  },
+  "J.2.5-3": {
+    "page": 1536,
+    "score": 11,
+    "pdf": null
+  },
+  "J.2.5-4": {
+    "page": 1537,
+    "score": 57,
+    "pdf": null
+  },
+  "J.3.3-1": {
+    "page": 1542,
+    "score": 150,
+    "pdf": null
+  },
+  "J.3.3-2": {
+    "page": 1542,
+    "score": 72,
+    "pdf": null
+  },
+  "J.3.3-3": {
+    "page": 1543,
+    "score": 9,
+    "pdf": null
+  },
+  "J.3.4-1": {
+    "page": 1544,
+    "score": 153,
+    "pdf": null
+  },
+  "J.3.4-2": {
+    "page": 1545,
+    "score": 69,
+    "pdf": null
+  },
+  "J.3.4-3": {
+    "page": 8,
+    "score": 34,
+    "pdf": "Modificaciones/2012-01-24-Anexo-Final-al-Decreto-xxx-de-2012-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "J.3.5-1": {
+    "page": 1548,
+    "score": 26,
+    "pdf": null
+  },
+  "J.3.5-2": {
+    "page": 1549,
+    "score": 32,
+    "pdf": null
+  },
+  "J.3.5-3": {
+    "page": 1549,
+    "score": 48,
+    "pdf": null
+  },
+  "J.3.5-4": {
+    "page": 1549,
+    "score": 48,
+    "pdf": null
+  },
+  "J.3.5-5": {
+    "page": 1549,
+    "score": 47,
+    "pdf": null
+  },
+  "J.3.5-6": {
+    "page": 1550,
+    "score": 35,
+    "pdf": null
+  },
+  "J.3.5-7": {
+    "page": 1550,
+    "score": 22,
+    "pdf": null
+  },
+  "J.3.5-8": {
+    "page": 1550,
+    "score": 27,
+    "pdf": null
+  },
+  "J.3.5-9": {
+    "page": 1551,
+    "score": 17,
+    "pdf": null
+  },
+  "J.3.5-10": {
+    "page": 1552,
+    "score": 8,
+    "pdf": null
+  },
+  "J.4.2-1": {
+    "page": 1554,
+    "score": 28,
+    "pdf": null
+  },
+  "J.4.3-1": {
+    "page": 1555,
+    "score": 27,
+    "pdf": null
+  },
+  "K.2.1-1": {
+    "page": 1565,
+    "score": 91,
+    "pdf": null
+  },
+  "K.2.2-1": {
+    "page": 1566,
+    "score": 25,
+    "pdf": null
+  },
+  "K.2.4-1": {
+    "page": 1567,
+    "score": 12,
+    "pdf": null
+  },
+  "K.2.5-1": {
+    "page": 1568,
+    "score": 17,
+    "pdf": null
+  },
+  "K.2.6-2": {
+    "page": 1569,
+    "score": 14,
+    "pdf": null
+  },
+  "K.2.7-1": {
+    "page": 74,
+    "score": 15,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.2.7-2": {
+    "page": 1571,
+    "score": 12,
+    "pdf": null
+  },
+  "K.2.7-3": {
+    "page": 74,
+    "score": 11,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.2.9-1": {
+    "page": 1572,
+    "score": 28,
+    "pdf": null
+  },
+  "K.3.3-1": {
+    "page": 76,
+    "score": 110,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.3.3-2": {
+    "page": 1580,
+    "score": 36,
+    "pdf": null
+  },
+  "K.3.4-1": {
+    "page": 1580,
+    "score": 11,
+    "pdf": null
+  },
+  "K.3.6-1": {
+    "page": 1581,
+    "score": 35,
+    "pdf": null
+  },
+  "K.3.15-1": {
+    "page": 1592,
+    "score": 23,
+    "pdf": null
+  },
+  "K.4.2-0": {
+    "page": 1598,
+    "score": 28,
+    "pdf": null
+  },
+  "K.4.2-1": {
+    "page": 1603,
+    "score": 9,
+    "pdf": null
+  },
+  "K.4.2-2": {
+    "page": 89,
+    "score": 136,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.4.2-3": {
+    "page": 89,
+    "score": 88,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.4.2-4": {
+    "page": 1606,
+    "score": 75,
+    "pdf": null
+  },
+  "K.4.2-5": {
+    "page": 90,
+    "score": 136,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.4.3-1": {
+    "page": 1615,
+    "score": 43,
+    "pdf": null
+  },
+  "K.4.3-2": {
+    "page": 1616,
+    "score": 45,
+    "pdf": null
+  },
+  "K.4.3-3": {
+    "page": 1616,
+    "score": 23,
+    "pdf": null
+  },
+  "K.4.3-4": {
+    "page": 1617,
+    "score": 151,
+    "pdf": null
+  },
+  "K.4.3-5": {
+    "page": 1618,
+    "score": 131,
+    "pdf": null
+  },
+  "K.4.3-6": {
+    "page": 93,
+    "score": 123,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "K.4.3-7": {
+    "page": 1620,
+    "score": 13,
+    "pdf": null
+  },
+  "K.4.3-8": {
+    "page": 1621,
+    "score": 52,
+    "pdf": null
+  },
+  "F.2.11.1-2AdondediceyH3yE": {
+    "page": 47,
+    "score": 3,
+    "pdf": "Modificaciones/2011-01-17-Decreto-092-2011-Anexo-Decreto-de-Modificaciones-Tecnicas-y-Cientificas-a-NSR-10.pdf"
+  },
+  "J.3.4-4": {
+    "page": 10,
+    "score": 34,
+    "pdf": "Modificaciones/2012-02-13-Decreto-340 02 13-2012_Anexo tecnico.pdf"
+  },
+  "F.4.A.1.3.2-1": {
+    "page": 12,
+    "score": 999,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.1.3-1": {
+    "page": 16,
+    "score": 91,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.1.3.1.2-1": {
+    "page": 17,
+    "score": 70,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.2.3-1": {
+    "page": 23,
+    "score": 88,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.2.3.1.2-1": {
+    "page": 24,
+    "score": 70,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "A.6.4.1delaalturaparalasfuerrzas": {
+    "page": 26,
+    "score": 3,
+    "pdf": "Modificaciones/2021-12-13-borrador decreto 2021-modificacion-nsr-10.pdf"
+  },
+  "F.4.A.5.4.3.3-1": {
+    "page": 32,
+    "score": 47,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.4.3.3-2": {
+    "page": 32,
+    "score": 19,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.5.5.3-1": {
+    "page": 35,
+    "score": 35,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.6.2.4-1": {
+    "page": 38,
+    "score": 62,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "F.4.A.8-1": {
+    "page": 39,
+    "score": 66,
+    "pdf": "Modificaciones/2021-12-13-Decreto-1711-del-13-de-diciembre-de-2021.pdf"
+  },
+  "1.2-1": {
+    "page": 12,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "4.2-1": {
+    "page": 28,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "4.2-2": {
+    "page": 29,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "4.3-1": {
+    "page": 30,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "5.10-1": {
+    "page": 41,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.3-1": {
+    "page": 46,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.3-2": {
+    "page": 47,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.4-1": {
+    "page": 48,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-1": {
+    "page": 57,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-2": {
+    "page": 57,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-4": {
+    "page": 58,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-5": {
+    "page": 59,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-6": {
+    "page": 59,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "6.8-7": {
+    "page": 60,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "7.4-1": {
+    "page": 65,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "7.8-1": {
+    "page": 71,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  },
+  "7.9-1": {
+    "page": 73,
+    "score": 999,
+    "pdf": "Modificaciones/2023-08-25-DECRETO-1401-DEL-25-DE-AGOSTO-DE-2023.pdf"
+  }
+}

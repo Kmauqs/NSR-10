@@ -391,6 +391,62 @@ def a5_phrase_fix(text: str) -> str:
     )
 
 
+def _inject_missing_ais_tables(chmap: dict, tables: dict | None) -> None:
+    """Attach curated AIS tables that OCR/parser dropped between article boundaries."""
+    tables = tables or {}
+    all_html = "\n".join(art["html"] for arts in chmap.values() for art in arts)
+
+    def already_present(tid: str) -> bool:
+        return f"Tabla {tid} —" in all_html or f"Tabla {tid} -" in all_html
+
+    def append_html(art: dict, chunk: str) -> None:
+        body = art.get("html") or ""
+        if body.rstrip().endswith("</div>") and '<div class="txt-modificado">' in body:
+            art["html"] = body.rstrip()[:-6] + chunk + "</div>"
+        else:
+            art["html"] = body + chunk
+
+    def find_art(*ids: str):
+        for arts in chmap.values():
+            for art in arts:
+                if art["id"] in ids:
+                    return art
+        return None
+
+    preferred = {
+        "6.8-6": ("AIS410-6.8.1.3",),
+        "5.10-1": ("AIS410-5.10.1.2", "AIS410-5.10", "AIS410-5.10.1"),
+    }
+    for tid, rec_tbl in tables.items():
+        if not re.match(r"^\d", tid):
+            continue
+        html_tbl = rec_tbl.get("html") or ""
+        if not html_tbl or already_present(tid):
+            continue
+        target = None
+        for aid in preferred.get(tid, ()):
+            target = find_art(aid)
+            if target:
+                break
+        if target is None:
+            sec = tid.rsplit("-", 1)[0]
+            best = None
+            for arts in chmap.values():
+                for art in arts:
+                    aid = art["id"].replace("AIS410-", "")
+                    if not (aid == sec or aid.startswith(sec + ".")):
+                        continue
+                    score = (0 if f"Tabla {sec}-" in (art.get("html") or "") else 1, -len(aid))
+                    if best is None or score < best[0]:
+                        best = (score, art)
+            target = best[1] if best else None
+        if not target:
+            continue
+        append_html(target, html_tbl)
+        all_html += html_tbl
+
+
+
 def chapter_of(art_id: str) -> str:
     if art_id.startswith("AIS410-"):
         rest = art_id.split("-", 1)[1]
@@ -549,6 +605,7 @@ def build_extra_titles(extracted_dir, lines_to_html, tables):
                     1,
                 )
             )
+        _inject_missing_ais_tables(chmap, tables)
         chapters = []
         for cid in sorted(chmap.keys(), key=lambda x: [int(n) for n in re.findall(r"\d+", x)] or [0]):
             chapters.append(

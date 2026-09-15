@@ -310,11 +310,15 @@ PAGE_RE = re.compile(r"^-- PAGE (\d+) --$")
 
 HEADING_RE = re.compile(r"^([A-K])\.(\d+(?:\.\d+){0,8})\s*(?:[\u2014\u2013\-\u2212]+\s*|\s{2,})(.*)$")
 
-EQ_LABEL_RE = re.compile(r"\(([A-K]\.\d+(?:\.\d+)?-\d+)\)")
+EQ_LABEL_RE = re.compile(r"\(([A-K](?:\.[A-Za-z0-9]+)+-\d+)\)")
 
-FIG_RE = re.compile(r"^(?:Figura|FIGURA)\s+([A-K]\.[\d.\-]+)\s*[\u2014\u2013\-\u2212]*\s*(.*)$", re.I)
+FIG_RE = re.compile(r"^(?:Figura|FIGURA)\s+([A-K]\.[\dA-Za-z.\-]+)\s*[\u2014\u2013\-\u2212]*\s*(.*)$", re.I)
 
-TAB_RE = re.compile(r"^(?:Tabla|TABLA)\s+([A-K]\.[\d.\-]+\s*-?\s*\d+)\s*(?:\((?:continuaci[\u00f3o]n)\))?\s*[\u2014\u2013\-\u2212]*\s*(.*)$", re.I)
+TAB_RE = re.compile(
+    r"^(?:Tabla|TABLA)\s+((?:[A-K](?:\.[A-Za-z0-9]+)*|\d+(?:\.\d+)*)\s*-\s*\d+[a-z]?)\s*"
+    r"(?:\((?:continuaci[\u00f3o]n)\))?\s*[\u2014\u2013\-\u2212.]*\s*(.*)$",
+    re.I,
+)
 
 CHAP_RE = re.compile(r"^CAP[ÍI]TULO\s+([A-K])\.(\d+(?:\.\d+)?)\b", re.I)
 
@@ -1014,7 +1018,26 @@ def main():
         ROOT / "NSR10-Completa.pdf",
         EXTRACTED / "tables.json",
     )
-    print("  tables", len(TABLES))
+    print("  tables (base)", len(TABLES))
+    mod_catalogs = []
+    for mid, _year, pdf in MOD_SPECS:
+        if not pdf.exists():
+            continue
+        cache = EXTRACTED / f"tables-{mid}.json"
+        print("Extracting tables", mid)
+        cat = nsr_render.extract_pdf_tables(
+            pdf,
+            cache,
+            pdf_href=str(pdf.relative_to(ROOT)).replace("\\", "/"),
+        )
+        print("  ", mid, len(cat))
+        mod_catalogs.append(cat)
+    TABLES = nsr_render.merge_table_catalogs(TABLES, *mod_catalogs, nsr_render.curated_mod_tables())
+    print("  tables (merged)", len(TABLES))
+    (EXTRACTED / "tables-merged.json").write_text(
+        json.dumps({k: {"page": v.get("page"), "score": v.get("score"), "pdf": v.get("pdf")} for k, v in TABLES.items()}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     print("Extracting nomenclature / notation lists\u2026")
     NOM = nomenclature.load_or_extract(
         ROOT / "NSR10-Completa.pdf",
