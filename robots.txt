@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap conjunto NSR-10 + TERREMOTO-2026 (mismo host kmauqs.github.io)
+Sitemap: https://kmauqs.github.io/NSR-10/sitemap.xml
+
+# Evitar indexar carpetas de datos internos / extracción
+Disallow: /extracted/
+Disallow: /tools/

@@ -3,9 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Espectro elástico de diseño — NSR-10 A.2.6 · NEXUS CREATIO</title>
-  <meta name="description" content="Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según NSR-10 A.2.6. Reutiliza la herramienta del informe Terremoto 2026.">
+  <title>Espectro elástico de diseño NSR-10 A.2.6 — Calculadora · NEXUS CREATIO</title>
+  <meta name="description" content="Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según NSR-10 A.2.6: Aa, Av, Fa, Fv, I, R y microzonificación sísmica local.">
+  <meta name="keywords" content="espectro elástico, NSR-10, A.2.6, Sa, Sd, Fa, Fv, Aa, Av, microzonificación, NEXUS CREATIO">
+  <meta name="author" content="NEXUS CREATIO">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#003c7d">
+  <link rel="canonical" href="https://kmauqs.github.io/NSR-10/espectro-diseno-nsr10.html">
   <link rel="icon" href="brand/nc-logotipo-r00.png" type="image/png">
+  <link rel="apple-touch-icon" href="brand/nc-logotipo-r00.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="NEXUS CREATIO — NSR-10">
+  <meta property="og:url" content="https://kmauqs.github.io/NSR-10/espectro-diseno-nsr10.html">
+  <meta property="og:title" content="Espectro elástico de diseño NSR-10 A.2.6">
+  <meta property="og:description" content="Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según el numeral A.2.6 de la NSR-10.">
+  <meta property="og:image" content="https://kmauqs.github.io/NSR-10/brand/nc-logotipo-r00.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Espectro elástico de diseño NSR-10 A.2.6">
+  <meta name="twitter:description" content="Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según el numeral A.2.6 de la NSR-10.">
+  <meta name="twitter:image" content="https://kmauqs.github.io/NSR-10/brand/nc-logotipo-r00.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Espectro elástico de diseño NSR-10 A.2.6",
+    "url": "https://kmauqs.github.io/NSR-10/espectro-diseno-nsr10.html",
+    "description": "Calculadora del espectro elástico de aceleraciones y desplazamientos de diseño según NSR-10 A.2.6.",
+    "applicationCategory": "EngineeringApplication",
+    "operatingSystem": "Web",
+    "inLanguage": "es-CO",
+    "isAccessibleForFree": true,
+    "creator": {
+      "@type": "Organization",
+      "name": "NEXUS CREATIO",
+      "url": "https://kmauqs.github.io/NSR-10/"
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -462,7 +497,7 @@
               baseAbs +
               "#herramienta-espectros\" target=\"_blank\" rel=\"noopener noreferrer\">" +
               baseAbs.replace(/\/$/, "") +
-              "</a> (sin duplicar las fórmulas NSR-10).");
+              "</a>.");
             return loadScript(baseAbs + "js/espectro-diseno-nsr10.js");
           })
           .catch(function () {
