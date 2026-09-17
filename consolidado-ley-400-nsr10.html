@@ -107,6 +107,11 @@
     #nsrOutline .item.active{background:var(--sky);color:var(--navy);font-weight:700}
     .nsr-art-focus{outline:2px solid var(--gold);background:#fffbeb;border-radius:6px}
     @media(max-width:900px){main{padding:12px 12px 20px}.tabbar .tabs{padding:0 8px}.tabbar .tabs-wrap{padding:0 8px}.nsr-search{max-width:none;flex:1 1 100%}.lector-grid{grid-template-columns:1fr}.nav{max-height:55vh}.nsr-reader,.viewer{height:62vh;min-height:420px}}
+    footer.colophon{margin:0 auto 20px;max-width:1680px;border-top:1px solid var(--line);padding:12px 20px 14px;text-align:center;font-size:11px;color:var(--muted);line-height:1.6}
+    footer.colophon strong{color:var(--navy);font-weight:700}
+    footer.colophon a{display:inline-flex;align-items:center;gap:6px;color:var(--navy);text-decoration:none}
+    footer.colophon a svg{width:14px;height:14px;flex-shrink:0;fill:currentColor}
+    footer.colophon a:hover,footer.colophon a:focus-visible{color:#835d05;text-decoration:underline}
   </style>
 </head>
 <body>
@@ -123,6 +128,16 @@
   </div>
   <div class="panel notice"><strong>Alcance de esta guía.</strong> Es una herramienta de consulta y trazabilidad, no sustituye la publicación oficial ni un concepto jurídico. El contenido visual se abre desde los PDFs adjuntos sin transcripción ni alteración: por ello conserva exactamente textos, ecuaciones, tablas y figuras. La etiqueta <em>vigente / modificación</em> identifica disposiciones incorporadas; <em>referencia</em> identifica antecedentes, guías o consultas que no reemplazan el texto normativo.</div>
 </main>
+<footer class="colophon">
+  <strong>NEXUS CREATIO</strong><br>
+  Armenia · Quindío · Colombia<br>
+  <a href="https://www.linkedin.com/in/mauchitoq/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.708 1.854a1.54 1.54 0 1 1-3.078 0 1.54 1.54 0 0 1 3.078 0zm-.546 2.146H1.629v8.854h3.625V5.146zm4.822 0h-3.625v8.854h3.625v-4.383c0-1.022.02-2.041 1.241-2.041 1.204 0 1.218 1.11 1.218 2.108v4.316h3.625V9.359c0-2.392-1.281-3.667-2.994-3.667-1.402 0-2.025.78-2.377 1.336h-.048V5.146z"/>
+    </svg>
+    LinkedIn ↗
+  </a>
+</footer>
 <script src="lector/indice.js"></script>
 <script>
 const docs=[
