@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>NEXUS CREATIO — Instrumentos técnicos NSR-10, Ley 400 y EVALQUAKE</title>
-  <meta name="description" content="Instrumentos técnicos de NEXUS CREATIO: compilación navegable de la Ley 400 y la NSR-10, calculadora del espectro elástico A.2.6, EVALQUAKE e informe del terremoto del 10 de agosto de 2026.">
+  <meta name="description" content="Instrumentos técnicos de NEXUS CREATIO: compilación navegable de la Ley 400 y la NSR-10, calculadora del espectro elástico A.2.6, EVALQUAKE, informe del terremoto del 10 de agosto de 2026 y portal Geotechnical Toolbox de Ali Gheysari.">
   <meta name="keywords" content="NSR-10, Ley 400, sismo resistente, Colombia, espectro elástico, A.2.6, EVALQUAKE, NEXUS CREATIO, Quindío">
   <meta name="author" content="NEXUS CREATIO">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -17,11 +17,11 @@
   <meta property="og:site_name" content="NEXUS CREATIO — NSR-10">
   <meta property="og:url" content="https://kmauqs.github.io/NSR-10/">
   <meta property="og:title" content="NEXUS CREATIO — Instrumentos técnicos NSR-10">
-  <meta property="og:description" content="Compilación navegable de la Ley 400 y la NSR-10, espectro elástico A.2.6, EVALQUAKE e informe del sismo del 10 de agosto de 2026.">
+  <meta property="og:description" content="Compilación navegable de la Ley 400 y la NSR-10, espectro elástico A.2.6, EVALQUAKE, informe del sismo del 10 de agosto de 2026 y portal Geotechnical Toolbox.">
   <meta property="og:image" content="https://kmauqs.github.io/NSR-10/Poster-EVALQUAKE-NSR10.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NEXUS CREATIO — Instrumentos técnicos NSR-10">
-  <meta name="twitter:description" content="Compilación navegable de la Ley 400 y la NSR-10, espectro elástico A.2.6, EVALQUAKE e informe del sismo del 10 de agosto de 2026.">
+  <meta name="twitter:description" content="Compilación navegable de la Ley 400 y la NSR-10, espectro elástico A.2.6, EVALQUAKE, informe del sismo del 10 de agosto de 2026 y portal Geotechnical Toolbox.">
   <meta name="twitter:image" content="https://kmauqs.github.io/NSR-10/Poster-EVALQUAKE-NSR10.jpeg">
   <script type="application/ld+json">
   {
@@ -264,6 +264,24 @@
       color: #000;
     }
     .cta span { font-weight: 700; }
+    .frame-wide { grid-column: 1 / -1; }
+    .fn-list {
+      margin: 0 0 1.1em;
+      padding: 0;
+      list-style: none;
+      font-size: 13px;
+    }
+    .fn-list li { margin: 0 0 .4em; }
+    .fn-list strong { color: var(--navy); font-weight: 700; }
+    .frame-body a.ref {
+      color: var(--navy);
+      text-decoration: none;
+    }
+    .frame-body a.ref:hover,
+    .frame-body a.ref:focus-visible {
+      color: var(--gold-deep);
+      text-decoration: underline;
+    }
     footer.colophon {
       margin-top: auto;
       border-top: 1px solid var(--line);
@@ -329,7 +347,7 @@
 
       <section class="intro">
         <h2>Alcance</h2>
-        <p>Herramientas de consulta para el reglamento sismo resistente, la inspección de edificaciones, el cálculo del espectro elástico de diseño (NSR-10 A.2.6) y el informe técnico del sismo del 10 de agosto de 2026.</p>
+        <p>Herramientas de consulta para el reglamento sismo resistente, la inspección de edificaciones, el cálculo del espectro elástico de diseño (NSR-10 A.2.6), el informe técnico del sismo del 10 de agosto de 2026 y un portal de calculadoras geotécnicas de código abierto.</p>
       </section>
 
       <section class="frames" aria-label="Instrumentos">
@@ -389,6 +407,31 @@
             <p>Genera el espectro elástico de diseño según el numeral A.2.6 de la NSR-10 a partir de Aa, Av (Apéndice A-4), Fa/Fv, coeficiente de importancia I y, cuando exista, microzonificación. Permite aplicar el coeficiente de disipación R y comparar con espectros del evento del 10 de agosto de 2026.</p>
             <p>Reutiliza la herramienta del informe Terremoto 2026 (§7): la lógica de cálculo y los datos se cargan por referencia, sin duplicar las fórmulas en este repositorio.</p>
             <a class="cta" href="espectro-diseno-nsr10.html">Abrir la calculadora <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="frame frame-wide">
+          <div class="frame-head">
+            <div class="frame-label">
+              <small>Marco 05 · Recurso externo · código abierto</small>
+              <h3>Geotechnical Toolbox</h3>
+            </div>
+          </div>
+          <div class="frame-body">
+            <p class="caption">Portal de Ali Gheysari, PhD P.Eng. — 35 calculadoras geotécnicas y geoespaciales que corren en el navegador.</p>
+            <p>Colección de herramientas autónomas (un archivo HTML por módulo), con unidades SI y figuras listas para informe. Sirve para estimación preliminar, verificación y enseñanza. Cada resultado debe revisarse por un ingeniero competente antes de un diseño o una decisión de obra.</p>
+            <ul class="fn-list">
+              <li><strong>Cimentaciones.</strong> Capacidad axial de pilotes y pozos (Alpha, Lambda, Beta, O’Neill y Reese), eficiencia y asentamiento de grupos, capacidad de carga superficial (Terzaghi, Meyerhof, Hansen, Vesic) y curvas p-y.</li>
+              <li><strong>Empujes y contención.</strong> Rankine y Coulomb, y estabilidad de muros en voladizo (deslizamiento, volcamiento y excentricidad).</li>
+              <li><strong>Asentamientos y esfuerzos.</strong> Consolidación unidimensional, tasa de Terzaghi, asentamiento elástico, estratigrafía por capas y distribución de esfuerzos de Boussinesq.</li>
+              <li><strong>Laboratorio.</strong> Clasificación USCS, granulometría, Proctor, límites de Atterberg, envolvente de Mohr-Coulomb, relaciones de fases y permeabilidad.</li>
+              <li><strong>Ensayos in situ y sísmica.</strong> Corrección SPT (N60), clasificación CPT (SBT), potencial de licuación y clase de sitio por Vs30.</li>
+              <li><strong>Macizo rocoso.</strong> RMR, sistema Q, GSI, criterio de Hoek-Brown, RQD y estereoneta cinemática.</li>
+              <li><strong>Pavimentos.</strong> Diseño flexible y rígido AASHTO 1993, ESAL y correlaciones de CBR y módulo resiliente.</li>
+              <li><strong>Agua subterránea y SIG.</strong> Ensayo de bombeo (Cooper-Jacob), conversión GeoJSON, KML, KMZ, GPX y CSV, y simplificación de geometrías.</li>
+            </ul>
+            <p class="caption">Autor y titular: <a class="ref" href="https://github.com/agheysari" target="_blank" rel="noopener noreferrer">Ali Gheysari, PhD P.Eng.</a> · © 2026 · <a class="ref" href="https://github.com/agheysari/geotechnical-toolbox" target="_blank" rel="noopener noreferrer">código fuente</a> · <a class="ref" href="https://www.gnu.org/licenses/gpl-3.0" target="_blank" rel="noopener noreferrer">GNU GPL v3.0</a>. NEXUS CREATIO enlaza este portal como instrumento de consulta.</p>
+            <a class="cta" href="https://agheysari.github.io/geotechnical-toolbox/" target="_blank" rel="noopener noreferrer">Abrir Geotechnical Toolbox <span>↗</span></a>
           </div>
         </article>
 
